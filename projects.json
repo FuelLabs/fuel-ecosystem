@@ -55,6 +55,7 @@
   },
   {
     "points": 1,
+    "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "name": "Bako Safe",
