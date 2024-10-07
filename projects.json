@@ -340,7 +340,7 @@
     "image": "oxiswap"
   },
   {
-    "isLive": false,
+    "isLive": true,
     "isFeatured": true,
     "name": "Griffy",
     "url": "https://griffy.app/",
