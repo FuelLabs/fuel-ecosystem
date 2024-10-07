@@ -273,7 +273,6 @@
     "image": "fluid"
   },
   {
-    "isLiveMainnet": true,
     "isLive": true,
     "isFeatured":true,
     "name": "Fuel Name Service",
@@ -361,6 +360,7 @@
     "image": "fueldotfun"
   },
   {
+    "points": 2,
     "isLiveMainnet": true,
     "isLive": false,
     "isFeatured": true,
@@ -635,6 +635,7 @@
     "image": "redstone"
   },
   {
+    "points": 2,
     "isLiveMainnet": true,
     "isLive": false,
     "name": "Ruscet Exchange",
@@ -782,8 +783,8 @@
     "name": "Tan Theta",
     "url": "https://tantheta.io/",
     "tags": [
-      "Prediction Market",
-      "DeFi"
+      "Tooling",
+      "Prediction Market"
     ],
     "description": "Tan Theta provides sophisticated predicates-based order matching engine for seamless and efficient trading experiences in prediction markets, sports books, spot exchanges, and derivatives exchanges.",
     "github": "https://github.com/Tan-Theta-Protocol/",
@@ -792,6 +793,7 @@
     "image": "tantheta"
   },
   {
+    "points": 2,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
