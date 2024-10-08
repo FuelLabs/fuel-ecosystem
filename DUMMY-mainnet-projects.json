@@ -30,9 +30,7 @@
     "name": "ArtDAO",
     "url": "https://artdao.xyz/",
     "tags": [
-      "DAO",
-      "NFT",
-      "Social"
+      "NFT"
     ],
     "description": "Scaling the possibilities of digital art on Ethereum - artists helping artists.",
     "github": "",
@@ -54,16 +52,13 @@
     "image": "bakoid"
   },
   {
-    "points": 1,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "name": "Bako Safe",
     "url": "https://www.bako.global/",
     "tags": [
-      "Wallet",
-      "Multi-sig",
-      "Tooling"
+      "Wallet"
     ],
     "description": "Bako Safe is the Native Multisig of Rollup OS.",
     "github": "https://github.com/Bako-Labs",
@@ -190,12 +185,12 @@
     "image": "constellationbattle"
   },
   {
-    "isLive": false,
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "Cookbook",
     "url": "https://www.cookbook.dev/chains/Fuel",
     "tags": [
-      "Education",
-      "AI"
+      "Education"
     ],
     "description": "Find smart contracts, Sway libraries, and discover protocols.",
     "github": "",
@@ -208,7 +203,6 @@
     "name": "CryptoSage",
     "url": "https://cryptosage.jump.trade/coming-soon",
     "tags": [
-      "Social",
       "Prediction Market"
     ],
     "description": "An innovative crypto opinion trading platform, where users can monetize their insights and predictions on various cryptocurrencies.",
@@ -287,13 +281,11 @@
     "image": "fuelnameservice"
   },
   {
-    "points": 1,
     "isLive": true,
     "name": "Fuel Wallet",
     "url": "https://wallet.fuel.network/docs/install/",
     "tags": [
       "Fuel",
-      "Tooling",
       "Wallet"
     ],
     "description": "Explore decentralized applications and manage your crypto assets, all in one place.",
@@ -322,7 +314,6 @@
     "name": "Fuelart",
     "url": "https://fuelart.io/",
     "tags": [
-      "Marketplace",
       "NFT"
     ],
     "description": "Fuelart is a next-gen NFT marketplace built on Fuel.",
@@ -332,12 +323,10 @@
     "image": "fuelart"
   },
   {
-    "points": 1,
     "isLive": true,
     "name": "Fuelet Wallet",
     "url": "https://fuelet.app/",
     "tags": [
-      "Tooling",
       "Wallet"
     ],
     "description": "Fuelet is the leading account abstraction and non-custodial wallet on Fuel.",
@@ -362,7 +351,7 @@
   {
     "points": 2,
     "isLiveMainnet": true,
-    "isLive": false,
+    "isLive": true,
     "isFeatured": true,
     "name": "Griffy",
     "url": "https://griffy.app/",
@@ -415,6 +404,19 @@
     "image": "kassiopea"
   },
   {
+    "isLive": false,
+    "name": "LayerSwap",
+    "url": "https://layerswap.io/",
+    "tags": [
+      "Bridge"
+    ],
+    "description": "The reliable solution for transferring crypto assets across networks in a matter of minutes.",
+    "github": "https://github.com/layerswap/layerswapapp",
+    "twitter": "https://x.com/layerswap",
+    "discord": "",
+    "image": "layerswap"
+  },
+  {
     "isLive": true,
     "name": "LearnWeb3",
     "url": "https://learnweb3.io/",
@@ -432,7 +434,6 @@
     "name": "Lync",
     "url": "https://docs.lync.world/fuel/lync-unity-fuel-sdk",
     "tags": [
-      "Gaming",
       "Tooling"
     ],
     "description": "A set of SDKs for Gaming and NFTs on Fuel.",
@@ -478,7 +479,7 @@
       "DeFi"
     ],
     "description": "The liquidity hub on Fuel. Trade, earn and get rewards using the most efficient AMM on Fuel.",
-    "github": "",
+    "github": "https://github.com/mira-amm",
     "twitter": "https://x.com/MiraProtocol",
     "discord": "https://discord.gg/9HzukDUKSq",
     "image": "mira"
@@ -515,7 +516,6 @@
     "name": "Pactum",
     "url": "pactum-one.vercel.app",
     "tags": [
-      "DAO",
       "Tooling"
     ],
     "description": "Build your DAO, explore communities, and find inspiration for your project all in one place.",
@@ -543,8 +543,7 @@
     "name": "Pipeline Finance",
     "url": "https://www.pipeline.finance/",
     "tags": [
-      "DeFi",
-      "Token Streaming"
+      "DeFi"
     ],
     "description": "Pipeline Finance is the go-to solution for affordable and secure token streaming on the Fuel network. Experience seamless, real-time payments with ease.",
     "github": "https://github.com/wt-xyz/pipeline",
@@ -622,11 +621,23 @@
     "image": "redstone"
   },
   {
-    "points": 2,
+    "isLive": false,
+    "name": "Router Nitro",
+    "url": "https://app.routernitro.com/swap",
+    "tags": [
+      "Bridge"
+    ],
+    "description": "An ultra-low latency bridge.",
+    "github": "https://github.com/router-protocol",
+    "twitter": "https://x.com/routerprotocol",
+    "discord": "https://discord.com/invite/BGjzGB4GZ8",
+    "image": "routernitro"
+  },
+  {
     "isLiveMainnet": true,
     "isLive": false,
     "name": "Ruscet Exchange",
-    "url": "https://x.com/RuscetFi",
+    "url": "https://ruscet.xyz/",
     "tags": [
       "DeFi"
     ],
@@ -698,7 +709,7 @@
     "name": "Sway Analyzer",
     "url": "https://github.com/ourovoros-io/sway-analyzer",
     "tags": [
-      "DevEx"
+      "Tooling"
     ],
     "description": "A security-focused static analyzer for Sway written in Rust.",
     "github": "https://github.com/ourovoros-io/sway-analyzer",
@@ -741,7 +752,7 @@
     "url": "https://www.sway-playground.org/",
     "tags": [
       "Fuel",
-      "DevEx"
+      "Tooling"
     ],
     "description": "Sway Playground enables developers to build, deploy, and interact with simple sway contracts in the browser with no installation of tools.",
     "github": "https://github.com/FuelLabs/sway-playground",
@@ -787,7 +798,6 @@
     "name": "Thunder",
     "url": "https://thundernft.market/",
     "tags": [
-      "Marketplace",
       "NFT"
     ],
     "description": "Thunder is the superior NFT marketplace on Fuel.",
@@ -801,7 +811,7 @@
     "name": "Zap Protocol",
     "url": "https://zapinfra.com/",
     "tags": [
-      "Infrastructure"
+      "Tooling"
     ],
     "description": "Zap is the gateway to better UX, cheaper transactions, and faster execution on Fuel",
     "github": "https://github.com/Layer3Labs/Zap-Protocol",
