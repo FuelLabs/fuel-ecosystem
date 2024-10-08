@@ -353,7 +353,7 @@
   {
     "points": 2,
     "isLiveMainnet": true,
-    "isLive": false,
+    "isLive": true,
     "isFeatured": true,
     "name": "Griffy",
     "url": "https://griffy.app/",
