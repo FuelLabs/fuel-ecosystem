@@ -406,6 +406,19 @@
     "image": "kassiopea"
   },
   {
+    "isLive": false,
+    "name": "LayerSwap",
+    "url": "https://layerswap.io/",
+    "tags": [
+      "Bridge"
+    ],
+    "description": "The reliable solution for transferring crypto assets across networks in a matter of minutes.",
+    "github": "https://github.com/layerswap/layerswapapp",
+    "twitter": "https://x.com/layerswap",
+    "discord": "",
+    "image": "layerswap"
+  },
+  {
     "isLive": true,
     "name": "LearnWeb3",
     "url": "https://learnweb3.io/",
@@ -608,6 +621,19 @@
     "twitter": "https://x.com/redstone_defi",
     "discord": "",
     "image": "redstone"
+  },
+  {
+    "isLive": false,
+    "name": "Router Nitro",
+    "url": "https://app.routernitro.com/swap",
+    "tags": [
+      "Bridge"
+    ],
+    "description": "An ultra-low latency bridge.",
+    "github": "https://github.com/router-protocol",
+    "twitter": "https://x.com/routerprotocol",
+    "discord": "https://discord.com/invite/BGjzGB4GZ8",
+    "image": "routernitro"
   },
   {
     "points": 2,
