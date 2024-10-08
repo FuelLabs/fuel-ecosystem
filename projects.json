@@ -30,9 +30,7 @@
     "name": "ArtDAO",
     "url": "https://artdao.xyz/",
     "tags": [
-      "DAO",
-      "NFT",
-      "Social"
+      "NFT"
     ],
     "description": "Scaling the possibilities of digital art on Ethereum - artists helping artists.",
     "github": "",
@@ -60,9 +58,7 @@
     "name": "Bako Safe",
     "url": "https://www.bako.global/",
     "tags": [
-      "Wallet",
-      "Multi-sig",
-      "Tooling"
+      "Wallet"
     ],
     "description": "Bako Safe is the Native Multisig of Rollup OS.",
     "github": "https://github.com/Bako-Labs",
@@ -189,12 +185,12 @@
     "image": "constellationbattle"
   },
   {
-    "isLive": false,
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "Cookbook",
     "url": "https://www.cookbook.dev/chains/Fuel",
     "tags": [
-      "Education",
-      "AI"
+      "Education"
     ],
     "description": "Find smart contracts, Sway libraries, and discover protocols.",
     "github": "",
@@ -207,7 +203,6 @@
     "name": "CryptoSage",
     "url": "https://cryptosage.jump.trade/coming-soon",
     "tags": [
-      "Social",
       "Prediction Market"
     ],
     "description": "An innovative crypto opinion trading platform, where users can monetize their insights and predictions on various cryptocurrencies.",
@@ -292,7 +287,6 @@
     "url": "https://wallet.fuel.network/docs/install/",
     "tags": [
       "Fuel",
-      "Tooling",
       "Wallet"
     ],
     "description": "Explore decentralized applications and manage your crypto assets, all in one place.",
@@ -321,7 +315,6 @@
     "name": "Fuelart",
     "url": "https://fuelart.io/",
     "tags": [
-      "Marketplace",
       "NFT"
     ],
     "description": "Fuelart is a next-gen NFT marketplace built on Fuel.",
@@ -336,7 +329,6 @@
     "name": "Fuelet Wallet",
     "url": "https://fuelet.app/",
     "tags": [
-      "Tooling",
       "Wallet"
     ],
     "description": "Fuelet is the leading account abstraction and non-custodial wallet on Fuel.",
@@ -431,7 +423,6 @@
     "name": "Lync",
     "url": "https://docs.lync.world/fuel/lync-unity-fuel-sdk",
     "tags": [
-      "Gaming",
       "Tooling"
     ],
     "description": "A set of SDKs for Gaming and NFTs on Fuel.",
@@ -514,7 +505,6 @@
     "name": "Pactum",
     "url": "pactum-one.vercel.app",
     "tags": [
-      "DAO",
       "Tooling"
     ],
     "description": "Build your DAO, explore communities, and find inspiration for your project all in one place.",
@@ -542,8 +532,7 @@
     "name": "Pipeline Finance",
     "url": "https://www.pipeline.finance/",
     "tags": [
-      "DeFi",
-      "Token Streaming"
+      "DeFi"
     ],
     "description": "Pipeline Finance is the go-to solution for affordable and secure token streaming on the Fuel network. Experience seamless, real-time payments with ease.",
     "github": "https://github.com/wt-xyz/pipeline",
@@ -697,7 +686,7 @@
     "name": "Sway Analyzer",
     "url": "https://github.com/ourovoros-io/sway-analyzer",
     "tags": [
-      "DevEx"
+      "Tooling"
     ],
     "description": "A security-focused static analyzer for Sway written in Rust.",
     "github": "https://github.com/ourovoros-io/sway-analyzer",
@@ -740,7 +729,7 @@
     "url": "https://www.sway-playground.org/",
     "tags": [
       "Fuel",
-      "DevEx"
+      "Tooling"
     ],
     "description": "Sway Playground enables developers to build, deploy, and interact with simple sway contracts in the browser with no installation of tools.",
     "github": "https://github.com/FuelLabs/sway-playground",
@@ -786,7 +775,6 @@
     "name": "Thunder",
     "url": "https://thundernft.market/",
     "tags": [
-      "Marketplace",
       "NFT"
     ],
     "description": "Thunder is the superior NFT marketplace on Fuel.",
