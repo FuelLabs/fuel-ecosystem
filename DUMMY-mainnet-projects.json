@@ -52,6 +52,7 @@
     "image": "bakoid"
   },
   {
+    "order": 1,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
@@ -212,6 +213,7 @@
     "image": "cryptosage"
   },
   {
+    "order": 1,
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Envio",
@@ -267,6 +269,7 @@
     "image": "fluid"
   },
   {
+    "order": 3,
     "isLive": true,
     "isFeatured":true,
     "name": "Fuel Name Service",
@@ -350,6 +353,7 @@
   },
   {
     "points": 2,
+    "order": 4,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
@@ -470,6 +474,7 @@
   },
   {
     "points": 2,
+    "order": 1,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
@@ -676,6 +681,7 @@
     "image": "sentio"
   },
   {
+    "order": 2,
     "isLive": true,
     "isFeatured": true,
     "name": "Spark",
@@ -762,6 +768,7 @@
   },
   {
     "points": 2,
+    "order": 2,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
@@ -792,6 +799,7 @@
   },
   {
     "points": 2,
+    "order": 3,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,

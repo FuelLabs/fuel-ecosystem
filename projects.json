@@ -54,6 +54,7 @@
     "image": "bakoid"
   },
   {
+    "order": 5,
     "isLive": true,
     "isFeatured": true,
     "name": "Bako Safe",
@@ -203,6 +204,7 @@
     "image": "cryptosage"
   },
   {
+    "order": 2,
     "isLive": true,
     "name": "Envio",
     "url": "https://docs.envio.dev/docs/HyperIndex/fuel",
@@ -256,6 +258,7 @@
     "image": "fluid"
   },
   {
+    "order": 1,
     "isLive": true,
     "name": "Fuel Name Service",
     "url": "https://fuelname.com/",
@@ -340,6 +343,7 @@
     "image": "oxiswap"
   },
   {
+    "order": 4,
     "isLive": true,
     "isFeatured": true,
     "name": "Griffy",
@@ -446,6 +450,7 @@
     "image": "metaschool"
   },
   {
+    "order": 1,
     "isLive": true,
     "isFeatured": true,
     "name": "Mira Exchange",
@@ -620,6 +625,7 @@
     "image": "sentio"
   },
   {
+    "order": 6,
     "isLive": true,
     "isFeatured": true,
     "name": "Spark",
@@ -675,6 +681,7 @@
     "image": "swayplayground"
   },
   {
+    "order": 2,
     "isLive": true,
     "isFeatured": true,
     "name": "Swaylend",
@@ -703,6 +710,7 @@
     "image": "tantheta"
   },
   {
+    "order": 3,
     "isLive": true,
     "isFeatured": true,
     "name": "Thunder",
