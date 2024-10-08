@@ -281,7 +281,6 @@
     "image": "fuelnameservice"
   },
   {
-    "points": 1,
     "isLive": true,
     "name": "Fuel Wallet",
     "url": "https://wallet.fuel.network/docs/install/",
@@ -324,7 +323,6 @@
     "image": "fuelart"
   },
   {
-    "points": 1,
     "isLive": true,
     "name": "Fuelet Wallet",
     "url": "https://fuelet.app/",
