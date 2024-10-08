@@ -54,8 +54,6 @@
     "image": "bakoid"
   },
   {
-    "points": 1,
-    "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "name": "Bako Safe",
@@ -177,19 +175,6 @@
     "image": "commonground"
   },
   {
-    "isLive": true,
-    "name": "Constellation Battle",
-    "url": "https://constellation.fun/",
-    "tags": [
-      "Gaming"
-    ],
-    "description": "Summon monsters, collect constellation cards, battle for rewards, and earn dividends—keep your monster alive to win big!",
-    "github": "https://github.com/constellationbattle/game",
-    "twitter": "https://x.com/constellationba",
-    "discord": "",
-    "image": "constellationbattle"
-  },
-  {
     "isLive": false,
     "name": "Cookbook",
     "url": "https://www.cookbook.dev/chains/Fuel",
@@ -218,7 +203,6 @@
     "image": "cryptosage"
   },
   {
-    "isLiveMainnet": true,
     "isLive": true,
     "name": "Envio",
     "url": "https://docs.envio.dev/docs/HyperIndex/fuel",
@@ -245,7 +229,6 @@
     "image": "everclear"
   },
   {
-    "isLiveMainnet": true,
     "isLive": false,
     "name": "Executoors",
     "url": "https://executoors.com",
@@ -274,7 +257,6 @@
   },
   {
     "isLive": true,
-    "isFeatured":true,
     "name": "Fuel Name Service",
     "url": "https://fuelname.com/",
     "tags": [
@@ -287,7 +269,6 @@
     "image": "fuelnameservice"
   },
   {
-    "points": 1,
     "isLive": true,
     "name": "Fuel Wallet",
     "url": "https://wallet.fuel.network/docs/install/",
@@ -332,7 +313,6 @@
     "image": "fuelart"
   },
   {
-    "points": 1,
     "isLive": true,
     "name": "Fuelet Wallet",
     "url": "https://fuelet.app/",
@@ -347,22 +327,20 @@
     "image": "fuelet"
   },
   {
-    "isLive": false,
-    "name": "getfuel.Fun",
-    "url": "https://getfuel.fun/",
+    "isLive": true,
+    "name": "OxiSwap",
+    "url": "https://oxiswap.com/",
     "tags": [
       "DeFi"
     ],
-    "description": "Launch a coin that is instantly tradeable in one click on the Fuel Network by Unpaid labs.",
-    "github": "",
-    "twitter": "https://x.com/fueldotfun",
+    "description": "Lightning-Fast Decentralized Exchange Built On The Fuel Network",
+    "github": "https://github.com/oxiswap",
+    "twitter": "https://x.com/oxiswap",
     "discord": "",
-    "image": "fueldotfun"
+    "image": "oxiswap"
   },
   {
-    "points": 2,
-    "isLiveMainnet": true,
-    "isLive": true,
+    "isLive": false,
     "isFeatured": true,
     "name": "Griffy",
     "url": "https://griffy.app/",
@@ -468,8 +446,6 @@
     "image": "metaschool"
   },
   {
-    "points": 2,
-    "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "name": "Mira Exchange",
@@ -484,7 +460,6 @@
     "image": "mira"
   },
   {
-    "isLiveMainnet": true,
     "isLive": true,
     "name": "ORAO",
     "url": "https://orao.network/",
@@ -511,21 +486,6 @@
     "image": "orbiter"
   },
   {
-    "isLive": false,
-    "name": "Pactum",
-    "url": "pactum-one.vercel.app",
-    "tags": [
-      "DAO",
-      "Tooling"
-    ],
-    "description": "Build your DAO, explore communities, and find inspiration for your project all in one place.",
-    "github": "",
-    "twitter": "https://x.com/Pactum_io",
-    "discord": "",
-    "image": "pactum"
-  },
-  {
-    "isLiveMainnet": true,
     "isLive": false,
     "name": "Pangea",
     "url": "https://www.pangea.foundation/",
@@ -594,7 +554,6 @@
     "image": "push"
   },
   {
-    "isLiveMainnet": true,
     "isLive": true,
     "name": "Pyth",
     "url": "https://www.pyth.network/",
@@ -608,7 +567,6 @@
     "image": "pyth"
   },
   {
-    "isLiveMainnet": true,
     "isLive": false,
     "name": "RedStone Oracle",
     "url": "https://redstone.finance/",
@@ -622,8 +580,6 @@
     "image": "redstone"
   },
   {
-    "points": 2,
-    "isLiveMainnet": true,
     "isLive": false,
     "name": "Ruscet Exchange",
     "url": "https://x.com/RuscetFi",
@@ -650,7 +606,6 @@
     "image": "sail"
   },
   {
-    "isLiveMainnet": true,
     "isLive": true,
     "name": "Sentio",
     "url": "https://www.sentio.xyz/",
@@ -679,7 +634,6 @@
     "image": "spark"
   },
   {
-    "isLiveMainnet": true,
     "isLive": true,
     "name": "SQD",
     "url": "https://docs.sqd.dev/fuel-indexing/",
@@ -693,34 +647,6 @@
     "image": "subsquid"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Sway Analyzer",
-    "url": "https://github.com/ourovoros-io/sway-analyzer",
-    "tags": [
-      "DevEx"
-    ],
-    "description": "A security-focused static analyzer for Sway written in Rust.",
-    "github": "https://github.com/ourovoros-io/sway-analyzer",
-    "twitter": "",
-    "discord": "",
-    "image": "swayanalyzer"
-  },
-  {
-    "isLive": false,
-    "name": "Sway.Fun",
-    "url": "https://sway.fun/",
-    "tags": [
-      "DeFi"
-    ],
-    "description": "Launch a New Token in Seconds",
-    "github": "",
-    "twitter": "https://x.com/swaydotfun",
-    "discord": "",
-    "image": "swaydotfun"
-  },
-  {
-    "isLiveMainnet": true,
     "isLive": true,
     "name": "Sway Farm",
     "url": "https://www.swayfarm.xyz/",
@@ -735,7 +661,6 @@
     "image": "swayfarm"
   },
   {
-    "isLiveMainnet": true,
     "isLive": true,
     "name": "Sway Playground",
     "url": "https://www.sway-playground.org/",
@@ -750,8 +675,6 @@
     "image": "swayplayground"
   },
   {
-    "points": 2,
-    "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "name": "Swaylend",
@@ -770,8 +693,8 @@
     "name": "Tan Theta",
     "url": "https://tantheta.io/",
     "tags": [
-      "Tooling",
-      "Prediction Market"
+      "Prediction Market",
+      "DeFi"
     ],
     "description": "Tan Theta provides sophisticated predicates-based order matching engine for seamless and efficient trading experiences in prediction markets, sports books, spot exchanges, and derivatives exchanges.",
     "github": "https://github.com/Tan-Theta-Protocol/",
@@ -780,8 +703,6 @@
     "image": "tantheta"
   },
   {
-    "points": 2,
-    "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "name": "Thunder",
