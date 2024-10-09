@@ -1,6 +1,19 @@
 [
   {
     "isLive": false,
+    "name": "Halborn",
+    "url": "https://www.halborn.com/",
+    "tags": [
+      "Security Firm"
+    ],
+    "description": "Halborn is a web3 auditing firm.",
+    "github": "https://github.com/HalbornSecurity",
+    "twitter": "https://x.com/HalbornSecurity",
+    "discord": "",
+    "image": ""
+  },
+  {
+    "isLive": false,
     "name": "1Delta",
     "url": "https://1delta.io/",
     "tags": [
