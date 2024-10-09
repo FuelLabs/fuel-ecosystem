@@ -15,7 +15,7 @@ The home for ecosystem applications building on the Fuel Network. Find all the r
 | --- | --- |
 | `isLive` | Whether the project is live or not |
 | `isFeatured` | Whether the project is featured or not |
-| `contracts` | Any related contract or blob IDs |
+| `contracts` | Contract information related to the project |
 | `name` | The name of the project |
 | `url` | The URL of the project |
 | `tags` | The tags of the project |
