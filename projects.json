@@ -152,7 +152,7 @@
     "tags": [
       "Tooling"
     ],
-    "description": "Solidity to Sway transpiler",
+    "description": "Solidity to Sway transpiler. Available on the Sway Playground.",
     "github": "https://github.com/ourovoros-io",
     "twitter": "",
     "discord": "",
@@ -192,7 +192,7 @@
     "tags": [
       "Education"
     ],
-    "description": "Find smart contracts, Sway libraries, and discover protocols.",
+    "description": "Find smart contracts, Sway libraries, and discover protocols. Available on the Fuel Documentation.",
     "github": "",
     "twitter": "https://x.com/cookbook_dev",
     "discord": "https://discord.gg/cookbookdev",
@@ -246,7 +246,7 @@
     "tags": [
       "NFT"
     ],
-    "description": "A series of Executoors in search of the most flawless execution environment",
+    "description": "A series of Executoors in search of the most flawless execution environment.",
     "github": "",
     "twitter": "https://x.com/executoors",
     "discord": "",
@@ -295,6 +295,7 @@
     "image": "fuelwallet"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuel Bridge",
     "url": "https://app.fuel.network/bridge",
@@ -641,7 +642,7 @@
     "tags": [
       "DeFi"
     ],
-    "description": "High-performance derivatives exchange on Fuel",
+    "description": "High-performance derivatives exchange on Fuel.",
     "github": "https://github.com/burralabs/ruscet-contracts",
     "twitter": "https://x.com/RuscetFi",
     "discord": "",
