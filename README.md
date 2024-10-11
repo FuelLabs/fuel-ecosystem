@@ -31,6 +31,23 @@ All images should be in the `images` folder with extension `.jpeg`.
 
 ## How to use
 
+
+### Local development
+
+1. Install dependencies
+
+```bash
+pnpm install
+```
+
+2. Run `dev` script
+
+```bash
+pnpm dev
+```
+
+3. Open http://localhost:4000/projects.json
+
 ### Data
 
 ```

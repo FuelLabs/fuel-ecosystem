@@ -1,0 +1,12 @@
+{
+  "name": "fuel-ecosystem",
+  "version": "0.0.1",
+  "description": "List of applications and projects on the Fuel Ecosystem",
+  "private": true,
+  "scripts": {
+    "dev": "serve --listen 4000"
+  },
+  "dependencies": {
+    "serve": "14.2.3"
+  }
+}
