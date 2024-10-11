@@ -481,19 +481,24 @@
     "name": "Mira Exchange",
     "url": "https://mira.ly/",
     "contracts": {
-      "ignition": [
+      "mainnet": [
         {
-          "name": "Mira V1 Core",
           "id": "0xe68f7269cc74edfafd10de380288b89e8d419f3b456f78ba727a8cb0d679b163",
-          "source": "https://raw.githubusercontent.com/mira-amm/mira-v1-core/refs/heads/main/contracts/mira_amm_contract/src/main.sw?token=GHSAT0AAAAAACO5K3AG5ZBY37YOMRWJINMUZYGR73A",
-          "commit": "5b2ae6dc03908b8de80270c2e44ed4c5b09669d2",
+          "name": "Mira V1 Core",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/mira-amm/mira-v1-core/0ebb28837216276ab7bdad615fa5a0545810d37c/contracts/mira_amm_contract/src/main.sw",
+          "commit": "0ebb28837216276ab7bdad615fa5a0545810d37c",
           "repo": "https://github.com/mira-amm/mira-v1-core",
-          "security": "https://docs.mira.ly/developer-guides/security-audit",
-          "audits": [],
-          "release": ""
+          "links": [
+            {
+              "title": "Security Audit",
+              "url": "https://docs.mira.ly/developer-guides/security-audit"
+            }
+          ],
+          "audits": []
         }
       ],
-      "sepolio": []
+      "sepolia": []
     },
     "tags": [
       "DeFi"
