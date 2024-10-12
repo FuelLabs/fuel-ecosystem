@@ -794,6 +794,31 @@
     "isFeatured": true,
     "name": "Swaylend",
     "url": "https://swaylend.com/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x73c39f7a8378d442ae196c20c0dd4c7fb427f21f281e30bba304384da9ca50df",
+          "name": "SwayLend Market",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/Swaylend/swaylend-monorepo/refs/heads/develop/contracts/market/src/main.sw",
+          "commit": "0c84d3a19d777b197b03c34386031985cec71bd3",
+          "repo": "https://github.com/Swaylend/swaylend-monorepo",
+          "links": [],
+          "audits": []
+        },
+        {
+          "id": "0x657ab45a6eb98a4893a99fd104347179151e8b3828fd8f2a108cc09770d1ebae",
+          "name": "SwayLend Market Proxy",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/Swaylend/swaylend-monorepo/refs/heads/develop/contracts/market/src/main.sw",
+          "commit": "0c84d3a19d777b197b03c34386031985cec71bd3",
+          "repo": "https://github.com/Swaylend/swaylend-monorepo",
+          "links": [],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
     "tags": [
       "DeFi"
     ],
