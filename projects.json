@@ -295,6 +295,7 @@
     "image": "fuelwallet"
   },
   {
+    "isFeatured":true,
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuel Bridge",
