@@ -84,7 +84,8 @@
     "image": "bakosafe"
   },
   {
-    "isLive": false,
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "Banxa",
     "url": "https://banxa.com/",
     "tags": [
@@ -163,13 +164,14 @@
     "image": "chainrisk"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Charcoal Transpiler",
     "url": "https://github.com/ourovoros-io/charcoal",
     "tags": [
       "Tooling"
     ],
-    "description": "Solidity to Sway transpiler",
+    "description": "Solidity to Sway transpiler. Available on the Sway Playground.",
     "github": "https://github.com/ourovoros-io",
     "twitter": "",
     "discord": "",
@@ -189,6 +191,7 @@
     "image": "commonground"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Constellation Battle",
     "url": "https://constellation.fun/",
@@ -209,7 +212,7 @@
     "tags": [
       "Education"
     ],
-    "description": "Find smart contracts, Sway libraries, and discover protocols.",
+    "description": "Find smart contracts, Sway libraries, and discover protocols. Available on the Fuel Documentation.",
     "github": "",
     "twitter": "https://x.com/cookbook_dev",
     "discord": "https://discord.gg/cookbookdev",
@@ -264,7 +267,7 @@
     "tags": [
       "NFT"
     ],
-    "description": "A series of Executoors in search of the most flawless execution environment",
+    "description": "A series of Executoors in search of the most flawless execution environment.",
     "github": "",
     "twitter": "https://x.com/executoors",
     "discord": "",
@@ -285,6 +288,19 @@
     "image": "fluid"
   },
   {
+    "isLive": false,
+    "name": "Fuelart",
+    "url": "https://fuelart.io/",
+    "tags": [
+      "NFT"
+    ],
+    "description": "Fuelart is a next-gen NFT marketplace built on Fuel.",
+    "github": "",
+    "twitter": "https://x.com/fuel_art",
+    "discord": "https://discord.gg/sj9PujpSzJ",
+    "image": "fuelart"
+  },
+  {
     "order": 3,
     "isLive": true,
     "isFeatured":true,
@@ -300,20 +316,39 @@
     "image": "fuelnameservice"
   },
   {
+    "isFeatured":true,
+    "isLiveMainnet": true,
     "isLive": true,
-    "name": "Fuel Wallet",
-    "url": "https://wallet.fuel.network/docs/install/",
+    "name": "Fuel Bridge",
+    "url": "https://app.fuel.network/bridge",
     "tags": [
+      "Bridge",
       "Fuel",
-      "Wallet"
+      "Tooling"
     ],
-    "description": "Explore decentralized applications and manage your crypto assets, all in one place.",
-    "github": "https://github.com/fuellabs/fuels-wallet",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
+          "name": "Fuel Token Gateway",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/FuelLabs/fuel-bridge/refs/heads/main/packages/fungible-token/bridge-fungible-token/implementation/src/main.sw",
+          "commit": "2f61bd81cee13a6346fed3053919e28c53e1754e",
+          "repo": "https://github.com/FuelLabs/fuel-bridge",
+          "links": [],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
+    "description": "Bridge assets from Ethereum to Fuel with Fuel's native bridge.",
+    "github": "https://github.com/FuelLabs/fuel-bridge",
     "twitter": "https://x.com/fuel_network",
     "discord": "https://discord.gg/fuelnetwork",
-    "image": "fuelwallet"
+    "image": "fuelbridge"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuel Connectors",
     "url": "https://connectors.fuel.network",
@@ -355,49 +390,22 @@
     "image": "fuelwallet"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
-    "name": "Fuel Bridge",
-    "url": "https://app.fuel.network/bridge",
+    "name": "Fuel Wallet",
+    "url": "https://wallet.fuel.network/docs/install/",
     "tags": [
-      "Bridge",
       "Fuel",
-      "Tooling"
+      "Wallet"
     ],
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
-          "name": "Fuel Token Gateway",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/FuelLabs/fuel-bridge/refs/heads/main/packages/fungible-token/bridge-fungible-token/implementation/src/main.sw",
-          "commit": "2f61bd81cee13a6346fed3053919e28c53e1754e",
-          "repo": "https://github.com/FuelLabs/fuel-bridge",
-          "links": [],
-          "audits": []
-        }
-      ],
-      "sepolia": []
-    },
-    "description": "Bridge assets from Ethereum to Fuel with Fuel's native bridge.",
-    "github": "https://github.com/FuelLabs/fuel-bridge",
+    "description": "Explore decentralized applications and manage your crypto assets, all in one place.",
+    "github": "https://github.com/fuellabs/fuels-wallet",
     "twitter": "https://x.com/fuel_network",
     "discord": "https://discord.gg/fuelnetwork",
-    "image": "fuelbridge"
+    "image": "fuelwallet"
   },
   {
-    "isLive": false,
-    "name": "Fuelart",
-    "url": "https://fuelart.io/",
-    "tags": [
-      "NFT"
-    ],
-    "description": "Fuelart is a next-gen NFT marketplace built on Fuel.",
-    "github": "",
-    "twitter": "https://x.com/fuel_art",
-    "discord": "https://discord.gg/sj9PujpSzJ",
-    "image": "fuelart"
-  },
-  {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuelet Wallet",
     "url": "https://fuelet.app/",
@@ -508,6 +516,7 @@
     "image": "layerswap"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "LearnWeb3",
     "url": "https://learnweb3.io/",
@@ -521,6 +530,7 @@
     "image": "learnweb3"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Lync",
     "url": "https://docs.lync.world/fuel/lync-unity-fuel-sdk",
@@ -534,6 +544,7 @@
     "image": "lync"
   },
   {
+    "isLiveMainnet": true,
     "isLive": false,
     "name": "Meld",
     "url": "www.meld.io",
@@ -547,6 +558,7 @@
     "image": "meld"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Metaschool",
     "url": "https://metaschool.so/",
@@ -640,15 +652,15 @@
     "isLiveMainnet": true,
     "isLive": false,
     "name": "Pangea",
-    "url": "https://www.pangea.foundation/",
+    "url": "https://docs.pangea.foundation/chain-data/fuel/fuel.html",
     "tags": [
       "Indexer"
     ],
     "description": "A trustless data network from which to explore and interact with blockchains, enabling the best crypto experience.",
-    "github": "",
+    "github": "https://github.com/PangeaFoundation/pangea-client/blob/master/rust-examples/examples/fuel.rs",
     "twitter": "https://x.com/in_pangea",
     "discord": "",
-    "image": "superchain"
+    "image": "pangea"
   },
   {
     "isLive": false,
@@ -664,22 +676,10 @@
     "image": "pipeline"
   },
   {
-    "isLive": false,
-    "name": "PoolShark Protocol",
-    "url": "https://www.poolshark.fi/",
-    "tags": [
-      "DeFi"
-    ],
-    "description": "PoolShark is a directional AMM where users can profit from volatility with less maintenance. ",
-    "github": "",
-    "twitter": "https://x.com/PoolsharkLabs",
-    "discord": "",
-    "image": "poolshark"
-  },
-  {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Props Octane",
-    "url": "https://fuel-testnet.props.app/",
+    "url": "https://fuel.props.app/",
     "tags": [
       "Launchpad",
       "NFT",
@@ -690,19 +690,6 @@
     "twitter": "https://x.com/props",
     "discord": "https://discord.gg/feyCaDbGqU",
     "image": "propsoctane"
-  },
-  {
-    "isLive": false,
-    "name": "Push Protocol",
-    "url": "https://push.org/",
-    "tags": [
-      "Tooling"
-    ],
-    "description": "Push is 'The communication protocol of web3'. Push protocol helps DApps and protocols to notifications directly to user wallets, and enables native wallet to wallet messaging and token gated group chats.",
-    "github": "https://github.com/push-protocol/push-website",
-    "twitter": "https://x.com/pushprotocol",
-    "discord": "https://discord.gg/pushprotocol",
-    "image": "push"
   },
   {
     "isLiveMainnet": true,
@@ -748,19 +735,6 @@
     "image": "redstone"
   },
   {
-    "isLive": false,
-    "name": "Router Nitro",
-    "url": "https://app.routernitro.com/swap",
-    "tags": [
-      "Bridge"
-    ],
-    "description": "An ultra-low latency bridge.",
-    "github": "https://github.com/router-protocol",
-    "twitter": "https://x.com/routerprotocol",
-    "discord": "https://discord.com/invite/BGjzGB4GZ8",
-    "image": "routernitro"
-  },
-  {
     "isLiveMainnet": true,
     "isLive": false,
     "name": "Ruscet Exchange",
@@ -768,7 +742,7 @@
     "tags": [
       "DeFi"
     ],
-    "description": "High-performance derivatives exchange on Fuel",
+    "description": "High-performance derivatives exchange on Fuel.",
     "github": "https://github.com/burralabs/ruscet-contracts",
     "twitter": "https://x.com/RuscetFi",
     "discord": "",
