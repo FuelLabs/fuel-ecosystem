@@ -567,6 +567,7 @@
     "image": "poolshark"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Props Octane",
     "url": "https://fuel-testnet.props.app/",
