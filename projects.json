@@ -67,7 +67,8 @@
     "image": "bakosafe"
   },
   {
-    "isLive": false,
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "Banxa",
     "url": "https://banxa.com/",
     "tags": [
@@ -146,6 +147,7 @@
     "image": "chainrisk"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Charcoal Transpiler",
     "url": "https://github.com/ourovoros-io/charcoal",
@@ -172,6 +174,7 @@
     "image": "commonground"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Constellation Battle",
     "url": "https://constellation.fun/",
@@ -281,6 +284,7 @@
     "image": "fuelnameservice"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuel Wallet",
     "url": "https://wallet.fuel.network/docs/install/",
@@ -325,6 +329,7 @@
     "image": "fuelart"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuelet Wallet",
     "url": "https://fuelet.app/",
@@ -419,6 +424,7 @@
     "image": "layerswap"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "LearnWeb3",
     "url": "https://learnweb3.io/",
@@ -432,6 +438,7 @@
     "image": "learnweb3"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Lync",
     "url": "https://docs.lync.world/fuel/lync-unity-fuel-sdk",
@@ -445,6 +452,7 @@
     "image": "lync"
   },
   {
+    "isLiveMainnet": true,
     "isLive": false,
     "name": "Meld",
     "url": "www.meld.io",
@@ -458,6 +466,7 @@
     "image": "meld"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Metaschool",
     "url": "https://metaschool.so/",
@@ -530,12 +539,12 @@
     "isLiveMainnet": true,
     "isLive": false,
     "name": "Pangea",
-    "url": "https://www.pangea.foundation/",
+    "url": "https://docs.pangea.foundation/chain-data/fuel/fuel.html",
     "tags": [
       "Indexer"
     ],
     "description": "A trustless data network from which to explore and interact with blockchains, enabling the best crypto experience.",
-    "github": "",
+    "github": "https://github.com/PangeaFoundation/pangea-client/blob/master/rust-examples/examples/fuel.rs",
     "twitter": "https://x.com/in_pangea",
     "discord": "",
     "image": "superchain"
@@ -557,7 +566,7 @@
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Props Octane",
-    "url": "https://fuel-testnet.props.app/",
+    "url": "https://fuel.props.app/",
     "tags": [
       "Launchpad",
       "NFT",
@@ -568,19 +577,6 @@
     "twitter": "https://x.com/props",
     "discord": "https://discord.gg/feyCaDbGqU",
     "image": "propsoctane"
-  },
-  {
-    "isLive": false,
-    "name": "Push Protocol",
-    "url": "https://push.org/",
-    "tags": [
-      "Tooling"
-    ],
-    "description": "Push is 'The communication protocol of web3'. Push protocol helps DApps and protocols to notifications directly to user wallets, and enables native wallet to wallet messaging and token gated group chats.",
-    "github": "https://github.com/push-protocol/push-website",
-    "twitter": "https://x.com/pushprotocol",
-    "discord": "https://discord.gg/pushprotocol",
-    "image": "push"
   },
   {
     "isLiveMainnet": true,
@@ -609,19 +605,6 @@
     "twitter": "https://x.com/redstone_defi",
     "discord": "",
     "image": "redstone"
-  },
-  {
-    "isLive": false,
-    "name": "Router Nitro",
-    "url": "https://app.routernitro.com/swap",
-    "tags": [
-      "Bridge"
-    ],
-    "description": "An ultra-low latency bridge.",
-    "github": "https://github.com/router-protocol",
-    "twitter": "https://x.com/routerprotocol",
-    "discord": "https://discord.com/invite/BGjzGB4GZ8",
-    "image": "routernitro"
   },
   {
     "isLiveMainnet": true,
