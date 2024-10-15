@@ -261,7 +261,7 @@
   },
   {
     "isLiveMainnet": true,
-    "isLive": false,
+    "isLive": true,
     "name": "Executoors",
     "url": "https://executoors.com",
     "tags": [
@@ -545,7 +545,7 @@
   },
   {
     "isLiveMainnet": true,
-    "isLive": false,
+    "isLive": true,
     "name": "Meld",
     "url": "www.meld.io",
     "tags": [
@@ -650,7 +650,7 @@
   },
   {
     "isLiveMainnet": true,
-    "isLive": false,
+    "isLive": true,
     "name": "Pangea",
     "url": "https://docs.pangea.foundation/chain-data/fuel/fuel.html",
     "tags": [
@@ -722,7 +722,7 @@
   },
   {
     "isLiveMainnet": true,
-    "isLive": false,
+    "isLive": true,
     "name": "RedStone Oracle",
     "url": "https://redstone.finance/",
     "tags": [
@@ -736,7 +736,7 @@
   },
   {
     "isLiveMainnet": true,
-    "isLive": false,
+    "isLive": true,
     "name": "Ruscet Exchange",
     "url": "https://ruscet.xyz/",
     "tags": [
