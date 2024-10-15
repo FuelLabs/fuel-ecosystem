@@ -554,19 +554,6 @@
     "image": "pipeline"
   },
   {
-    "isLive": false,
-    "name": "PoolShark Protocol",
-    "url": "https://www.poolshark.fi/",
-    "tags": [
-      "DeFi"
-    ],
-    "description": "PoolShark is a directional AMM where users can profit from volatility with less maintenance. ",
-    "github": "",
-    "twitter": "https://x.com/PoolsharkLabs",
-    "discord": "",
-    "image": "poolshark"
-  },
-  {
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Props Octane",
