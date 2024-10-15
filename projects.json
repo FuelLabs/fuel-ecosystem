@@ -52,15 +52,32 @@
     "image": "bakoid"
   },
   {
+    "order": 1,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "name": "Bako Safe",
     "url": "https://www.bako.global/",
+    "predicates": {
+      "mainnet": [
+        {
+          "blob_id": "0x7cf30ca9e83e8b7e0d1e608fb6252d53a08144a65cd73031ff2fbc52614b8a6a",
+          "name": "Bako Safe",
+          "description": "The Bako Safe is a multi-signature wallet that supports Fuel native wallets and passkeys.",
+          "source": "https://raw.githubusercontent.com/Bako-Labs/bako-safe/refs/heads/main/packages/sway/src/predicate/src/main.sw",
+          "commit": "3638b3d237891cc2a1833e6b1280320e61bd819a",
+          "repo": "https://github.com/Bako-Labs/bako-safe/tree/main/packages/sway/src/predicate",
+          "image": "bakosafe",
+          "links": [],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
     "tags": [
       "Wallet"
     ],
-    "description": "Bako Safe is the Native Multisig of Rollup OS.",
+    "description": "Bako Safe is a Fuel native multi-signature wallet.",
     "github": "https://github.com/Bako-Labs",
     "twitter": "https://x.com/bakosafe",
     "discord": "https://discord.com/invite/E5kYKSKncj",
@@ -215,6 +232,7 @@
     "image": "cryptosage"
   },
   {
+    "order": 1,
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Envio",
@@ -270,6 +288,20 @@
     "image": "fluid"
   },
   {
+    "isLive": false,
+    "name": "Fuelart",
+    "url": "https://fuelart.io/",
+    "tags": [
+      "NFT"
+    ],
+    "description": "Fuelart is a next-gen NFT marketplace built on Fuel.",
+    "github": "",
+    "twitter": "https://x.com/fuel_art",
+    "discord": "https://discord.gg/sj9PujpSzJ",
+    "image": "fuelart"
+  },
+  {
+    "order": 3,
     "isLive": true,
     "isFeatured":true,
     "name": "Fuel Name Service",
@@ -282,6 +314,80 @@
     "twitter": "https://x.com/FuelNameService",
     "discord": "https://discord.gg/fueletwallet",
     "image": "fuelnameservice"
+  },
+  {
+    "isFeatured":true,
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Fuel Bridge",
+    "url": "https://app.fuel.network/bridge",
+    "tags": [
+      "Bridge",
+      "Fuel",
+      "Tooling"
+    ],
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
+          "name": "Fuel Token Gateway",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/FuelLabs/fuel-bridge/refs/heads/main/packages/fungible-token/bridge-fungible-token/implementation/src/main.sw",
+          "commit": "2f61bd81cee13a6346fed3053919e28c53e1754e",
+          "repo": "https://github.com/FuelLabs/fuel-bridge",
+          "links": [],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
+    "description": "Bridge assets from Ethereum to Fuel with Fuel's native bridge.",
+    "github": "https://github.com/FuelLabs/fuel-bridge",
+    "twitter": "https://x.com/fuel_network",
+    "discord": "https://discord.gg/fuelnetwork",
+    "image": "fuelbridge"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Fuel Connectors",
+    "url": "https://connectors.fuel.network",
+    "tags": [
+      "Fuel",
+      "Wallet"
+    ],
+    "predicates": {
+      "mainnet": [
+        {
+          "blob_id": "0xc58d08df0d31dfaaadd57de9f04d89b7abc88b28a2f45f522cc5c1fd8da67978",
+          "name": "Ethereum Connector",
+          "description": "This connector supports EVM compatible EOA accounts such as MetaMask and Rabby.",
+          "source": "https://raw.githubusercontent.com/FuelLabs/fuel-connectors/refs/heads/main/packages/evm-predicates/predicate/src/main.sw",
+          "commit": "01c65cc6d75dd677f6fbe5fdb6975af36465a967",
+          "repo": "https://github.com/FuelLabs/fuel-connectors/tree/main/packages/evm-predicates/predicate",
+          "image": "ethereumconnector",
+          "links": [],
+          "audits": []
+        },
+        {
+          "blob_id": "0x3ac5c446f2f99d83d0e2dc773bb77c619783f1389c4d0198bba9b48680b80177",
+          "name": "Solana Connector",
+          "description": "This connector supports SVM compatible EOA accounts such as Phantom and Backpack.",
+          "source": "https://raw.githubusercontent.com/FuelLabs/fuel-connectors/refs/heads/main/packages/solana-connector/predicate/src/main.sw",
+          "commit": "01c65cc6d75dd677f6fbe5fdb6975af36465a967",
+          "repo": "https://github.com/FuelLabs/fuel-connectors/tree/main/packages/solana-connector/predicate",
+          "image": "solanaconnector",
+          "links": [],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
+    "description": "The Fuel Connector supports EVM (e.g. MetaMask), SVM (e.g. Phantom) and many other compatible wallet types.",
+    "github": "https://github.com/FuelLabs/fuel-connectors",
+    "twitter": "https://x.com/fuel_network",
+    "discord": "https://discord.gg/fuelnetwork",
+    "image": "fuelwallet"
   },
   {
     "isLiveMainnet": true,
@@ -297,36 +403,6 @@
     "twitter": "https://x.com/fuel_network",
     "discord": "https://discord.gg/fuelnetwork",
     "image": "fuelwallet"
-  },
-  {
-    "isFeatured":true,
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Fuel Bridge",
-    "url": "https://app.fuel.network/bridge",
-    "tags": [
-      "Bridge",
-      "Fuel",
-      "Tooling"
-    ],
-    "description": "Bridge assets from Ethereum to Fuel with Fuel's native bridge.",
-    "github": "https://github.com/FuelLabs/fuel-bridge",
-    "twitter": "https://x.com/fuel_network",
-    "discord": "https://discord.gg/fuelnetwork",
-    "image": "fuelbridge"
-  },
-  {
-    "isLive": false,
-    "name": "Fuelart",
-    "url": "https://fuelart.io/",
-    "tags": [
-      "NFT"
-    ],
-    "description": "Fuelart is a next-gen NFT marketplace built on Fuel.",
-    "github": "",
-    "twitter": "https://x.com/fuel_art",
-    "discord": "https://discord.gg/sj9PujpSzJ",
-    "image": "fuelart"
   },
   {
     "isLiveMainnet": true,
@@ -357,11 +433,27 @@
   },
   {
     "points": 2,
+    "order": 4,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "name": "Griffy",
     "url": "https://griffy.app/",
+    "predicates": {
+      "mainnet": [
+        {
+          "blob_id": "",
+          "name": "Order Predicate",
+          "description": "This is the order predicate for Griffy.",
+          "source": "",
+          "commit": "",
+          "repo": "https://github.com/FuelLabs/fuel-connectors",
+          "links": [],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
     "tags": [
       "Prediction Market"
     ],
@@ -481,11 +573,32 @@
   },
   {
     "points": 2,
+    "order": 1,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "name": "Mira Exchange",
     "url": "https://mira.ly/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x2e40f2b244b98ed6b8204b3de0156c6961f98525c8162f80162fcf53eebd90e7",
+          "name": "Mira V1 Core",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/mira-amm/mira-v1-core/0ebb28837216276ab7bdad615fa5a0545810d37c/contracts/mira_amm_contract/src/main.sw",
+          "commit": "0ebb28837216276ab7bdad615fa5a0545810d37c",
+          "repo": "https://github.com/mira-amm/mira-v1-core",
+          "links": [
+            {
+              "title": "Security Audit",
+              "url": "https://docs.mira.ly/developer-guides/security-audit"
+            }
+          ],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
     "tags": [
       "DeFi"
     ],
@@ -547,7 +660,7 @@
     "github": "https://github.com/PangeaFoundation/pangea-client/blob/master/rust-examples/examples/fuel.rs",
     "twitter": "https://x.com/in_pangea",
     "discord": "",
-    "image": "superchain"
+    "image": "pangea"
   },
   {
     "isLive": false,
@@ -583,6 +696,21 @@
     "isLive": true,
     "name": "Pyth",
     "url": "https://www.pyth.network/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x103465f1c0c901471b868b4a9e4e57c381168ac38ee5b59732943e9e004c488d",
+          "name": "Pyth Core",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/pyth-network/pyth-crosschain/refs/heads/main/target_chains/fuel/contracts/pyth-contract/src/main.sw",
+          "commit": "4ab64d2539a749e51e1281bdd7744781f5e9df8c",
+          "repo": "https://github.com/pyth-network/pyth-crosschain",
+          "links": [],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
     "tags": [
       "Oracle"
     ],
@@ -649,6 +777,7 @@
     "image": "sentio"
   },
   {
+    "order": 2,
     "isLive": true,
     "isFeatured": true,
     "name": "Spark",
@@ -735,11 +864,37 @@
   },
   {
     "points": 2,
+    "order": 2,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "name": "Swaylend",
     "url": "https://swaylend.com/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x8748488e127dccd6f2cf2a536bf248b2f807028e32e3b845d77233ead1ce242c",
+          "name": "SwayLend USDC Market",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/Swaylend/swaylend-monorepo/refs/heads/develop/contracts/market/src/main.sw",
+          "commit": "0c84d3a19d777b197b03c34386031985cec71bd3",
+          "repo": "https://github.com/Swaylend/swaylend-monorepo",
+          "links": [],
+          "audits": []
+        },
+        {
+          "id": "0x657ab45a6eb98a4893a99fd104347179151e8b3828fd8f2a108cc09770d1ebae",
+          "name": "SwayLend USDC Market Proxy",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/Swaylend/swaylend-monorepo/refs/heads/develop/contracts/market/src/main.sw",
+          "commit": "0c84d3a19d777b197b03c34386031985cec71bd3",
+          "repo": "https://github.com/Swaylend/swaylend-monorepo",
+          "links": [],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
     "tags": [
       "DeFi"
     ],
@@ -765,11 +920,77 @@
   },
   {
     "points": 2,
+    "order": 3,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "name": "Thunder",
     "url": "https://thundernft.market/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x243ef4c2301f44eecbeaf1c39fee9379664b59a2e5b75317e8c7e7f26a25ed4d",
+          "name": "Thunder Exchange",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/ThunderFuel/smart-contracts/refs/heads/main/contracts-v1/thunder_exchange/src/main.sw",
+          "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
+          "repo": "https://github.com/ThunderFuel/smart-contracts",
+          "links": [],
+          "audits": []
+        },
+        {
+          "id": "0x1b3de4f663c79fce77ff5a0ae4d92693c3a2001f6d7e39c3d16eb1a80df38fe6",
+          "name": "Thunder AssetManager",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/ThunderFuel/smart-contracts/refs/heads/main/contracts-v1/asset_manager/src/main.sw",
+          "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
+          "repo": "https://github.com/ThunderFuel/smart-contracts",
+          "links": [],
+          "audits": []
+        },
+        {
+          "id": "0x773ca186f811c1655be9d6dcc84aef437cf25c2ebe8c367810529a8ee53fc92a",
+          "name": "Thunder Pool",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/ThunderFuel/smart-contracts/refs/heads/main/contracts-v1/pool/src/main.sw",
+          "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
+          "repo": "https://github.com/ThunderFuel/smart-contracts",
+          "links": [],
+          "audits": []
+        },
+        {
+          "id": "0xfb2b92c17160f9856664bde85bec51f5839d565898d489a6ef8fcb9b73575b57",
+          "name": "Thunder StrategyFixedPrice",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/ThunderFuel/smart-contracts/refs/heads/main/contracts-v1/execution_strategies/strategy_fixed_price_sale/src/main.sw",
+          "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
+          "repo": "https://github.com/ThunderFuel/smart-contracts",
+          "links": [],
+          "audits": []
+        },
+        {
+          "id": "0xd5af7d47d518a679495f5ebd6de51bc8ddffbe173f3c1775d90f7acb7e6655ad",
+          "name": "Thunder ExecutionManager",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/ThunderFuel/smart-contracts/refs/heads/main/contracts-v1/execution_manager/src/main.sw",
+          "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
+          "repo": "https://github.com/ThunderFuel/smart-contracts",
+          "links": [],
+          "audits": []
+        },
+        {
+          "id": "0x2340a412a77607108d160926222632dd427bafc6f57e185c0140c849d88b8e99",
+          "name": "Thunder RoyaltyManager",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/ThunderFuel/smart-contracts/refs/heads/main/contracts-v1/royalty_manager/src/main.sw",
+          "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
+          "repo": "https://github.com/ThunderFuel/smart-contracts",
+          "links": [],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
     "tags": [
       "NFT"
     ],
