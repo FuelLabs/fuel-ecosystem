@@ -15,6 +15,7 @@ The home for ecosystem applications building on the Fuel Network. Find all the r
 | --- | --- |
 | `isLive` | Whether the project is live or not |
 | `isFeatured` | Whether the project is featured or not |
+| `contracts` | Contract information related to the project |
 | `name` | The name of the project |
 | `url` | The URL of the project |
 | `tags` | The tags of the project |
@@ -29,6 +30,23 @@ The home for ecosystem applications building on the Fuel Network. Find all the r
 All images should be in the `images` folder with extension `.jpeg`.
 
 ## How to use
+
+
+### Local development
+
+1. Install dependencies
+
+```bash
+pnpm install
+```
+
+2. Run `dev` script
+
+```bash
+pnpm dev
+```
+
+3. Open http://localhost:4000/projects.json
 
 ### Data
 
