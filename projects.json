@@ -407,6 +407,7 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
+    "isFeatured": true,
     "name": "Fuelet Wallet",
     "url": "https://fuelet.app/",
     "tags": [
