@@ -920,7 +920,7 @@
     "image": "tantheta"
   },
   {
-    "isLiveMainnet": true,
+    "isLiveMainnet": false,
     "isLive": true,
     "isFeatured": true,
     "name": "Thunder",
