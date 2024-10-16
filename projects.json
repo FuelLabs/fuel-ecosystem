@@ -547,7 +547,7 @@
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Meld",
-    "url": "www.meld.io",
+    "url": "http://www.meld.io",
     "tags": [
       "Onramp"
     ],
