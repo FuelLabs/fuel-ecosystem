@@ -421,6 +421,28 @@
   },
   {
     "isLive": false,
+    "name": "FuelUp.fun",
+    "url": "https://fuelup.fun/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x81d5964bfbb24fd994591cc7d0a4137458d746ac0eb7ececb9a9cf2ae966d942",
+          "name": "FuelUp.fun Minter",
+          "description": ""
+        },
+        {
+          "id": "0xd2c72034938ce660e4cac0f0f24ff8a311efb1dbe03ccb8a8e3eaafa7ce47c7e",
+          "name": "FuelUp.fun Bonding Curve",
+          "description": ""
+        },
+      ],
+      "sepolia": []
+    },
+    "twitter": "https://x.com/FuelUp_Fun",
+    "image": "fuelupfun"
+  },
+  {
+    "isLive": false,
     "name": "getfuel.Fun",
     "url": "https://getfuel.fun/",
     "tags": [
