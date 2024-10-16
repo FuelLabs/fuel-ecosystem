@@ -735,7 +735,7 @@
     "image": "redstone"
   },
   {
-    "isLiveMainnet": true,
+    "isLiveMainnet": false,
     "isLive": true,
     "name": "Ruscet Exchange",
     "url": "https://ruscet.xyz/",
