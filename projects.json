@@ -301,6 +301,21 @@
     "image": "fuelart"
   },
   {
+    "isLiveMainnet":true,
+    "isLive": true,
+    "name": "FuelUp",
+    "url": "https://fuelup.fun/",
+    "tags": [
+      "DeFi",
+      "Launchpad"
+    ],
+    "description": "Launch a Meme Token on Fuel and GO UP ONLY ON Pump UP.",
+    "github": "https://github.com/LYNC-WORLD/FuelUp",
+    "twitter": "https://x.com/FuelUp_Fun",
+    "discord": "",
+    "image": "fuelup"
+  },
+  {
     "order": 3,
     "isLive": true,
     "isFeatured":true,
