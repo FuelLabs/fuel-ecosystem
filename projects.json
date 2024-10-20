@@ -89,7 +89,7 @@
     "name": "Banxa",
     "url": "https://banxa.com/",
     "tags": [
-      "Onramp"
+      "On-Ramp"
     ],
     "description": "Banxa is a fiat-to-crypto on & off ramp solutions enabling users to conveniently and securely convert traditional fiat currencies into cryptocurrencies.",
     "github": "",
@@ -407,6 +407,20 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
+    "name": "Fuel Pumps",
+    "url": "https://www.fuelpump.xyz/",
+    "tags": [
+      "NFT"
+    ],
+    "description": "OG PFP collection 2019 unique fuel pumps, marking Fuel V1's launch year ✨",
+    "github": "https://github.com/Fuelpumps",
+    "twitter": "https://x.com/Pumps_fuel",
+    "discord": "",
+    "image": "fuelpumps"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "Fuel Wallet",
     "url": "https://wallet.fuel.network/docs/install/",
     "tags": [
@@ -565,7 +579,7 @@
     "name": "Meld",
     "url": "http://www.meld.io",
     "tags": [
-      "Onramp"
+      "On-Ramp"
     ],
     "description": "Fintech Stack as a Service: Connect and route fintech integrations through a single API and out of the box UI flows!",
     "github": "",
@@ -698,14 +712,28 @@
     "url": "https://fuel.props.app/",
     "tags": [
       "Launchpad",
-      "NFT",
-      "Tooling"
+      "NFT"
     ],
     "description": "Props Octane is an NFT launchpad on Fuel that empowers creators to mint and showcase NFTs and provides developers with an SDK for efficient dApp and smart contract development.",
     "github": "https://github.com/Props-Labs/props-fuels",
     "twitter": "https://x.com/props",
     "discord": "https://discord.gg/feyCaDbGqU",
     "image": "propsoctane"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Props SDK",
+    "url": "https://props-fuels.vercel.app/",
+    "tags": [
+      "NFT",
+      "Tooling"
+    ],
+    "description": "The Props NFT SDK for Fuel empowers developers to easily build and manage dApps, games, & rewards.",
+    "github": "https://github.com/Props-Labs/props-fuels",
+    "twitter": "https://x.com/props",
+    "discord": "https://discord.gg/feyCaDbGqU",
+    "image": "propssdk"
   },
   {
     "isLiveMainnet": true,
@@ -1016,6 +1044,18 @@
   },
   {
     "isLive": false,
+    "name": "Transak",
+    "url": "https://transak.com/",
+    "tags": [
+      "On-Ramp"
+    ],
+    "description": "On-Ramp with most payment methods",
+    "github": "",
+    "twitter": "https://x.com/Transak",
+    "image": "transak"
+  },
+  {
+    "isLive": false,
     "name": "Zap Protocol",
     "url": "https://zapinfra.com/",
     "tags": [
@@ -1023,7 +1063,7 @@
     ],
     "description": "Zap is the gateway to better UX, cheaper transactions, and faster execution on Fuel",
     "github": "https://github.com/Layer3Labs/Zap-Protocol",
-    "twitter": "https://x.com/zap_infra",
+    "twitter": "https://x.com/ZapPayment",
     "image": "zap"
   }
 ]
