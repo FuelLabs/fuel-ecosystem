@@ -309,7 +309,7 @@
       "DeFi",
       "Launchpad"
     ],
-    "description": "Launch a Meme Token on Fuel and GO UP ONLY ON Pump UP.",
+    "description": "Launch a Meme Token on Fuel and GO UP ONLY ON FUEL UP.",
     "github": "https://github.com/LYNC-WORLD/FuelUp",
     "twitter": "https://x.com/FuelUp_Fun",
     "discord": "",
@@ -430,7 +430,7 @@
     "description": "Explore decentralized applications and manage your crypto assets, all in one place.",
     "github": "https://github.com/fuellabs/fuels-wallet",
     "twitter": "https://x.com/fuel_network",
-    "discord": "https://discord.gg/fuelnetwork",
+    "discord": "https://discord.gg/fuel-network",
     "image": "fuelwallet"
   },
   {
@@ -888,7 +888,7 @@
     "description": "Grow and sell tomatoes to become a Sway Farm Hero.",
     "github": "https://github.com/FuelLabs/sway-farm",
     "twitter": "https://x.com/fuel_network",
-    "discord": "https://discord.gg/fuelnetwork",
+    "discord": "https://discord.gg/fuel-network",
     "image": "swayfarm"
   },
   {
@@ -903,7 +903,7 @@
     "description": "Sway Playground enables developers to build, deploy, and interact with simple sway contracts in the browser with no installation of tools.",
     "github": "https://github.com/FuelLabs/sway-playground",
     "twitter": "https://x.com/SwayLang",
-    "discord": "https://discord.gg/fuelnetwork",
+    "discord": "https://discord.gg/fuel-network",
     "image": "swayplayground"
   },
   {
