@@ -288,19 +288,6 @@
     "image": "fluid"
   },
   {
-    "isLive": false,
-    "name": "Fuelart",
-    "url": "https://fuelart.io/",
-    "tags": [
-      "NFT"
-    ],
-    "description": "Fuelart is a next-gen NFT marketplace built on Fuel.",
-    "github": "",
-    "twitter": "https://x.com/fuel_art",
-    "discord": "https://discord.gg/sj9PujpSzJ",
-    "image": "fuelart"
-  },
-  {
     "isLiveMainnet":true,
     "isLive": true,
     "name": "FuelUp Fun",
