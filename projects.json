@@ -1080,5 +1080,173 @@
     "github": "https://github.com/Layer3Labs/Zap-Protocol",
     "twitter": "https://x.com/ZapPayment",
     "image": "zap"
+  },
+  {
+    "isLive": true,
+    "name": "Blocksec",
+    "url": "https://blocksec.com/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "https://github.com/blocksecteam",
+    "twitter": "https://x.com/blocksecteam",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "Halborn",
+    "url": "https://www.halborn.com/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "https://github.com/HalbornSecurity",
+    "twitter": "https://x.com/HalbornSecurity",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "Hashcloak",
+    "url": "https://hashcloak.com/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "https://github.com/hashcloak",
+    "twitter": "https://x.com/hashcloak",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "Hexens",
+    "url": "https://hexens.io/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "https://github.com/Hexens",
+    "twitter": "https://x.com/hexensio",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "OtterSec",
+    "url": "https://osec.io/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "https://github.com/otter-sec/",
+    "twitter": "https://x.com/osec_io",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "Quill Audits",
+    "url": "https://www.quillaudits.com/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "",
+    "twitter": "https://x.com/quillaudits_ai",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "Sherlock",
+    "url": "https://www.sherlock.xyz/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "https://github.com/sherlock-protocol/",
+    "twitter": "https://x.com/sherlockdefi",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "Verilog",
+    "url": "https://www.verilog.solutions/#/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "https://github.com/Verilog-Solutions",
+    "twitter": "https://twitter.com/verilog_audit",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "Zellic",
+    "url": "https://www.zellic.io/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "https://github.com/zellic/",
+    "twitter": "https://twitter.com/zellic_io",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "Linum Labs",
+    "url": "https://www.linumlabs.com/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "",
+    "twitter": "https://x.com/linumlabs",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "Trail of Bits",
+    "url": "https://www.trailofbits.com/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "https://github.com/trailofbits",
+    "twitter": "https://x.com/trailofbits",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "Safe Edges",
+    "url": "https://safeedges.in/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "",
+    "twitter": "https://x.com/safe_edges",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "Ourovoros",
+    "url": "https://ourovoros.io/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "",
+    "twitter": "",
+    "image": "blocksec"
+  },
+  {
+    "isLive": true,
+    "name": "Hacken",
+    "url": "https://hacken.io/",
+    "tags": [
+      "Security/Auditor"
+    ],
+    "description": "",
+    "github": "",
+    "twitter": "https://x.com/hackenclub",
+    "image": "blocksec"
   }
 ]
