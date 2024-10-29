@@ -288,19 +288,6 @@
     "image": "fluid"
   },
   {
-    "isLive": false,
-    "name": "Fuelart",
-    "url": "https://fuelart.io/",
-    "tags": [
-      "NFT"
-    ],
-    "description": "Fuelart is a next-gen NFT marketplace built on Fuel.",
-    "github": "",
-    "twitter": "https://x.com/fuel_art",
-    "discord": "https://discord.gg/sj9PujpSzJ",
-    "image": "fuelart"
-  },
-  {
     "isLiveMainnet":true,
     "isLive": true,
     "name": "FuelUp Fun",
@@ -460,6 +447,20 @@
     "twitter": "https://x.com/fueldotfun",
     "discord": "",
     "image": "fueldotfun"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Gas.zip",
+    "url": "https://www.gas.zip/",
+    "tags": [
+      "Bridge"
+    ],
+    "description": "Gas.zip is the fastest one-stop gas refuel bridge for over 250+ chains and counting.",
+    "github": "https://github.com/gasdotzip",
+    "twitter": "https://x.com/gasdotzip",
+    "discord": "https://discord.com/invite/gasdotzip",
+    "image": "gaszip"
   },
   {
     "points": 2,
@@ -656,19 +657,35 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
+    "name": "Nukedrop",
+    "url": "https://nukedrop.fun/",
+    "tags": [
+      "DeFi",
+      "Launchpad"
+    ],
+    "description": "Launch a coin in under 30 seconds that's instantly deployed on Fuel for 0.005 ETH. ",
+    "github": "https://github.com/NukeDrop",
+    "twitter": "https://x.com/nukedropdotfun",
+    "discord": "",
+    "image": "nukedrop"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "ORAO",
     "url": "https://orao.network/",
     "tags": [
       "Oracle"
     ],
     "description": "Oracle service for custom data feeds.",
-    "github": "",
+    "github": "https://github.com/orao-network/fuel-vrf",
     "twitter": "https://x.com/OraoNetwork",
     "discord": "",
     "image": "orao"
   },
   {
-    "isLive": false,
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "Orbiter Finance",
     "url": "https://www.orbiter.finance/",
     "tags": [
