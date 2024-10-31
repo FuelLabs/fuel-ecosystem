@@ -534,6 +534,7 @@
     "image": "kassiopea"
   },
   {
+    "isFeatured":true,
     "isLiveMainnet": true,
     "isLive": true,
     "name": "LayerSwap",
