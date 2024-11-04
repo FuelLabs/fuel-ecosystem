@@ -565,6 +565,20 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
+    "name": "Linkx Finance",
+    "url": "https://linkx.finance/",
+    "tags": [
+      "Bridge"
+    ],
+    "description": "LinkxFinance is a decentralized cross-rollup bridge focused on Layer 2 and heterogeneous blockchains",
+    "github": "https://github.com/Linkx-Finance",
+    "twitter": "https://x.com/LinkxFinance",
+    "discord": "https://discord.com/invite/k3kwCqwPQQ",
+    "image": "linkx"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "Lync",
     "url": "https://docs.lync.world/fuel/lync-unity-fuel-sdk",
     "tags": [
@@ -698,6 +712,20 @@
     "twitter": "https://x.com/Orbiter_Finance",
     "discord": "",
     "image": "orbiter"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Owlto Finance",
+    "url": "https://owlto.finance",
+    "tags": [
+      "Bridge"
+    ],
+    "description": "Owlto Finance is an intent-centric interoperability protocol. Bridge the World with an AI Agent",
+    "github": "https://github.com/owlto-finance/",
+    "twitter": "https://x.com/Owlto_Finance",
+    "discord": "https://discord.com/invite/owlto",
+    "image": "owltofinance"
   },
   {
     "isLive": false,
