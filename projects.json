@@ -884,6 +884,7 @@
   },
   {
     "order": 2,
+    "isLiveMainnet":true,
     "isLive": true,
     "isFeatured": true,
     "name": "Spark",
