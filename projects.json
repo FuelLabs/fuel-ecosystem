@@ -841,6 +841,19 @@
     "image": "redstone"
   },
   {
+  "isLive": true,
+  "name": "Retrobridge",
+  "url": "https://app.retrobridge.io/",
+  "tags": [
+    "Bridge"
+  ],
+  "description": "Multichain made easy. All chains, single app.",
+  "github": "https://github.com/retro-bridge",
+  "twitter": "https://x.com/retro_bridge",
+  "discord": "https://discord.com/invite/retrobridge",
+  "image": "retrobridge"
+},
+  {
     "isLiveMainnet": false,
     "isLive": true,
     "name": "Ruscet Exchange",
