@@ -841,6 +841,7 @@
     "image": "redstone"
   },
   {
+  "isLiveMainnet": true,
   "isLive": true,
   "name": "Retrobridge",
   "url": "https://app.retrobridge.io/",
