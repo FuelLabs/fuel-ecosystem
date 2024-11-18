@@ -855,7 +855,7 @@
   "image": "retrobridge"
 },
   {
-    "isLiveMainnet": false,
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Ruscet Exchange",
     "url": "https://ruscet.xyz/",
