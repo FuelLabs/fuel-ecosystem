@@ -884,6 +884,20 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
+    "name": "Sangoro",
+    "url": "https://sangoro.xyz/",
+    "tags": [
+      "NFT"
+    ],
+    "description": "Sangoro Travel Club is the world's first Web3.0 community built by Chinese & Turks travelers.",
+    "github": "",
+    "twitter": "https://x.com/Sangoro_SGR",
+    "discord": "",
+    "image": "sangoro"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "Sentio",
     "url": "https://www.sentio.xyz/",
     "tags": [
