@@ -1082,171 +1082,146 @@
     "image": "zap"
   },
   {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Immunefi",
+    "url": "https://immunefi.com/",
+    "tags": ["Security/Auditor"],
+    "description": "Immunefi is the leading onchain crowdsourced security platform. Guarding $190B+ in user funds across projects like Wormhole, Polygon and Optimism, Immunefi has paid out $100M+ to security researchers.",
+    "github": "https://github.com/immunefi-team/",
+    "twitter": "https://x.com/immunefi",
+    "image": "immunefi"
+  },
+  {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Blocksec",
     "url": "https://blocksec.com/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
+    "tags": ["Security/Auditor"],
+    "description": "It provides expert security auditing services and post-launch security product Phalcon, which can monitor and block hacks.",
     "github": "https://github.com/blocksecteam",
     "twitter": "https://x.com/blocksecteam",
     "image": "blocksec"
   },
   {
-    "isLive": true,
-    "name": "Halborn",
-    "url": "https://www.halborn.com/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
-    "github": "https://github.com/HalbornSecurity",
-    "twitter": "https://x.com/HalbornSecurity",
-    "image": "blocksec"
-  },
-  {
-    "isLive": true,
-    "name": "Hashcloak",
-    "url": "https://hashcloak.com/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
-    "github": "https://github.com/hashcloak",
-    "twitter": "https://x.com/hashcloak",
-    "image": "blocksec"
-  },
-  {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Hexens",
     "url": "https://hexens.io/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
+    "tags": ["Security/Auditor"],
+    "description": "Hexens is a premier cybersecurity provider with an essential focus on blockchain. Staying on the edge of the knife of emerging tech, it secures more than $85 BLN assets net worth across Web2 and Web3.",
     "github": "https://github.com/Hexens",
     "twitter": "https://x.com/hexensio",
-    "image": "blocksec"
+    "image": "hexens"
   },
   {
-    "isLive": true,
-    "name": "OtterSec",
-    "url": "https://osec.io/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
-    "github": "https://github.com/otter-sec/",
-    "twitter": "https://x.com/osec_io",
-    "image": "blocksec"
-  },
-  {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Quill Audits",
     "url": "https://www.quillaudits.com/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
-    "github": "",
+    "tags": ["Security/Auditor"],
+    "description": "Web3 security leader offering robust audit and pentest services, having secured 1000+ projects since 2018.",
+    "github": "https://github.com/quillhash/QuillAudit_Reports",
     "twitter": "https://x.com/quillaudits_ai",
-    "image": "blocksec"
+    "image": "quillaudits"
   },
   {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "CD Security",
+    "url": "https://cdsecurity.site/",
+    "tags": ["Security/Auditor"],
+    "description": "Providing Elite Smart Contract Security. Expert security reviews for your smart contracts and blockchain projects.",
+    "github": "https://github.com/CDSecurity/audits",
+    "twitter": "https://x.com/CDSecurity_",
+    "image": "cdsecurity"
+  },
+  {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Sherlock",
     "url": "https://www.sherlock.xyz/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
-    "github": "https://github.com/sherlock-protocol/",
+    "tags": ["Security/Auditor"],
+    "description": "Mobilize Sherlock’s distributed network of auditors to protect your users from the most dangerous vulnerabilities",
+    "github": "https://github.com/sherlock-protocol/sherlock-reports",
     "twitter": "https://x.com/sherlockdefi",
-    "image": "blocksec"
+    "image": "sherlock"
   },
   {
-    "isLive": true,
-    "name": "Verilog",
-    "url": "https://www.verilog.solutions/#/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
-    "github": "https://github.com/Verilog-Solutions",
-    "twitter": "https://twitter.com/verilog_audit",
-    "image": "blocksec"
-  },
-  {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Zellic",
     "url": "https://www.zellic.io/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
+    "tags": ["Security/Auditor"],
+    "description": "Zellic is a security research firm with deep expertise in blockchain security and cryptography, led by the best hackers in the world.",
     "github": "https://github.com/zellic/",
     "twitter": "https://twitter.com/zellic_io",
-    "image": "blocksec"
+    "image": "zellic"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Linum Labs",
     "url": "https://www.linumlabs.com/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
+    "tags": ["Security/Auditor"],
+    "description": "Linum Labs specializes in custom blockchain solutions and is one of the leading agencies offering Sway smart contract auditing services on Fuel Network.",
     "github": "",
     "twitter": "https://x.com/linumlabs",
-    "image": "blocksec"
+    "image": "linumlabs"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Trail of Bits",
     "url": "https://www.trailofbits.com/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
+    "tags": ["Security/Auditor"],
+    "description": "Trail of Bits doesn't just find bugs - we deliver comprehensive security solutions in AI/ML, application security, blockchain, and cryptography through design reviews, threat models, and code reviews.",
     "github": "https://github.com/trailofbits",
     "twitter": "https://x.com/trailofbits",
-    "image": "blocksec"
+    "image": "trailofbits"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Safe Edges",
     "url": "https://safeedges.in/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
-    "github": "",
+    "tags": ["Security/Auditor"],
+    "description": "Safe Edges is fully focused Sway security audits for projects built on the Fuel Network",
+    "github": "https://github.com/Safe-Edges",
     "twitter": "https://x.com/safe_edges",
-    "image": "blocksec"
+    "image": "safeedges"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Ourovoros",
     "url": "https://ourovoros.io/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
-    "github": "",
-    "twitter": "",
-    "image": "blocksec"
+    "tags": ["Security/Auditor"],
+    "description": "Ourovoros is a collective of ex-auditors with over 500 audits under our belt. We are focused on delivering high quality development and auditing for blockchain solutions.",
+    "github": "https://github.com/ourovoros-io",
+    "twitter": "https://x.com/ioourovoros/",
+    "image": "ourovoros"
   },
   {
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Hacken",
     "url": "https://hacken.io/",
-    "tags": [
-      "Security/Auditor"
-    ],
-    "description": "",
-    "github": "",
+    "tags": ["Security/Auditor"],
+    "description": "Our services include Smart Contract Audit, Blockchain Protocol Audit, dApp Audit, Penetration Testing, and CCSS Audit. Our product portfolio features HackenProof bug bounties, CER.live cybersecurity ranking, and Extractor on-chain monitoring.",
+    "github": "https://github.com/hknio",
     "twitter": "https://x.com/hackenclub",
-    "image": "blocksec"
+    "image": "hacken"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Hexagate",
+    "url": "https://www.hexagate.com/",
+    "tags": ["Security/Auditor"],
+    "description": "Hexagate offers real-time threat detection and proactive prevention platform, leveraging ML and advanced algorithms for early exploit detection.",
+    "github": "",
+    "twitter": "https://x.com/hexagate_",
+    "image": "hexagate"
   }
 ]
