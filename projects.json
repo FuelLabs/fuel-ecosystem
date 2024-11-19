@@ -39,7 +39,8 @@
     "image": "artdao"
   },
   {
-    "isLive": false,
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "Bako ID",
     "url": "https://www.bako.id/",
     "tags": [
