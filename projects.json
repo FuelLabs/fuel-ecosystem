@@ -437,19 +437,6 @@
     "image": "fuelet"
   },
   {
-    "isLive": false,
-    "name": "getfuel.Fun",
-    "url": "https://getfuel.fun/",
-    "tags": [
-      "DeFi"
-    ],
-    "description": "Launch a coin that is instantly tradeable in one click on the Fuel Network by Unpaid labs.",
-    "github": "",
-    "twitter": "https://x.com/fueldotfun",
-    "discord": "",
-    "image": "fueldotfun"
-  },
-  {
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Gas.zip",
@@ -954,19 +941,6 @@
     "twitter": "",
     "discord": "",
     "image": "swayanalyzer"
-  },
-  {
-    "isLive": false,
-    "name": "Sway.Fun",
-    "url": "https://sway.fun/",
-    "tags": [
-      "DeFi"
-    ],
-    "description": "Launch a New Token in Seconds",
-    "github": "",
-    "twitter": "https://x.com/swaydotfun",
-    "discord": "",
-    "image": "swaydotfun"
   },
   {
     "isLiveMainnet": true,
