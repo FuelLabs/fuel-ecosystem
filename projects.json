@@ -614,6 +614,12 @@
     "isFeatured": true,
     "name": "Mira Exchange",
     "url": "https://mira.ly/",
+    "audits": [
+      {
+        "title": "Security Audit",
+        "url": "https://docs.mira.ly/developer-guides/security-audit"
+      }
+    ],
     "contracts": {
       "mainnet": [
         {
