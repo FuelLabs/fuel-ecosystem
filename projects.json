@@ -275,6 +275,7 @@
     "image": "executoors"
   },
   {
+    "isLiveMainnet": true,
     "isLive": false,
     "isFeatured": true,
     "name": "Fluid Protocol",
