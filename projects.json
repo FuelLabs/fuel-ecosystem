@@ -305,6 +305,20 @@
     "image": "fuelup"
   },
   {
+    "isLiveMainnet":true,
+    "isLive": true,
+    "name": "Fuel Monkees",
+    "url": "https://fuelmonkees.com",
+    "tags": [
+      "NFT"
+    ],
+    "description": "A chaotic NFT Tribe on Fuel, uniting degens with unmatched art and unstoppable energy.",
+    "github": "https://github.com/fuelmonkees",
+    "twitter": "https://x.com/fuelmonkees",
+    "discord": "",
+    "image": "fuelmonkees"
+  },
+  {
     "order": 3,
     "isLive": true,
     "isFeatured":true,
@@ -318,6 +332,20 @@
     "twitter": "https://x.com/FuelNameService",
     "discord": "https://discord.com/invite/8RF78b5X6a",
     "image": "fuelnameservice"
+  },
+  {
+    "isLiveMainnet":true,
+    "isLive": true,
+    "name": "Fuel Pengus",
+    "url": "https://fuelpengus.com/",
+    "tags": [
+      "NFT"
+    ],
+    "description": "Fuel Pengus is a collection of 5555 Penguin PFPs, Aiming to build the biggest NFT community on Fuel!",
+    "github": "",
+    "twitter": "https://x.com/FuelPengus",
+    "discord": "https://discord.gg/JMuWQ8AZZf",
+    "image": "fuelpengus"
   },
   {
     "isFeatured":true,
