@@ -1001,6 +1001,12 @@
     "isFeatured": true,
     "name": "Swaylend",
     "url": "https://swaylend.com/",
+    "audits": [
+      {
+        "title": "Security Audit",
+        "url": "https://github.com/Swaylend/swaylend-monorepo/tree/develop/audits"
+      }
+    ],
     "contracts": {
       "mainnet": [
         {
