@@ -43,6 +43,51 @@
     "isLive": true,
     "name": "Bako ID",
     "url": "https://www.bako.id/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x3bb2e28713f05a171dbd193d3b86a358d259b5a94cda74a6ae16e4f20d32e1b8",
+          "name": "Bako ID Registry",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/registry/src/main.sw",
+          "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
+          "repo": "https://github.com/infinitybase/bako-id",
+          "links": [],
+          "audits": []
+        },
+        {
+          "id": "0x6a209d27a050740dc2539dcc41914f07c35ecb21f0c02279e85777353b474801",
+          "name": "Bako ID NFT",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/nft/src/main.sw",
+          "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
+          "repo": "https://github.com/infinitybase/bako-id",
+          "links": [],
+          "audits": []
+        },
+        {
+          "id": "0x3ca7ac3db222a740e1c89158d9255afc2c3591ee3f34aedcaaf7cfeceebd0833",
+          "name": "Bako ID Manager",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/manager/src/main.sw",
+          "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
+          "repo": "https://github.com/infinitybase/bako-id",
+          "links": [],
+          "audits": []
+        },
+        {
+          "id": "0x3f12590e0fbd5fa29044b54fb3af17c1441c8eda1f1a74bdbf0f03ae489c448d",
+          "name": "Bako ID Resolver",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/resolver/src/main.sw",
+          "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
+          "repo": "https://github.com/infinitybase/bako-id",
+          "links": [],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
     "tags": [
       "Social"
     ],
