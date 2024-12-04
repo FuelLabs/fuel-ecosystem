@@ -2,6 +2,8 @@
 
 The home for ecosystem applications building on the Fuel Network. Find all the relevant information like name, websites, logos and more.
 
+This is a change to test the new CLA bot.
+
 ## How to add a project
 
 1. Fork this repository
