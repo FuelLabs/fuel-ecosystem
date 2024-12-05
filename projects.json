@@ -56,6 +56,16 @@
           "audits": []
         },
         {
+          "id": "0x4a62d08448e5e91c954dee7244cf2ac09e790de039e96283b2aded0e96d23ec9",
+          "name": "Bako ID Registry (Proxy)",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/registry/src/main.sw",
+          "commit": "bcbd58aee7350e996b28e518951166a78f4893cd",
+          "repo": "https://github.com/infinitybase/bako-id",
+          "links": [],
+          "audits": []
+        },
+        {
           "id": "0x6a209d27a050740dc2539dcc41914f07c35ecb21f0c02279e85777353b474801",
           "name": "Bako ID NFT",
           "description": "",
