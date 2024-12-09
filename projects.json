@@ -376,6 +376,21 @@
   {
     "isLiveMainnet":true,
     "isLive": true,
+    "name": "Fuel Bomba",
+    "url": "https://fuelbomba.com/",
+    "tags": [
+      "DeFi",
+      "NFT"
+    ],
+    "description": "Fuel Bomba: NFTs where holders short/long ETH, earn points, and get Woopa token airdrops! ⛽️",
+    "github": "",
+    "twitter": "https://x.com/Fuelbomba",
+    "discord": "",
+    "image": "fuelbomba"
+  },
+  {
+    "isLiveMainnet":true,
+    "isLive": true,
     "name": "Fuel Monkees",
     "url": "https://fuelmonkees.com",
     "tags": [
@@ -689,6 +704,20 @@
     "twitter": "https://x.com/realmeld",
     "discord": "",
     "image": "meld"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "MemeBridge",
+    "url": "https://memebridge.xyz",
+    "tags": [
+      "Bridge"
+    ],
+    "description": "The cheapest Layer2 bridge. Bridge through Layer2s within seconds.",
+    "github": "https://github.com/MeMeBridge",
+    "twitter": "https://x.com/MemebridgeB",
+    "discord": "",
+    "image": "memebridge"
   },
   {
     "isLiveMainnet": true,
