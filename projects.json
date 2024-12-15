@@ -522,6 +522,20 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
+    "name": "Fuel Rocks",
+    "url": "https://thundernft.market/collection/fuel-rocks",
+    "tags": [
+      "NFT"
+    ],
+    "description": "Fuel Rocks 🪨⛽️, inspired by EtherRock, will redefine the Fuel ecosystem with 2019 unique rocks.",
+    "github": "",
+    "twitter": "https://x.com/FuelRocks2019",
+    "discord": "",
+    "image": "fuelrocks"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "Fuel Wallet",
     "url": "https://wallet.fuel.network/docs/install/",
     "tags": [
