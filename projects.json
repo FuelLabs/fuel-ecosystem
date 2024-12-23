@@ -988,19 +988,6 @@
     "isLive": true,
     "name": "Ruscet Exchange",
     "url": "https://ruscet.xyz/",
-    "tags": [
-      "DeFi"
-    ],
-    "github": "https://github.com/burralabs/ruscet-contracts",
-    "twitter": "https://x.com/RuscetFi",
-    "discord": "",
-    "image": "ruscet"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Ruscet Exchange",
-    "url": "https://ruscet.xyz/",
     "contracts": {
       "mainnet": [
         {
