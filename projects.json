@@ -1004,6 +1004,21 @@
             }
           ],
           "audits": []
+        },
+        {
+          "id": "0x1d9d3b612524384c98e1cf03a1cda6a3aadb8ac794c9df87fe5ca6ac39ae3bcc",
+          "name": "Ruscet RLP Contract",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/burralabs/ruscet-contracts/a7d1f4604c06183d81b361e5efa5472f5b58074a/contracts/assets/rlp/src/main.sw",
+          "commit": "a7d1f4604c06183d81b361e5efa5472f5b58074a",
+          "repo": "https://github.com/burralabs/ruscet-contracts",
+          "links": [
+            {
+              "title": "Security Audit",
+              "url": "https://docs.ruscet.xyz/security/audits"
+            }
+          ],
+          "audits": []
         }
       ],
       "sepolia": []
