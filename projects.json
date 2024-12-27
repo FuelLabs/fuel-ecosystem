@@ -508,6 +508,20 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
+    "name": "Fuel Fire",
+    "url": "https://www.fuelfire.org/",
+    "tags": [
+      "Gaming"
+    ],
+    "description": "Fuel Fire is an innovative FPS game for Android with a Compete-to-Earn Model.",
+    "github": "https://github.com/fuelfire009/Fuel-Fire-DevMode",
+    "twitter": "https://x.com/FuelFire3",
+    "discord": "",
+    "image": "fuelfire"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "Fuel Pumps",
     "url": "https://www.fuelpump.xyz/",
     "tags": [
@@ -983,6 +997,20 @@
   "discord": "https://discord.com/invite/retrobridge",
   "image": "retrobridge"
   },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "RetroFuel",
+    "url": "https://retrofuel.xyz/",
+    "tags": [
+      "NFT"
+    ],
+    "description": "We bring retro aesthetics to life through unique digital collectibles.",
+    "github": "https://github.com/koby32px",
+    "twitter": "https://x.com/retro_fuel",
+    "discord": "",
+    "image": "retrofuel"
+    },
   {
     "isLiveMainnet": true,
     "isLive": true,
