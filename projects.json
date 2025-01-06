@@ -1464,6 +1464,17 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
+    "name": "Simply Staking",
+    "url": "https://stake.simplystaking.com/fuel/",
+    "tags": ["Bridge"],
+    "description": "Stake your Fuel tokens effortlessly with Simply Staking's secure, intuitive dashboard. Track rewards, access updates, and maximize your staking potential.",
+    "github": "https://github.com/SimplyStaking",
+    "twitter": "https://x.com/SimplyStaking",
+    "image": "simplystaking"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
     "name": "Ourovoros",
     "url": "https://ourovoros.io/",
     "tags": ["Security"],
