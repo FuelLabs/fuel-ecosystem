@@ -1502,5 +1502,16 @@
     "github": "",
     "twitter": "https://x.com/hexagate_",
     "image": "hexagate"
+  },
+  {
+    "isLiveMainnet": false,
+    "isLive": false,
+    "name": "Cybernetics",
+    "url": "https://www.cybernetics.gg/",
+    "tags": ["NFT"],
+    "description": "The First Utility-Driven NFT Collection on Fuel Featuring 1912 Unique Artworks.",
+    "github": "",
+    "twitter": "https://x.com/fuelcybernetics3",
+    "image": "cybernetics"
   }
 ]
