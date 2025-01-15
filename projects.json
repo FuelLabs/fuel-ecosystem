@@ -597,6 +597,7 @@
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
+    "isFuelSeason": true,
     "name": "Griffy",
     "url": "https://griffy.app/",
     "predicates": {
@@ -766,6 +767,7 @@
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
+    "isFuelSeason": true,
     "name": "Mira Exchange",
     "url": "https://mira.ly/",
     "contracts": {
@@ -1196,6 +1198,7 @@
     "isLive": true,
     "isFeatured": true,
     "name": "Swaylend",
+    "isFuelSeason": true,
     "url": "https://swaylend.com/",
     "contracts": {
       "mainnet": [
