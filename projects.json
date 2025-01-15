@@ -348,6 +348,7 @@
     "isLiveMainnet": true,
     "isLive": false,
     "isFeatured": true,
+    "isFuelSeason": true,
     "name": "Fluid Protocol",
     "url": "https://fluidprotocol.xyz/",
     "tags": [
