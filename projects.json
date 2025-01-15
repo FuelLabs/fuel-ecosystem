@@ -1522,10 +1522,7 @@
     "isLive": true,
     "name": "MEXC",
     "url": "https://www.mexc.com/",
-    "tags": [
-      "Exchange"
-    ],
-    "description": "MEXC is a cryptocurrency exchange that provides users with trading services for digital assets.",
+    "isExternalExchange": true,
     "twitter": "https://x.com/MEXC_Official",
     "discord": "https://discord.com/invite/AsDwGJ5T95",
     "image": "mexc",
@@ -1536,11 +1533,7 @@
     "isLive": true,
     "name": "BitGet",
     "url": "https://www.bitget.com/",
-    "tags": [
-      "Exchange"
-    ],
-    "description": "BitGet is a cryptocurrency exchange offering spot, derivatives, and copy trading services.",
-    "github": "",
+    "isExternalExchange": true,
     "twitter": "https://x.com/bitgetglobal",
     "discord": "https://discord.com/invite/bitget",
     "image": "bitget",
