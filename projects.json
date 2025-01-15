@@ -1517,27 +1517,5 @@
     "github": "https://github.com/DevForce99",
     "twitter": "https://x.com/fuelcybernetics",
     "image": "cybernetics"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "MEXC",
-    "url": "https://www.mexc.com/",
-    "isExternalExchange": true,
-    "twitter": "https://x.com/MEXC_Official",
-    "discord": "https://discord.com/invite/AsDwGJ5T95",
-    "image": "mexc",
-    "address": "0xDB491B442f68ebAa785f077805158EBfDDEedE7063F16D5A26e1073FF6987601"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "BitGet",
-    "url": "https://www.bitget.com/",
-    "isExternalExchange": true,
-    "twitter": "https://x.com/bitgetglobal",
-    "discord": "https://discord.com/invite/bitget",
-    "image": "bitget",
-    "address": "0xAFdDA1Cd084Ed0F56D35f570b2e9D34E7C7380191058e2a2fb16e0c58cbBC7c2"
   }
 ]
