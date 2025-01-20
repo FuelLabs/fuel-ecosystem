@@ -54,7 +54,8 @@
           "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
           "repo": "https://github.com/infinitybase/bako-id",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/bako-id/registry-abi.json"
         },
         {
           "id": "0x4a62d08448e5e91c954dee7244cf2ac09e790de039e96283b2aded0e96d23ec9",
@@ -74,7 +75,8 @@
           "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
           "repo": "https://github.com/infinitybase/bako-id",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/bako-id/nft-abi.json"
         },
         {
           "id": "0x3ca7ac3db222a740e1c89158d9255afc2c3591ee3f34aedcaaf7cfeceebd0833",
@@ -84,7 +86,8 @@
           "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
           "repo": "https://github.com/infinitybase/bako-id",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/bako-id/manager-abi.json"
         },
         {
           "id": "0x3f12590e0fbd5fa29044b54fb3af17c1441c8eda1f1a74bdbf0f03ae489c448d",
@@ -94,7 +97,8 @@
           "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
           "repo": "https://github.com/infinitybase/bako-id",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/bako-id/resolver-abi.json"
         }
       ],
       "sepolia": []
@@ -126,7 +130,8 @@
           "repo": "https://github.com/Bako-Labs/bako-safe/tree/main/packages/sway/src/predicate",
           "image": "bakosafe",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/artifacts/bako-safe/bako-predicate-abi.json"
         }
       ],
       "sepolia": []
@@ -454,7 +459,8 @@
           "commit": "2f61bd81cee13a6346fed3053919e28c53e1754e",
           "repo": "https://github.com/FuelLabs/fuel-bridge",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/fuel-bridge/bridge_fungible_token-abi.json"
         }
       ],
       "sepolia": []
@@ -485,7 +491,8 @@
           "repo": "https://github.com/FuelLabs/fuel-connectors/tree/main/packages/evm-predicates/predicate",
           "image": "ethereumconnector",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/fuel-connectors/evm-verification-predicate-abi.json"
         },
         {
           "blob_id": "0x3ac5c446f2f99d83d0e2dc773bb77c619783f1389c4d0198bba9b48680b80177",
@@ -496,7 +503,8 @@
           "repo": "https://github.com/FuelLabs/fuel-connectors/tree/main/packages/solana-connector/predicate",
           "image": "solanaconnector",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/fuel-connectors/solana-verification-predicate-abi.json"
         }
       ],
       "sepolia": []
@@ -786,7 +794,8 @@
               "url": "https://docs.mira.ly/developer-guides/security-audit"
             }
           ],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/mira-amm/mira_amm_contract-abi.json"
         },
         {
           "id": "0xa703db08d1dbf30a6cd2fef942d8dcf03f25d2254e2091ee1f97bf5fa615639e",
@@ -801,7 +810,8 @@
               "url": "https://docs.mira.ly/developer-guides/security-audit"
             }
           ],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/mira-amm/mira_validation_hook-abi.json"
         }
       ],
       "sepolia": []
@@ -957,7 +967,8 @@
           "commit": "4ab64d2539a749e51e1281bdd7744781f5e9df8c",
           "repo": "https://github.com/pyth-network/pyth-crosschain",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/pyth-network/pyth-contract-abi.json"
         }
       ],
       "sepolia": []
@@ -1033,7 +1044,8 @@
               "url": "https://docs.ruscet.xyz/security/audits"
             }
           ],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/ruscet/vault-abi.json"
         },
         {
           "id": "0x1d9d3b612524384c98e1cf03a1cda6a3aadb8ac794c9df87fe5ca6ac39ae3bcc",
@@ -1048,7 +1060,8 @@
               "url": "https://docs.ruscet.xyz/security/audits"
             }
           ],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/ruscet/rlp-abi.json"
         }
       ],
       "sepolia": []
@@ -1163,7 +1176,8 @@
           "commit": "17af4d2e097abfa6e8e659387ff4b540be9b8af8",
           "repo": "https://github.com/FuelLabs/sway-farm",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/sway-farm/farm-contract-abi.json"
         }
       ],
       "sepolia": []
@@ -1211,7 +1225,8 @@
           "commit": "0c84d3a19d777b197b03c34386031985cec71bd3",
           "repo": "https://github.com/Swaylend/swaylend-monorepo",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/swaylend/market-abi.json"
         },
         {
           "id": "0x657ab45a6eb98a4893a99fd104347179151e8b3828fd8f2a108cc09770d1ebae",
@@ -1265,7 +1280,8 @@
           "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
           "repo": "https://github.com/ThunderFuel/smart-contracts",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/thunder-exchange/thunder_exchange-abi.json"
         },
         {
           "id": "0x1b3de4f663c79fce77ff5a0ae4d92693c3a2001f6d7e39c3d16eb1a80df38fe6",
@@ -1275,7 +1291,8 @@
           "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
           "repo": "https://github.com/ThunderFuel/smart-contracts",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/thunder-exchange/asset_manager-abi.json"
         },
         {
           "id": "0x773ca186f811c1655be9d6dcc84aef437cf25c2ebe8c367810529a8ee53fc92a",
@@ -1285,7 +1302,8 @@
           "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
           "repo": "https://github.com/ThunderFuel/smart-contracts",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/thunder-exchange/pool-abi.json"
         },
         {
           "id": "0xfb2b92c17160f9856664bde85bec51f5839d565898d489a6ef8fcb9b73575b57",
@@ -1295,7 +1313,8 @@
           "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
           "repo": "https://github.com/ThunderFuel/smart-contracts",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/thunder-exchange/strategy_fixed_price_sale-abi.json"
         },
         {
           "id": "0xd5af7d47d518a679495f5ebd6de51bc8ddffbe173f3c1775d90f7acb7e6655ad",
@@ -1305,7 +1324,8 @@
           "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
           "repo": "https://github.com/ThunderFuel/smart-contracts",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/thunder-exchange/execution_manager-abi.json"
         },
         {
           "id": "0x2340a412a77607108d160926222632dd427bafc6f57e185c0140c849d88b8e99",
@@ -1315,7 +1335,8 @@
           "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
           "repo": "https://github.com/ThunderFuel/smart-contracts",
           "links": [],
-          "audits": []
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/thunder-exchange/royalty_manager-abi.json"
         }
       ],
       "sepolia": []
