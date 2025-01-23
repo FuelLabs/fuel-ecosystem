@@ -472,6 +472,25 @@
     "image": "fuelbridge"
   },
   {
+    "isFeatured":true,
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Fuel Bridge Auto-Relayer",
+    "url": "https://app.fuel.network/bridge",
+    "tags": [
+      "Bridge",
+      "Fuel",
+      "Tooling"
+    ],
+    "description": "Fuel Bridge Auto-Relayer is a tool that automatically re-routes assets from Ethereum to Fuel using Fuel's native bridge.",
+    "github": "https://github.com/FuelLabs/fuel-bridge",
+    "twitter": "https://x.com/fuel_network",
+    "discord": "https://discord.gg/fuelnetwork",
+    "image": "fuelbridge",
+    "isExternalExchange": true,
+    "address": "0x4F27654EA3713143Ba28828362b12e678080CEb011E7337Ad9b8cBF1CeF4F6A1"
+  },
+  {
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuel Connectors",
@@ -684,8 +703,9 @@
     "description": "The reliable solution for transferring crypto assets across networks in a matter of minutes.",
     "github": "https://github.com/layerswap/layerswapapp",
     "twitter": "https://x.com/layerswap",
-    "discord": "",
-    "image": "layerswap"
+    "image": "layerswap",
+    "isExternalExchange": true,
+    "address": "0x4392c9c05547ecd01252139cdf1d1864207f1c033b09bdc42bedb100acba41ee"
   },
   {
     "isLiveMainnet": true,
