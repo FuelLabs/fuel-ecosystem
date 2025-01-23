@@ -1122,16 +1122,16 @@
     "isLiveMainnet":true,
     "isLive": true,
     "isFeatured": true,
-    "name": "Spark",
-    "url": "https://sprk.fi/",
+    "name": "V12",
+    "url": "https://v12.trade/",
     "tags": [
       "DeFi"
     ],
-    "description": "Spark is a predicate-based central limit order book.",
+    "description": "V12 is a predicate-based central limit order book.",
     "github": "https://github.com/compolabs/spark",
-    "twitter": "https://x.com/Sprkfi",
-    "discord": "https://discord.gg/Nz9VZQrSNH",
-    "image": "spark"
+    "twitter": "https://x.com/v12trade",
+    "discord": "https://discord.com/invite/composability-labs-1051946457793581175",
+    "image": "v12"
   },
   {
     "isLiveMainnet": true,
