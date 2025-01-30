@@ -368,6 +368,8 @@
   {
     "isLiveMainnet":true,
     "isLive": true,
+    "isFeatured": true,
+    "isFuelSeason": true,
     "name": "FuelUp Fun",
     "url": "https://fuelup.fun/",
     "tags": [
@@ -1122,6 +1124,7 @@
     "isLiveMainnet":true,
     "isLive": true,
     "isFeatured": true,
+    "isFuelSeason": true,
     "name": "V12",
     "url": "https://v12.trade/",
     "tags": [
