@@ -1592,5 +1592,27 @@
     "tags": [
       "DeFi"
     ]
+  },
+  {
+    "name": "Fuel Staking",
+    "url": "https://app.fuel.network/staking",
+    "description": "Official Fuel Staking",
+    "tags": ["Bridge"],
+    "isLiveMainnet": true,
+    "isLive": true,
+    "hidden": true,
+    "github": "https://github.com/fuellabs",
+    "twitter": "https://x.com/fuel_network",
+    "image": "fuelbridge",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x095faac82412324c60fdf6934405b5df9de49982284779536218d16d5ee3dc4c",
+          "name": "Fuel Staking",
+          "description": "Fuel Staking"
+        }
+      ],
+      "sepolia": []
+    }
   }
 ]
