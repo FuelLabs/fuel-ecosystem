@@ -381,7 +381,7 @@
     "image": "fluid"
   },
   {
-    "isLiveMainnet":true,
+    "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "isFuelSeason": true,
@@ -398,7 +398,7 @@
     "image": "fuelup"
   },
   {
-    "isLiveMainnet":true,
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuel Bomba",
     "url": "https://fuelbomba.com/",
@@ -413,7 +413,7 @@
     "image": "fuelbomba"
   },
   {
-    "isLiveMainnet":true,
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuel Monkees",
     "url": "https://fuelmonkees.com",
@@ -429,7 +429,7 @@
   {
     "order": 3,
     "isLive": true,
-    "isFeatured":true,
+    "isFeatured": true,
     "name": "Fuel Name Service",
     "url": "https://fuelname.com/",
     "tags": [
@@ -442,7 +442,7 @@
     "image": "fuelnameservice"
   },
   {
-    "isLiveMainnet":true,
+    "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuel Pengus",
     "url": "https://fuelpengus.com/",
@@ -456,7 +456,7 @@
     "image": "fuelpengus"
   },
   {
-    "isFeatured":true,
+    "isFeatured": true,
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuel Bridge",
@@ -533,8 +533,8 @@
     "image": "fuelwallet"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
+    "isLiveMainnet": false,
+    "isLive": false,
     "name": "Fuel Fire",
     "url": "https://www.fuelfire.org/",
     "tags": [
@@ -561,8 +561,8 @@
     "image": "fuelpumps"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
+    "isLiveMainnet": false,
+    "isLive": false,
     "name": "Fuel Rocks",
     "url": "https://thundernft.market/collection/fuel-rocks",
     "tags": [
@@ -690,7 +690,7 @@
     "image": "kassiopea"
   },
   {
-    "isFeatured":true,
+    "isFeatured": true,
     "isLiveMainnet": true,
     "isLive": true,
     "name": "LayerSwap",
@@ -1014,18 +1014,18 @@
     "image": "redstone"
   },
   {
-  "isLiveMainnet": true,
-  "isLive": true,
-  "name": "Retrobridge",
-  "url": "https://app.retrobridge.io/",
-  "tags": [
-    "Bridge"
-  ],
-  "description": "Multichain made easy. All chains, single app.",
-  "github": "https://github.com/retro-bridge",
-  "twitter": "https://x.com/retro_bridge",
-  "discord": "https://discord.com/invite/retrobridge",
-  "image": "retrobridge"
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Retrobridge",
+    "url": "https://app.retrobridge.io/",
+    "tags": [
+      "Bridge"
+    ],
+    "description": "Multichain made easy. All chains, single app.",
+    "github": "https://github.com/retro-bridge",
+    "twitter": "https://x.com/retro_bridge",
+    "discord": "https://discord.com/invite/retrobridge",
+    "image": "retrobridge"
   },
   {
     "isLiveMainnet": true,
@@ -1040,7 +1040,7 @@
     "twitter": "https://x.com/retro_fuel",
     "discord": "",
     "image": "retrofuel"
-    },
+  },
   {
     "isLiveMainnet": true,
     "isLive": true,
@@ -1136,7 +1136,7 @@
   },
   {
     "order": 2,
-    "isLiveMainnet":true,
+    "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
     "isFuelSeason": true,
@@ -1397,7 +1397,9 @@
     "isLive": true,
     "name": "Immunefi",
     "url": "https://immunefi.com/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "Immunefi is the leading onchain crowdsourced security platform. Guarding $190B+ in user funds across projects like Wormhole, Polygon and Optimism, Immunefi has paid out $100M+ to security researchers.",
     "github": "https://github.com/immunefi-team/",
     "twitter": "https://x.com/immunefi",
@@ -1408,7 +1410,9 @@
     "isLive": true,
     "name": "Blocksec",
     "url": "https://blocksec.com/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "It provides expert security auditing services and post-launch security product Phalcon, which can monitor and block hacks.",
     "github": "https://github.com/blocksecteam",
     "twitter": "https://x.com/blocksecteam",
@@ -1419,7 +1423,9 @@
     "isLive": true,
     "name": "Hexens",
     "url": "https://hexens.io/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "Hexens is a premier cybersecurity provider with an essential focus on blockchain. Staying on the edge of the knife of emerging tech, it secures more than $85 BLN assets net worth across Web2 and Web3.",
     "github": "https://github.com/Hexens",
     "twitter": "https://x.com/hexensio",
@@ -1430,7 +1436,9 @@
     "isLive": true,
     "name": "Quill Audits",
     "url": "https://www.quillaudits.com/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "Web3 security leader offering robust audit and pentest services, having secured 1000+ projects since 2018.",
     "github": "https://github.com/quillhash/QuillAudit_Reports",
     "twitter": "https://x.com/quillaudits_ai",
@@ -1441,7 +1449,9 @@
     "isLive": true,
     "name": "CD Security",
     "url": "https://cdsecurity.site/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "Providing Elite Smart Contract Security. Expert security reviews for your smart contracts and blockchain projects.",
     "github": "https://github.com/CDSecurity/audits",
     "twitter": "https://x.com/CDSecurity_",
@@ -1452,7 +1462,9 @@
     "isLive": true,
     "name": "Sherlock",
     "url": "https://www.sherlock.xyz/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "Mobilize Sherlock’s distributed network of auditors to protect your users from the most dangerous vulnerabilities",
     "github": "https://github.com/sherlock-protocol/sherlock-reports",
     "twitter": "https://x.com/sherlockdefi",
@@ -1463,7 +1475,9 @@
     "isLive": true,
     "name": "Zellic",
     "url": "https://www.zellic.io/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "Zellic is a security research firm with deep expertise in blockchain security and cryptography, led by the best hackers in the world.",
     "github": "https://github.com/zellic/",
     "twitter": "https://twitter.com/zellic_io",
@@ -1474,7 +1488,9 @@
     "isLive": true,
     "name": "Linum Labs",
     "url": "https://www.linumlabs.com/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "Linum Labs specializes in custom blockchain solutions and is one of the leading agencies offering Sway smart contract auditing services on Fuel Network.",
     "github": "",
     "twitter": "https://x.com/linumlabs",
@@ -1485,7 +1501,9 @@
     "isLive": true,
     "name": "Trail of Bits",
     "url": "https://www.trailofbits.com/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "Trail of Bits doesn't just find bugs - we deliver comprehensive security solutions in AI/ML, application security, blockchain, and cryptography through design reviews, threat models, and code reviews.",
     "github": "https://github.com/trailofbits",
     "twitter": "https://x.com/trailofbits",
@@ -1496,7 +1514,9 @@
     "isLive": true,
     "name": "Safe Edges",
     "url": "https://safeedges.in/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "Safe Edges is fully focused Sway security audits for projects built on the Fuel Network",
     "github": "https://github.com/Safe-Edges",
     "twitter": "https://x.com/safe_edges",
@@ -1507,7 +1527,9 @@
     "isLive": true,
     "name": "Simply Staking",
     "url": "https://stake.simplystaking.com/fuel/",
-    "tags": ["Tooling"],
+    "tags": [
+      "Tooling"
+    ],
     "description": "Stake your Fuel tokens effortlessly with Simply Staking's secure, intuitive dashboard. Track rewards, access updates, and maximize your staking potential.",
     "github": "https://github.com/SimplyStaking",
     "twitter": "https://x.com/SimplyStaking",
@@ -1518,7 +1540,9 @@
     "isLive": true,
     "name": "Ourovoros",
     "url": "https://ourovoros.io/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "Ourovoros is a collective of ex-auditors with over 500 audits under our belt. We are focused on delivering high quality development and auditing for blockchain solutions.",
     "github": "https://github.com/ourovoros-io",
     "twitter": "https://x.com/ioourovoros/",
@@ -1529,7 +1553,9 @@
     "isLive": true,
     "name": "Hacken",
     "url": "https://hacken.io/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "Our services include Smart Contract Audit, Blockchain Protocol Audit, dApp Audit, Penetration Testing, and CCSS Audit. Our product portfolio features HackenProof bug bounties, CER.live cybersecurity ranking, and Extractor on-chain monitoring.",
     "github": "https://github.com/hknio",
     "twitter": "https://x.com/hackenclub",
@@ -1540,7 +1566,9 @@
     "isLive": true,
     "name": "Hexagate",
     "url": "https://www.hexagate.com/",
-    "tags": ["Security"],
+    "tags": [
+      "Security"
+    ],
     "description": "Hexagate offers real-time threat detection and proactive prevention platform, leveraging ML and advanced algorithms for early exploit detection.",
     "github": "",
     "twitter": "https://x.com/hexagate_",
@@ -1551,7 +1579,9 @@
     "isLive": false,
     "name": "Cybernetics",
     "url": "https://www.cybernetics.gg/",
-    "tags": ["NFT"],
+    "tags": [
+      "NFT"
+    ],
     "description": "The First Utility-Driven NFT Collection on Fuel Featuring 1912 Unique Artworks.",
     "github": "https://github.com/DevForce99",
     "twitter": "https://x.com/fuelcybernetics",
@@ -1612,7 +1642,9 @@
     "name": "Fuel Staking",
     "url": "https://app.fuel.network/staking",
     "description": "Official Fuel Staking",
-    "tags": ["Bridge"],
+    "tags": [
+      "Bridge"
+    ],
     "isLiveMainnet": true,
     "isLive": true,
     "hidden": true,
