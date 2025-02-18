@@ -466,6 +466,7 @@
       "Fuel",
       "Tooling"
     ],
+    "showAccountTag": true,
     "contracts": {
       "mainnet": [
         {
@@ -484,6 +485,25 @@
     },
     "description": "Bridge assets from Ethereum to Fuel with Fuel's native bridge.",
     "github": "https://github.com/FuelLabs/fuel-bridge",
+    "twitter": "https://x.com/fuel_network",
+    "discord": "https://discord.gg/fuelnetwork",
+    "image": "fuelbridge"
+  },
+  {
+    "isFeatured":true,
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Fuel Bridge Auto-Relayer",
+    "url": "https://app.fuel.network/bridge",
+    "tags": [
+      "Bridge",
+      "Fuel",
+      "Tooling"
+    ],
+    "showAccountTag": true,
+    "address": "0x4F27654EA3713143Ba28828362b12e678080CEb011E7337Ad9b8cBF1CeF4F6A1",
+    "description": "The Auto Relayer is a service that automatically relays withdrawals from Fuel to Ethereum, eliminating the need for users to manually relay their own withdrawals. It monitors the Fuel Network for withdrawal events and submits the corresponding withdrawal messages to Ethereum.",
+    "github": "https://github.com/FuelLabs/auto-relayer",
     "twitter": "https://x.com/fuel_network",
     "discord": "https://discord.gg/fuelnetwork",
     "image": "fuelbridge"
@@ -701,8 +721,10 @@
     "description": "The reliable solution for transferring crypto assets across networks in a matter of minutes.",
     "github": "https://github.com/layerswap/layerswapapp",
     "twitter": "https://x.com/layerswap",
-    "discord": "",
-    "image": "layerswap"
+    "discord": "https://discord.gg/layerswap",
+    "image": "layerswap",
+    "address": "0x4392c9c05547ecd01252139cdf1d1864207f1c033b09bdc42bedb100acba41ee",
+    "showAccountTag": true
   },
   {
     "isLiveMainnet": true,
@@ -879,11 +901,13 @@
     "tags": [
       "Bridge"
     ],
+    "showAccountTag": true,
     "description": "Decentralized cross-rollup bridge offers low cost and almost instant transfers.",
     "github": "https://github.com/Orbiter-Finance",
     "twitter": "https://x.com/Orbiter_Finance",
-    "discord": "",
-    "image": "orbiter"
+    "discord": "https://discord.com/invite/FbztTBvnBT",
+    "image": "orbiter",
+    "address": "0xE485bC364E5BAF7365E772Ce8911d5F67aa983adf8469D92bB7D29C4cd5f459A"
   },
   {
     "isLiveMainnet": true,
