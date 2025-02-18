@@ -500,9 +500,10 @@
       "Fuel",
       "Tooling"
     ],
+    "hidden": true,
     "showAccountTag": true,
     "address": "0x4F27654EA3713143Ba28828362b12e678080CEb011E7337Ad9b8cBF1CeF4F6A1",
-    "description": "The Auto Relayer is a service that automatically relays withdrawals from Fuel to Ethereum, eliminating the need for users to manually relay their own withdrawals. It monitors the Fuel Network for withdrawal events and submits the corresponding withdrawal messages to Ethereum.",
+    "description": "",
     "github": "https://github.com/FuelLabs/auto-relayer",
     "twitter": "https://x.com/fuel_network",
     "discord": "https://discord.gg/fuelnetwork",
