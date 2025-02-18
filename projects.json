@@ -533,8 +533,8 @@
     "image": "fuelwallet"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
+    "isLiveMainnet": false,
+    "isLive": false,
     "name": "Fuel Fire",
     "url": "https://www.fuelfire.org/",
     "tags": [
