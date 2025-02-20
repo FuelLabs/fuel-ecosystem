@@ -1155,7 +1155,7 @@
     "isLiveMainnet": true,
     "isLive": true,
     "name": "SQD",
-    "url": "https://docs.sqd.dev/fuel-indexing/",
+    "url": "https://docs.sqd.ai/fuel-indexing/",
     "tags": [
       "Indexer"
     ],
