@@ -500,6 +500,7 @@
       "Tooling"
     ],
     "hidden": true,
+    "isExternalExchange": true,
     "showAccountTag": true,
     "address": "0x4F27654EA3713143Ba28828362b12e678080CEb011E7337Ad9b8cBF1CeF4F6A1",
     "description": "",
@@ -901,6 +902,7 @@
     "tags": [
       "Bridge"
     ],
+    "isExternalExchange": true,
     "showAccountTag": true,
     "description": "Decentralized cross-rollup bridge offers low cost and almost instant transfers.",
     "github": "https://github.com/Orbiter-Finance",
@@ -1586,6 +1588,7 @@
     "isLive": true,
     "name": "MEXC",
     "url": "https://www.mexc.com/",
+    "isExternalExchange": true,
     "showAccountTag": true,
     "hidden": true,
     "twitter": "https://x.com/MEXC_Official",
@@ -1598,6 +1601,7 @@
     "isLive": true,
     "name": "BitGet",
     "url": "https://www.bitget.com/",
+    "isExternalExchange": true,
     "showAccountTag": true,
     "hidden": true,
     "twitter": "https://x.com/bitgetglobal",
