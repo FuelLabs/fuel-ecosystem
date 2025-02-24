@@ -494,11 +494,6 @@
     "isLive": true,
     "name": "Fuel Bridge Auto-Relayer",
     "url": "https://app.fuel.network/bridge",
-    "tags": [
-      "Bridge",
-      "Fuel",
-      "Tooling"
-    ],
     "hidden": true,
     "isExternalExchange": true,
     "showAccountTag": true,
