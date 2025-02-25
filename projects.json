@@ -14,19 +14,6 @@
     "image": "1delta"
   },
   {
-    "isLive": false,
-    "name": "Aori",
-    "url": "https://www.aori.io/",
-    "tags": [
-      "DeFi"
-    ],
-    "description": "Non-custodial, high-performance order book trading infrastructure for decentralized options, spot trading, and OTC settlement.",
-    "github": "https://github.com/aori-io",
-    "twitter": "https://x.com/aori_io",
-    "discord": "",
-    "image": "aori"
-  },
-  {
     "isLiveMainnet": false,
     "isLive": false,
     "isFeatured": false,
@@ -269,33 +256,6 @@
     "image": "charcoal"
   },
   {
-    "isLive": true,
-    "name": "Common Ground",
-    "url": "https://www.commonground.cg/",
-    "tags": [
-      "Social"
-    ],
-    "description": "The Web3-powered app for communities of all shapes and sizes. Chat, share, and earn with your audience and friends.",
-    "github": "",
-    "twitter": "https://x.com/CommonGround_cg",
-    "discord": "",
-    "image": "commonground"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Constellation Battle",
-    "url": "https://constellation.fun/",
-    "tags": [
-      "Gaming"
-    ],
-    "description": "Summon monsters, collect constellation cards, battle for rewards, and earn dividends—keep your monster alive to win big!",
-    "github": "https://github.com/constellationbattle/game",
-    "twitter": "https://x.com/constellationba",
-    "discord": "",
-    "image": "constellationbattle"
-  },
-  {
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Cookbook",
@@ -308,19 +268,6 @@
     "twitter": "https://x.com/cookbook_dev",
     "discord": "https://discord.gg/cookbookdev",
     "image": "cookbook"
-  },
-  {
-    "isLive": false,
-    "name": "CryptoSage",
-    "url": "https://cryptosage.jump.trade/coming-soon",
-    "tags": [
-      "Prediction Market"
-    ],
-    "description": "An innovative crypto opinion trading platform, where users can monetize their insights and predictions on various cryptocurrencies.",
-    "github": "https://github.com/GuardainDev/Cryptosage",
-    "twitter": "https://x.com/cryptosageoff",
-    "discord": "",
-    "image": "cryptosage"
   },
   {
     "order": 1,
@@ -547,20 +494,6 @@
     "twitter": "https://x.com/fuel_network",
     "discord": "https://discord.gg/fuelnetwork",
     "image": "fuelwallet"
-  },
-  {
-    "isLiveMainnet": false,
-    "isLive": false,
-    "name": "Fuel Fire",
-    "url": "https://www.fuelfire.org/",
-    "tags": [
-      "Gaming"
-    ],
-    "description": "Fuel Fire is an innovative FPS game for Android with a Compete-to-Earn Model.",
-    "github": "https://github.com/fuelfire009/Fuel-Fire-DevMode",
-    "twitter": "https://x.com/FuelFire3",
-    "discord": "",
-    "image": "fuelfire"
   },
   {
     "isLiveMainnet": true,
@@ -919,19 +852,6 @@
     "twitter": "https://x.com/Owlto_Finance",
     "discord": "https://discord.com/invite/owlto",
     "image": "owltofinance"
-  },
-  {
-    "isLive": false,
-    "name": "Pactum",
-    "url": "pactum-one.vercel.app",
-    "tags": [
-      "Tooling"
-    ],
-    "description": "Build your DAO, explore communities, and find inspiration for your project all in one place.",
-    "github": "",
-    "twitter": "https://x.com/Pactum_io",
-    "discord": "",
-    "image": "pactum"
   },
   {
     "isLiveMainnet": true,
