@@ -284,20 +284,6 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
-    "name": "Constellation Battle",
-    "url": "https://constellation.fun/",
-    "tags": [
-      "Gaming"
-    ],
-    "description": "Summon monsters, collect constellation cards, battle for rewards, and earn dividends—keep your monster alive to win big!",
-    "github": "https://github.com/constellationbattle/game",
-    "twitter": "https://x.com/constellationba",
-    "discord": "",
-    "image": "constellationbattle"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
     "name": "Cookbook",
     "url": "https://www.cookbook.dev/chains/Fuel",
     "tags": [
@@ -368,7 +354,6 @@
     "isLiveMainnet": true,
     "isLive": false,
     "isFeatured": true,
-    "isFuelSeason": true,
     "name": "Fluid Protocol",
     "url": "https://fluidprotocol.xyz/",
     "tags": [
@@ -384,7 +369,6 @@
     "isLiveMainnet":true,
     "isLive": true,
     "isFeatured": true,
-    "isFuelSeason": true,
     "name": "FuelUp Fun",
     "url": "https://fuelup.fun/",
     "tags": [
@@ -623,7 +607,6 @@
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
-    "isFuelSeason": true,
     "name": "Griffy",
     "url": "https://griffy.app/",
     "predicates": {
@@ -793,7 +776,6 @@
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
-    "isFuelSeason": true,
     "name": "Mira Exchange",
     "url": "https://mira.ly/",
     "contracts": {
@@ -1139,7 +1121,6 @@
     "isLiveMainnet":true,
     "isLive": true,
     "isFeatured": true,
-    "isFuelSeason": true,
     "name": "V12",
     "url": "https://v12.trade/",
     "tags": [
@@ -1231,7 +1212,6 @@
     "isLive": true,
     "isFeatured": true,
     "name": "Swaylend",
-    "isFuelSeason": true,
     "url": "https://swaylend.com/",
     "contracts": {
       "mainnet": [
@@ -1285,7 +1265,7 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
-    "isFeatured": true,
+    "isFeatured": false,
     "name": "Thunder",
     "url": "https://thundernft.market/",
     "contracts": {
