@@ -14,19 +14,6 @@
     "image": "1delta"
   },
   {
-    "isLive": false,
-    "name": "Aori",
-    "url": "https://www.aori.io/",
-    "tags": [
-      "DeFi"
-    ],
-    "description": "Non-custodial, high-performance order book trading infrastructure for decentralized options, spot trading, and OTC settlement.",
-    "github": "https://github.com/aori-io",
-    "twitter": "https://x.com/aori_io",
-    "discord": "",
-    "image": "aori"
-  },
-  {
     "isLiveMainnet": false,
     "isLive": false,
     "isFeatured": false,
@@ -269,19 +256,6 @@
     "image": "charcoal"
   },
   {
-    "isLive": true,
-    "name": "Common Ground",
-    "url": "https://www.commonground.cg/",
-    "tags": [
-      "Social"
-    ],
-    "description": "The Web3-powered app for communities of all shapes and sizes. Chat, share, and earn with your audience and friends.",
-    "github": "",
-    "twitter": "https://x.com/CommonGround_cg",
-    "discord": "",
-    "image": "commonground"
-  },
-  {
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Cookbook",
@@ -294,19 +268,6 @@
     "twitter": "https://x.com/cookbook_dev",
     "discord": "https://discord.gg/cookbookdev",
     "image": "cookbook"
-  },
-  {
-    "isLive": false,
-    "name": "CryptoSage",
-    "url": "https://cryptosage.jump.trade/coming-soon",
-    "tags": [
-      "Prediction Market"
-    ],
-    "description": "An innovative crypto opinion trading platform, where users can monetize their insights and predictions on various cryptocurrencies.",
-    "github": "https://github.com/GuardainDev/Cryptosage",
-    "twitter": "https://x.com/cryptosageoff",
-    "discord": "",
-    "image": "cryptosage"
   },
   {
     "order": 1,
@@ -473,6 +434,22 @@
     "image": "fuelbridge"
   },
   {
+    "isFeatured":true,
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Fuel Bridge Auto-Relayer",
+    "url": "https://app.fuel.network/bridge",
+    "hidden": true,
+    "isExternalExchange": true,
+    "showAccountTag": true,
+    "address": "0x4F27654EA3713143Ba28828362b12e678080CEb011E7337Ad9b8cBF1CeF4F6A1",
+    "description": "",
+    "github": "https://github.com/FuelLabs/auto-relayer",
+    "twitter": "https://x.com/fuel_network",
+    "discord": "https://discord.gg/fuelnetwork",
+    "image": "fuelbridge"
+  },
+  {
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuel Connectors",
@@ -515,20 +492,6 @@
     "twitter": "https://x.com/fuel_network",
     "discord": "https://discord.gg/fuelnetwork",
     "image": "fuelwallet"
-  },
-  {
-    "isLiveMainnet": false,
-    "isLive": false,
-    "name": "Fuel Fire",
-    "url": "https://www.fuelfire.org/",
-    "tags": [
-      "Gaming"
-    ],
-    "description": "Fuel Fire is an innovative FPS game for Android with a Compete-to-Earn Model.",
-    "github": "https://github.com/fuelfire009/Fuel-Fire-DevMode",
-    "twitter": "https://x.com/FuelFire3",
-    "discord": "",
-    "image": "fuelfire"
   },
   {
     "isLiveMainnet": true,
@@ -684,8 +647,10 @@
     "description": "The reliable solution for transferring crypto assets across networks in a matter of minutes.",
     "github": "https://github.com/layerswap/layerswapapp",
     "twitter": "https://x.com/layerswap",
-    "discord": "",
-    "image": "layerswap"
+    "discord": "https://discord.gg/layerswap",
+    "image": "layerswap",
+    "address": "0x4392c9c05547ecd01252139cdf1d1864207f1c033b09bdc42bedb100acba41ee",
+    "showAccountTag": true
   },
   {
     "isLiveMainnet": true,
@@ -861,11 +826,14 @@
     "tags": [
       "Bridge"
     ],
+    "isExternalExchange": true,
+    "showAccountTag": true,
     "description": "Decentralized cross-rollup bridge offers low cost and almost instant transfers.",
     "github": "https://github.com/Orbiter-Finance",
     "twitter": "https://x.com/Orbiter_Finance",
-    "discord": "",
-    "image": "orbiter"
+    "discord": "https://discord.com/invite/FbztTBvnBT",
+    "image": "orbiter",
+    "address": "0xE485bC364E5BAF7365E772Ce8911d5F67aa983adf8469D92bB7D29C4cd5f459A"
   },
   {
     "isLiveMainnet": true,
@@ -880,19 +848,6 @@
     "twitter": "https://x.com/Owlto_Finance",
     "discord": "https://discord.com/invite/owlto",
     "image": "owltofinance"
-  },
-  {
-    "isLive": false,
-    "name": "Pactum",
-    "url": "pactum-one.vercel.app",
-    "tags": [
-      "Tooling"
-    ],
-    "description": "Build your DAO, explore communities, and find inspiration for your project all in one place.",
-    "github": "",
-    "twitter": "https://x.com/Pactum_io",
-    "discord": "",
-    "image": "pactum"
   },
   {
     "isLiveMainnet": true,
@@ -1136,7 +1091,7 @@
     "isLiveMainnet": true,
     "isLive": true,
     "name": "SQD",
-    "url": "https://docs.sqd.dev/fuel-indexing/",
+    "url": "https://docs.sqd.ai/fuel-indexing/",
     "tags": [
       "Indexer"
     ],
@@ -1543,6 +1498,7 @@
     "name": "MEXC",
     "url": "https://www.mexc.com/",
     "isExternalExchange": true,
+    "showAccountTag": true,
     "hidden": true,
     "twitter": "https://x.com/MEXC_Official",
     "discord": "https://discord.com/invite/AsDwGJ5T95",
@@ -1555,6 +1511,7 @@
     "name": "BitGet",
     "url": "https://www.bitget.com/",
     "isExternalExchange": true,
+    "showAccountTag": true,
     "hidden": true,
     "twitter": "https://x.com/bitgetglobal",
     "discord": "https://discord.com/invite/bitget",
