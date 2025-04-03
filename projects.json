@@ -162,20 +162,6 @@
     "image": "banxa"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "BearBros",
-    "url": "https://bearbrosnft.xyz/",
-    "tags": [
-      "NFT"
-    ],
-    "description": "A community driven unique pixelated PFP collection of 3333 NFTs 🐾 Bros are the brotherhood of Fuel⛽",
-    "github": "https://github.com/BearBros-NFT",
-    "twitter": "https://x.com/BearbrosNFT",
-    "discord": "http://discord.gg/5PHXuD9J",
-    "image": "bearbros"
-  },
-  {
     "isLive": false,
     "name": "Bubblemaps",
     "url": "https://bubblemaps.io/",
