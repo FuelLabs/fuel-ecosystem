@@ -658,20 +658,6 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
-    "name": "Linkx Finance",
-    "url": "https://linkx.finance/",
-    "tags": [
-      "Bridge"
-    ],
-    "description": "LinkxFinance is a decentralized cross-rollup bridge focused on Layer 2 and heterogeneous blockchains",
-    "github": "https://github.com/Linkx-Finance",
-    "twitter": "https://x.com/LinkxFinance",
-    "discord": "https://discord.com/invite/k3kwCqwPQQ",
-    "image": "linkx"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
     "name": "Lync",
     "url": "https://docs.lync.world/fuel/lync-unity-fuel-sdk",
     "tags": [
