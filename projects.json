@@ -15,7 +15,7 @@
   },
   {
     "isLiveMainnet": false,
-    "isLive": false,
+    "isLive": true,
     "isFeatured": false,
     "name": "Arcana",
     "url": "https://arcana.network/",
@@ -29,7 +29,22 @@
     "image": "arcana"
   },
   {
-    "isLive": false,
+    "isFeatured": true,
+    "isMainnet": true,
+    "isLive": true,
+    "name": "ComradeFlip",
+    "url": "https://www.comradeflip.com/",
+    "tags": [
+      "Gaming"
+    ],
+    "description": "Flip to win, or lose to the state.",
+    "github": "",
+    "twitter": "https://x.com/CFP____",
+    "discord": "",
+    "image": "comradeflip"
+  },
+  {
+    "isLive": true,
     "name": "ArtDAO",
     "url": "https://artdao.xyz/",
     "tags": [
@@ -44,6 +59,7 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
+    "isFeatured": true,
     "name": "Bako ID",
     "url": "https://www.bako.id/",
     "contracts": {
@@ -148,8 +164,8 @@
     "image": "bakosafe"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
+    "isLiveMainnet": false,
+    "isLive": false,
     "name": "Banxa",
     "url": "https://banxa.com/",
     "tags": [
@@ -299,7 +315,7 @@
   },
   {
     "isLiveMainnet": true,
-    "isLive": false,
+    "isLive": true,
     "isFeatured": true,
     "isFuelSeason": true,
     "name": "Fluid Protocol",
@@ -361,8 +377,8 @@
   },
   {
     "order": 3,
-    "isLive": true,
-    "isFeatured":true,
+    "isLive": false,
+    "isFeatured":false,
     "name": "Fuel Name Service",
     "url": "https://fuelname.com/",
     "tags": [
@@ -554,10 +570,9 @@
     "image": "gaszip"
   },
   {
-    "order": 4,
-    "isLiveMainnet": true,
-    "isLive": true,
-    "isFeatured": true,
+    "isLiveMainnet": false,
+    "isLive": false,
+    "isFeatured": false,
     "isFuelSeason": true,
     "name": "Griffy",
     "url": "https://griffy.app/",
@@ -670,8 +685,8 @@
     "image": "lync"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
+    "isLiveMainnet": false,
+    "isLive": false,
     "name": "Meld",
     "url": "http://www.meld.io",
     "tags": [
@@ -853,8 +868,8 @@
     "image": "pipeline"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
+    "isLiveMainnet": false,
+    "isLive": false,
     "name": "Props Octane",
     "url": "https://fuel.props.app/",
     "tags": [
@@ -868,8 +883,8 @@
     "image": "propsoctane"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
+    "isLiveMainnet": false,
+    "isLive": false,
     "name": "Props SDK",
     "url": "https://props-fuels.vercel.app/",
     "tags": [
@@ -955,8 +970,10 @@
     "image": "retrofuel"
     },
   {
+    "order": 2,
     "isLiveMainnet": true,
     "isLive": true,
+    "isFeatured": true,
     "name": "Ruscet Exchange",
     "url": "https://ruscet.xyz/",
     "contracts": {
@@ -1048,10 +1065,9 @@
     "image": "sentio"
   },
   {
-    "order": 2,
-    "isLiveMainnet":true,
-    "isLive": true,
-    "isFeatured": true,
+    "isLiveMainnet":false,
+    "isLive": false,
+    "isFeatured": false,
     "isFuelSeason": true,
     "name": "V12",
     "url": "https://v12.trade/",
@@ -1196,9 +1212,9 @@
     "image": "tantheta"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "isFeatured": true,
+    "isLiveMainnet": false,
+    "isLive": false,
+    "isFeatured": false,
     "name": "Thunder",
     "url": "https://thundernft.market/",
     "contracts": {
