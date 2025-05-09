@@ -719,6 +719,12 @@
     "isFuelSeason": true,
     "name": "Mira Exchange",
     "url": "https://mira.ly/",
+    "audits": [
+      {
+        "title": "Security Audit",
+        "url": "https://docs.mira.ly/developer-guides/security-audit"
+      }
+    ],
     "contracts": {
       "mainnet": [
         {
@@ -1146,6 +1152,12 @@
     "name": "Swaylend",
     "isFuelSeason": true,
     "url": "https://swaylend.com/",
+    "audits": [
+      {
+        "title": "Security Audit",
+        "url": "https://github.com/Swaylend/swaylend-monorepo/tree/develop/audits"
+      }
+    ],
     "contracts": {
       "mainnet": [
         {
