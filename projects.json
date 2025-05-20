@@ -346,20 +346,6 @@
     "image": "fuelbomba"
   },
   {
-    "isLiveMainnet":true,
-    "isLive": true,
-    "name": "Fuel Monkees",
-    "url": "https://fuelmonkees.com",
-    "tags": [
-      "NFT"
-    ],
-    "description": "A chaotic NFT Tribe on Fuel, uniting degens with unmatched art and unstoppable energy.",
-    "github": "https://github.com/fuelmonkees",
-    "twitter": "https://x.com/fuelmonkees",
-    "discord": "",
-    "image": "fuelmonkees"
-  },
-  {
     "order": 3,
     "isLive": true,
     "isFeatured":true,
