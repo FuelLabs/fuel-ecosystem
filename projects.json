@@ -357,7 +357,8 @@
     "github": "https://github.com/fuelmonkees",
     "twitter": "https://x.com/fuelmonkees",
     "discord": "",
-    "image": "fuelmonkees"
+    "image": "fuelmonkees",
+    "hidden": true
   },
   {
     "order": 3,
