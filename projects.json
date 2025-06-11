@@ -1453,9 +1453,9 @@
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Hexagate",
-    "url": "https://www.hexagate.com/",
-    "tags": ["Security"],
-    "description": "Hexagate offers real-time threat detection and proactive prevention platform, leveraging ML and advanced algorithms for early exploit detection.",
+    "url": "https://www.chainalysis.com/product/hexagate/",
+    "tags": ["Security", "Risk Management", "Chainalysis"],
+    "description": "Hexagate, now part of Chainalysis, provides real-time threat detection, prevention, and remediation for protocols, chains, exchanges, and asset managers. It uses machine learning and advanced algorithms to proactively manage Web3 risks.",
     "github": "",
     "twitter": "https://x.com/hexagate_",
     "image": "hexagate"
