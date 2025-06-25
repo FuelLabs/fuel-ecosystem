@@ -266,9 +266,7 @@
   },
   {
     "isLiveMainnet": true,
-    "isLive": false,
-    "isFeatured": true,
-    "isFuelSeason": true,
+    "isLive": true,
     "name": "Fluid Protocol",
     "url": "https://fluidprotocol.xyz/",
     "tags": ["DeFi"],
@@ -282,7 +280,6 @@
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
-    "isFuelSeason": true,
     "name": "FuelUp Fun",
     "url": "https://fuelup.fun/",
     "tags": ["DeFi", "Launchpad"],
@@ -630,7 +627,6 @@
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
-    "isFuelSeason": true,
     "name": "Mira Exchange",
     "url": "https://mira.ly/",
     "contracts": {
@@ -1041,7 +1037,6 @@
     "isLive": true,
     "isFeatured": true,
     "name": "Swaylend",
-    "isFuelSeason": true,
     "url": "https://swaylend.com/",
     "contracts": {
       "mainnet": [
@@ -1090,7 +1085,6 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
-    "isFeatured": true,
     "name": "Thunder",
     "url": "https://thundernft.market/",
     "contracts": {
