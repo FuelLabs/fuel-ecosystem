@@ -627,8 +627,8 @@
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
-    "name": "Mira Exchange",
-    "url": "https://mira.ly/",
+    "name": "Microchain (formerly Mira)",
+    "url": "https://microchain.systems/",
     "contracts": {
       "mainnet": [
         {
@@ -667,11 +667,11 @@
       "sepolia": []
     },
     "tags": ["DeFi"],
-    "description": "The liquidity hub on Fuel. Trade, earn and get rewards using the most efficient AMM on Fuel.",
+    "description": "The DLM-2000 is the biggest AMM on the Fuel Network. Earn rewards LPing and make lightning fast swaps.",
     "github": "https://github.com/mira-amm",
-    "twitter": "https://x.com/MiraProtocol",
+    "twitter": "https://x.com/MicrochainDLM",
     "discord": "https://discord.gg/9HzukDUKSq",
-    "image": "mira"
+    "image": "microchain"
   },
   {
     "isLiveMainnet": true,
