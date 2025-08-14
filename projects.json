@@ -220,7 +220,7 @@
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Cookbook",
-    "url": "https://www.cookbook.dev/chains/Fuel",
+    "url": "https://contracts.cookbook.dev/chains/Fuel",
     "tags": ["Education"],
     "description": "Find smart contracts, Sway libraries, and discover protocols. Available on the Fuel Documentation.",
     "github": "",
