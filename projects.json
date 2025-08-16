@@ -1426,6 +1426,7 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
+    "isFeatured": true,
     "name": "Garage",
     "url": "https://garage.zone/",
     "contracts": {
