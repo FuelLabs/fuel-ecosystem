@@ -1441,19 +1441,6 @@
           "audits": [],
           "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/garage/marketplace-abi.json"
         }
-      ],
-      "testnet": [
-        {
-          "id": "0xc905465054211ca2186d2afe389b1ead7d06d484168483c8cbdcd990665b50b1",
-          "name": "Garage Marketplace",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/marketplace/sway/contracts/marketplace/src/main.sw",
-          "commit": "7853b6bb307b09c82757868766b4e8b27b83d4ba",
-          "repo": "https://github.com/infinitybase/bako-id",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/garage/marketplace-abi.json"
-        }
       ]
     },
     "tags": ["NFT"],
