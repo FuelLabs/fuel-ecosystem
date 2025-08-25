@@ -1422,5 +1422,33 @@
       ],
       "sepolia": []
     }
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "isFeatured": true,
+    "name": "Garage",
+    "url": "https://garage.zone/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x7722e9314e1efbef5a18545a2440b79dac36cfc2f22d0d27bd0c1e4f2ec6df15",
+          "name": "Garage Marketplace",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/marketplace/sway/contracts/marketplace/src/main.sw",
+          "commit": "7853b6bb307b09c82757868766b4e8b27b83d4ba",
+          "repo": "https://github.com/infinitybase/bako-id",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/garage/marketplace-abi.json"
+        }
+      ]
+    },
+    "tags": ["NFT"],
+    "description": "Fuel-powered NFT marketplace. Where Fuel culture gets assembled. Join. Create. Trade.",
+    "github": "https://github.com/Bako-Labs",
+    "twitter": "https://x.com/garagedotzone",
+    "discord": "",
+    "image": "garage"
   }
 ]
