@@ -920,6 +920,47 @@
     "image": "sentio"
   },
   {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "isFeatured": true,
+    "name": "Stork",
+    "url": "https://www.stork.network/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x9c118ae13927dd51ba59c0370dc8c272a3b64ccd675950750c8840a649c81149",
+          "name": "Stork",
+          "description": "Fuel compatible Stork Contract",
+          "source": "https://raw.githubusercontent.com/Stork-Oracle/stork-external/refs/heads/main/chains/fuel/contracts/stork/src/main.sw",
+          "commit": "0aee8a75c6b56a0a1bd28dde53227000e08ac46b",
+          "repo": "https://github.com/Stork-Oracle/stork-external",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/Stork-Oracle/stork-external/refs/heads/main/chains/fuel/contracts/stork/artifacts/stork-abi.json"
+        }
+      ],
+      "sepolia": [
+        {
+          "id": "0x09c88f50d535ac5ce8945e34c418233b1e3834be9a88effb57cb137321fbae0c",
+          "name": "Stork",
+          "description": "Fuel compatible Stork Contract",
+          "source": "https://raw.githubusercontent.com/Stork-Oracle/stork-external/refs/heads/main/chains/fuel/contracts/stork/src/main.sw",
+          "commit": "0aee8a75c6b56a0a1bd28dde53227000e08ac46b",
+          "repo": "https://github.com/Stork-Oracle/stork-external",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/Stork-Oracle/stork-external/refs/heads/main/chains/fuel/contracts/stork/artifacts/stork-abi.json"
+        }
+      ]
+    },
+    "tags": ["Oracle"],
+    "description": "Stork is a high performance oracle powering next gen DeFi applications.",
+    "github": "https://github.com/stork-oracle",
+    "twitter": "https://x.com/storkoracle",
+    "discord": "https://discord.com/invite/storkoracle",
+    "image": "stork"
+  },
+  {
     "order": 1,
     "isLiveMainnet": true,
     "isLive": true,
