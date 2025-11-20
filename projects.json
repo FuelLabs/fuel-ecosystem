@@ -1510,12 +1510,7 @@
           "source": "https://raw.githubusercontent.com/Reactor-Fuel/reactor-dex-v1/ef887b91a17da170699007a5e90fdb6f37d03abc/sway-programs/contracts/reactor_pool_contract/src/main.sw",
           "commit": "ef887b91a17da170699007a5e90fdb6f37d03abc",
           "repo": "https://github.com/Reactor-Fuel/reactor-dex-v1",
-          "links": [
-            {
-              "title": "Security Audit",
-              "url": "https://drive.google.com/file/d/1L2x0aeW6JR56B0TGJbhmSKWx7Vd_v49G/view?pli=1"
-            }
-          ],
+          "links": [],
           "audits": []
         }
       ],
