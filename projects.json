@@ -1494,5 +1494,33 @@
     "twitter": "https://x.com/garagedotzone",
     "discord": "",
     "image": "garage"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "isFeatured": true,
+    "name": "Reactor DEX",
+    "url": "https://reactor.exchange/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0xe0eeb0f14dbc2793a1fb701c507f184f6d44f1cee08f83fe3837b8ef41f55818",
+          "name": "Reactor DEX",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/Reactor-Fuel/reactor-dex-v1/ef887b91a17da170699007a5e90fdb6f37d03abc/sway-programs/contracts/reactor_pool_contract/src/main.sw",
+          "commit": "ef887b91a17da170699007a5e90fdb6f37d03abc",
+          "repo": "https://github.com/Reactor-Fuel/reactor-dex-v1",
+          "links": [],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
+    "tags": ["DeFi"],
+    "description": "Reactor DEX is a decentralized exchange protocol operating on the Fuel Network. It functions as an AMM that utilizes a concentrated liquidity model.",
+    "github": "https://github.com/Reactor-Fuel",
+    "twitter": "https://x.com/ReactorDEX",
+    "discord": "https://t.me/ReactorDEX",
+    "image": "reactor"
   }
 ]
