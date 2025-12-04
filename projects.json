@@ -563,6 +563,21 @@
     "showAccountTag": true
   },
   {
+    "isFeatured": true,
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Moor",
+    "url": "https://moor.money/",
+    "tags": ["DeFi"],
+    "description": "The borrowing engine powering Fuel’s next DeFi wave.",
+    "github": "https://github.com/Rig-Labs/moor-docs",
+    "twitter": "https://x.com/theriglst",
+    "discord": "",
+    "image": "moor",
+    "address": "0xd7795099227cc0b9dc5872d29ca2b10691d9db6bd45853a6bb532e68dd166ce3",
+    "showAccountTag": true
+  },
+  {
     "isLiveMainnet": true,
     "isLive": true,
     "name": "LearnWeb3",
