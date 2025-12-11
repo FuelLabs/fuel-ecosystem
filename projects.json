@@ -436,16 +436,14 @@
         {
           "id": "0x91cfcbef2caad02996cdcb5b897222170e85a91cd2db8f23f07ea7d9ca030c19",
           "name": "Fuel Fast Bridge",
-          "description": "Fuel Fast Bridge",
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-o2/refs/heads/main/packages/web-services/src/abi/fuel/assetRegistryAbi.ts?token=GHSAT0AAAAAADJM3ERBV7IYI4MDOTGWCX5Q2J3JYXQ"
+          "description": "Fuel Fast Bridge"
         }
       ],
       "sepolia": [
         {
           "id": "0xabc551b1ada359b1b0769f9af9f7d24b347109085635bee4d8a59d4f3de90e63",
           "name": "Fuel Fast Bridge",
-          "description": "Fuel Fast Bridge on Sepolia Testnet",
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-o2/refs/heads/main/packages/web-services/src/abi/fuel/assetRegistryAbi.ts?token=GHSAT0AAAAAADJM3ERBV7IYI4MDOTGWCX5Q2J3JYXQ"
+          "description": "Fuel Fast Bridge on Sepolia Testnet"
         }
       ]
     },
