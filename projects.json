@@ -14,15 +14,12 @@
     "twitter": "https://x.com/o2dotapp",
     "discord": "",
     "image": "o2"
-  },
-  {
+  },{
     "isLiveMainnet": true,
     "isLive": true,
     "name": "1Delta",
     "url": "https://1delta.io/",
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "1delta provides access to $20B+ of liquidity for spot & margin trading, and yield farming.",
     "github": "https://github.com/1delta-DAO",
     "twitter": "https://x.com/1deltaDAO",
@@ -35,9 +32,7 @@
     "isFeatured": false,
     "name": "Arcana",
     "url": "https://arcana.network/",
-    "tags": [
-      "Wallet"
-    ],
+    "tags": ["Wallet"],
     "description": "Arcana wallet. First-ever Chain Abstraction Enabled Web3 Wallet. Spend your token balances across chains, instantly without bridging.",
     "github": "https://github.com/arcana-network",
     "twitter": "https://x.com/ArcanaNetwork",
@@ -48,9 +43,7 @@
     "isLive": false,
     "name": "ArtDAO",
     "url": "https://artdao.xyz/",
-    "tags": [
-      "NFT"
-    ],
+    "tags": ["NFT"],
     "description": "Scaling the possibilities of digital art on Ethereum - artists helping artists.",
     "github": "",
     "twitter": "https://x.com/Artdao_xyz",
@@ -121,9 +114,7 @@
       ],
       "sepolia": []
     },
-    "tags": [
-      "Social"
-    ],
+    "tags": ["Social"],
     "description": "Bako ID is a comprehensive Identity System for Rollups.",
     "github": "https://github.com/Bako-Labs",
     "twitter": "https://x.com/bakoidentity",
@@ -154,9 +145,7 @@
       ],
       "sepolia": []
     },
-    "tags": [
-      "Wallet"
-    ],
+    "tags": ["Wallet"],
     "description": "Bako Safe is a Fuel native multi-signature wallet.",
     "github": "https://github.com/Bako-Labs",
     "twitter": "https://x.com/bakosafe",
@@ -168,9 +157,7 @@
     "isLive": true,
     "name": "Banxa",
     "url": "https://banxa.com/",
-    "tags": [
-      "On-Ramp"
-    ],
+    "tags": ["On-Ramp"],
     "description": "Banxa is a fiat-to-crypto on & off ramp solutions enabling users to conveniently and securely convert traditional fiat currencies into cryptocurrencies.",
     "github": "",
     "twitter": "https://x.com/BanxaOfficial",
@@ -181,9 +168,7 @@
     "isLive": false,
     "name": "Bubblemaps",
     "url": "https://bubblemaps.io/",
-    "tags": [
-      "Analytics"
-    ],
+    "tags": ["Analytics"],
     "description": "Bubblemaps is the first supply auditing tool for DeFi tokens and NFTs. Our unique and colorful bubbles make on-chain data easy to understand.",
     "github": "",
     "twitter": "https://x.com/bubblemaps",
@@ -194,9 +179,7 @@
     "isLive": false,
     "name": "Bubbly Finance",
     "url": "https://www.bubbly.finance",
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "Bubbly Finance is an AMM-based DEX, aiming to become the Uniswap for pre-market assets",
     "github": "https://github.com/bubbly-finance",
     "twitter": "https://x.com/BubblyFinance",
@@ -207,9 +190,7 @@
     "isLive": false,
     "name": "Capsule",
     "url": "https://usecapsule.com/",
-    "tags": [
-      "Wallet"
-    ],
+    "tags": ["Wallet"],
     "description": "Capsule is the cross-app embedded wallet infrastructure",
     "github": "https://github.com/capsule-org",
     "twitter": "https://x.com/usecapsule",
@@ -220,10 +201,7 @@
     "isLive": false,
     "name": "Catalyst",
     "url": "https://fuelcatalyst.io",
-    "tags": [
-      "Fuel",
-      "Launchpad"
-    ],
+    "tags": ["Fuel", "Launchpad"],
     "description": "The Launchpad for the Fuel Ecosystem",
     "github": "",
     "twitter": "https://x.com/fuel_catalyst",
@@ -234,9 +212,7 @@
     "isLive": false,
     "name": "Chainrisk",
     "url": "https://chainrisk.xyz",
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "Chainrisk automates Economic risk management for DeFi Applications",
     "github": "",
     "twitter": "https://x.com/chain_risk",
@@ -248,9 +224,7 @@
     "isLive": true,
     "name": "Charcoal Transpiler",
     "url": "https://github.com/ourovoros-io/charcoal",
-    "tags": [
-      "Tooling"
-    ],
+    "tags": ["Tooling"],
     "description": "Solidity to Sway transpiler. Available on the Sway Playground.",
     "github": "https://github.com/ourovoros-io",
     "twitter": "",
@@ -262,9 +236,7 @@
     "isLive": true,
     "name": "Cookbook",
     "url": "https://contracts.cookbook.dev/chains/Fuel",
-    "tags": [
-      "Education"
-    ],
+    "tags": ["Education"],
     "description": "Find smart contracts, Sway libraries, and discover protocols. Available on the Fuel Documentation.",
     "github": "",
     "twitter": "https://x.com/cookbook_dev",
@@ -277,9 +249,7 @@
     "isLive": true,
     "name": "Envio",
     "url": "https://docs.envio.dev/docs/HyperIndex/fuel",
-    "tags": [
-      "Indexer"
-    ],
+    "tags": ["Indexer"],
     "description": "Envio is a modern, multi-chain EVM blockchain indexing framework speed-optimized for querying real-time and historical data.",
     "github": "https://github.com/enviodev",
     "twitter": "https://x.com/envio_indexer",
@@ -290,9 +260,7 @@
     "isLive": false,
     "name": "Everclear",
     "url": "https://www.everclear.org/",
-    "tags": [
-      "Bridge"
-    ],
+    "tags": ["Bridge"],
     "description": "Everclear coordinates the global settlement of liquidity between chains, solving fragmentation for modular blockchains.",
     "github": "https://github.com/everclearorg",
     "twitter": "https://x.com/everclearorg",
@@ -304,9 +272,7 @@
     "isLive": true,
     "name": "Executoors",
     "url": "https://executoors.com",
-    "tags": [
-      "NFT"
-    ],
+    "tags": ["NFT"],
     "description": "A series of Executoors in search of the most flawless execution environment.",
     "github": "",
     "twitter": "https://x.com/executoors",
@@ -318,9 +284,7 @@
     "isLive": true,
     "name": "Fluid Protocol",
     "url": "https://fluidprotocol.xyz/",
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "Fluid is the native decentralized stablecoin on Fuel.",
     "github": "",
     "twitter": "https://x.com/Fluid_Protocol",
@@ -333,10 +297,7 @@
     "isFeatured": true,
     "name": "FuelUp Fun",
     "url": "https://fuelup.fun/",
-    "tags": [
-      "DeFi",
-      "Launchpad"
-    ],
+    "tags": ["DeFi", "Launchpad"],
     "description": "Launch a Meme Token on Fuel and GO UP ONLY ON FUEL UP.",
     "github": "https://github.com/LYNC-WORLD/FuelUp",
     "twitter": "https://x.com/FuelUp_Fun",
@@ -348,10 +309,7 @@
     "isLive": true,
     "name": "Fuel Bomba",
     "url": "https://fuelbomba.com/",
-    "tags": [
-      "DeFi",
-      "NFT"
-    ],
+    "tags": ["DeFi", "NFT"],
     "description": "NFTs where holders short/long ETH, earn points, and get Woopa token airdrops! ⛽️",
     "github": "",
     "twitter": "https://x.com/Fuelbomba",
@@ -363,9 +321,7 @@
     "isLive": true,
     "name": "Fuel Monkees",
     "url": "https://fuelmonkees.com",
-    "tags": [
-      "NFT"
-    ],
+    "tags": ["NFT"],
     "description": "A chaotic NFT Tribe on Fuel, uniting degens with unmatched art and unstoppable energy.",
     "github": "https://github.com/fuelmonkees",
     "twitter": "https://x.com/fuelmonkees",
@@ -379,9 +335,7 @@
     "isFeatured": true,
     "name": "Fuel Name Service",
     "url": "https://fuelname.com/",
-    "tags": [
-      "Social"
-    ],
+    "tags": ["Social"],
     "description": "Fuel Name Service (FNS) is a domain name service built on the Fuel blockchain.",
     "github": "https://github.com/fuelet",
     "twitter": "https://x.com/FuelNameService",
@@ -393,9 +347,7 @@
     "isLive": true,
     "name": "Fuel Pengus",
     "url": "https://fuelpengus.com/",
-    "tags": [
-      "NFT"
-    ],
+    "tags": ["NFT"],
     "description": "Fuel Pengus is a collection of 5555 Penguin PFPs, Aiming to build the biggest NFT community on Fuel!",
     "github": "",
     "twitter": "https://x.com/FuelPengus",
@@ -408,11 +360,7 @@
     "isLive": true,
     "name": "Fuel Bridge",
     "url": "https://app.fuel.network/bridge",
-    "tags": [
-      "Bridge",
-      "Fuel",
-      "Tooling"
-    ],
+    "tags": ["Bridge", "Fuel", "Tooling"],
     "contracts": {
       "mainnet": [
         {
@@ -456,10 +404,7 @@
     "isLive": true,
     "name": "Fuel Connectors",
     "url": "https://docs.fuel.network/guides/fuel-connectors/non-technical-guide",
-    "tags": [
-      "Fuel",
-      "Wallet"
-    ],
+    "tags": ["Fuel", "Wallet"],
     "predicates": {
       "mainnet": [
         {
@@ -500,9 +445,7 @@
     "isLive": true,
     "name": "Fuel Fast Bridge",
     "url": "",
-    "tags": [
-      "Bridge"
-    ],
+    "tags": ["Bridge"],
     "contracts": {
       "mainnet": [
         {
@@ -527,9 +470,7 @@
     "isLive": true,
     "name": "Fuel Pumps",
     "url": "https://www.fuelpump.xyz/",
-    "tags": [
-      "NFT"
-    ],
+    "tags": ["NFT"],
     "description": "OG PFP collection 2019 unique fuel pumps, marking Fuel V1's launch year ✨",
     "github": "https://github.com/Fuelpumps",
     "twitter": "https://x.com/Pumps_fuel",
@@ -541,9 +482,7 @@
     "isLive": true,
     "name": "Fuel Rocks",
     "url": "https://thundernft.market/collection/fuel-rocks",
-    "tags": [
-      "NFT"
-    ],
+    "tags": ["NFT"],
     "description": "Fuel Rocks 🪨⛽️, inspired by EtherRock, will redefine the Fuel ecosystem with 2019 unique rocks.",
     "github": "",
     "twitter": "https://x.com/FuelRocks2019",
@@ -555,10 +494,7 @@
     "isLive": true,
     "name": "Fuel Wallet",
     "url": "https://wallet.fuel.network/docs/install/",
-    "tags": [
-      "Fuel",
-      "Wallet"
-    ],
+    "tags": ["Fuel", "Wallet"],
     "description": "Explore decentralized applications and manage your crypto assets, all in one place.",
     "github": "https://github.com/fuellabs/fuels-wallet",
     "twitter": "https://x.com/fuel_network",
@@ -571,9 +507,7 @@
     "isFeatured": true,
     "name": "Fuelet Wallet",
     "url": "https://fuelet.app/",
-    "tags": [
-      "Wallet"
-    ],
+    "tags": ["Wallet"],
     "description": "Join 200,000+ users who count on us to explore Fuel Ecosystem with user-friendly UX and unparalleled security.",
     "github": "https://github.com/fuelet",
     "twitter": "https://x.com/FueletWallet",
@@ -585,9 +519,7 @@
     "isLive": true,
     "name": "Gas.zip",
     "url": "https://www.gas.zip/",
-    "tags": [
-      "Bridge"
-    ],
+    "tags": ["Bridge"],
     "description": "Gas.zip is the fastest one-stop gas refuel bridge for over 250+ chains and counting.",
     "github": "https://github.com/gasdotzip",
     "twitter": "https://x.com/gasdotzip",
@@ -615,9 +547,7 @@
       ],
       "sepolia": []
     },
-    "tags": [
-      "Prediction Market"
-    ],
+    "tags": ["Prediction Market"],
     "description": "The NASDAQ for opinions. Griffy empowers users to trade their opinions. You can select your interest from real world events like sports, politics, celebrities, fashion and a wide range of topics and trade your opinions like you trade stocks!",
     "github": "",
     "twitter": "https://x.com/GriffyCommunity",
@@ -628,9 +558,7 @@
     "isLive": true,
     "name": "Guild",
     "url": "https://guild.xyz/fuel",
-    "tags": [
-      "Social"
-    ],
+    "tags": ["Social"],
     "description": "Automated membership management for the platforms your community already uses.",
     "github": "https://github.com/agoraxyz/guild.xyz",
     "twitter": "https://x.com/guildxyz",
@@ -641,9 +569,7 @@
     "isLive": false,
     "name": "Hyperlane",
     "url": "https://hyperlane.xyz/",
-    "tags": [
-      "Bridge"
-    ],
+    "tags": ["Bridge"],
     "description": "Hyperlane is the permissionless Interoperability layer built for the modular future.",
     "github": "https://github.com/hyperlane-xyz",
     "twitter": "https://x.com/hyperlane_xyz",
@@ -654,9 +580,7 @@
     "isLive": false,
     "name": "Kassiopea",
     "url": "https://www.kassiopea.xyz/",
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "Kassiopea is a decentralized perpetual trading platform that revolutionizes the way people trade commodities, RWA and cryptocurrencies amidst gameplay.",
     "github": "",
     "twitter": "https://x.com/Kassiopea_xyz",
@@ -669,9 +593,7 @@
     "isLive": true,
     "name": "LayerSwap",
     "url": "https://layerswap.io/",
-    "tags": [
-      "Bridge"
-    ],
+    "tags": ["Bridge"],
     "description": "The reliable solution for transferring crypto assets across networks in a matter of minutes.",
     "github": "https://github.com/layerswap/layerswapapp",
     "twitter": "https://x.com/layerswap",
@@ -686,9 +608,7 @@
     "isLive": true,
     "name": "Moor",
     "url": "https://moor.money/",
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "The borrowing engine powering Fuel’s next DeFi wave.",
     "github": "https://github.com/Rig-Labs/moor-docs",
     "twitter": "https://x.com/theriglst",
@@ -702,9 +622,7 @@
     "isLive": true,
     "name": "LearnWeb3",
     "url": "https://learnweb3.io/",
-    "tags": [
-      "Education"
-    ],
+    "tags": ["Education"],
     "description": "Access free, full stack, high quality education to become a Web3 expert!",
     "github": "https://github.com/LearnWeb3DAO",
     "twitter": "https://x.com/LearnWeb3DAO",
@@ -716,9 +634,7 @@
     "isLive": true,
     "name": "Lync",
     "url": "https://docs.lync.world/fuel/lync-unity-fuel-sdk",
-    "tags": [
-      "Tooling"
-    ],
+    "tags": ["Tooling"],
     "description": "A set of SDKs for Gaming and NFTs on Fuel.",
     "github": "",
     "twitter": "https://twitter.com/Lyncworld",
@@ -730,9 +646,7 @@
     "isLive": true,
     "name": "Meld",
     "url": "http://www.meld.io",
-    "tags": [
-      "On-Ramp"
-    ],
+    "tags": ["On-Ramp"],
     "description": "Fintech Stack as a Service: Connect and route fintech integrations through a single API and out of the box UI flows!",
     "github": "",
     "twitter": "https://x.com/realmeld",
@@ -744,9 +658,7 @@
     "isLive": true,
     "name": "MemeBridge",
     "url": "https://memebridge.xyz",
-    "tags": [
-      "Bridge"
-    ],
+    "tags": ["Bridge"],
     "description": "The cheapest Layer2 bridge. Bridge through Layer2s within seconds.",
     "github": "https://github.com/MeMeBridge",
     "twitter": "https://x.com/MemebridgeB",
@@ -758,9 +670,7 @@
     "isLive": true,
     "name": "Metaschool",
     "url": "https://metaschool.so/",
-    "tags": [
-      "Education"
-    ],
+    "tags": ["Education"],
     "description": "Metaschool is a web3 education platform with 140K+ developers that helps developers enter web3 by building and shipping DApps.",
     "github": "https://github.com/0xmetaschool",
     "twitter": "https://x.com/0xmetaschool",
@@ -811,9 +721,7 @@
       ],
       "sepolia": []
     },
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "The DLM-2000 is the biggest AMM on the Fuel Network. Earn rewards LPing and make lightning fast swaps.",
     "github": "https://github.com/mira-amm",
     "twitter": "https://x.com/MicrochainDLM",
@@ -825,10 +733,7 @@
     "isLive": true,
     "name": "Nukedrop",
     "url": "https://nukedrop.fun/",
-    "tags": [
-      "DeFi",
-      "Launchpad"
-    ],
+    "tags": ["DeFi", "Launchpad"],
     "description": "Launch a coin in under 30 seconds that's instantly deployed on Fuel for 0.005 ETH. ",
     "github": "https://github.com/NukeDrop",
     "twitter": "https://x.com/nukedropdotfun",
@@ -840,9 +745,7 @@
     "isLive": true,
     "name": "ORAO",
     "url": "https://orao.network/",
-    "tags": [
-      "Oracle"
-    ],
+    "tags": ["Oracle"],
     "description": "Oracle service for custom data feeds.",
     "github": "https://github.com/orao-network/fuel-vrf",
     "twitter": "https://x.com/OraoNetwork",
@@ -854,9 +757,7 @@
     "isLive": true,
     "name": "Orbiter Finance",
     "url": "https://www.orbiter.finance/",
-    "tags": [
-      "Bridge"
-    ],
+    "tags": ["Bridge"],
     "isExternalExchange": true,
     "showAccountTag": true,
     "description": "Decentralized cross-rollup bridge offers low cost and almost instant transfers.",
@@ -871,9 +772,7 @@
     "isLive": true,
     "name": "Owlto Finance",
     "url": "https://owlto.finance",
-    "tags": [
-      "Bridge"
-    ],
+    "tags": ["Bridge"],
     "description": "Owlto Finance is an intent-centric interoperability protocol. Bridge the World with an AI Agent",
     "github": "https://github.com/owlto-finance/",
     "twitter": "https://x.com/Owlto_Finance",
@@ -885,9 +784,7 @@
     "isLive": true,
     "name": "Pangea",
     "url": "https://docs.pangea.foundation/chain-data/fuel/fuel.html",
-    "tags": [
-      "Indexer"
-    ],
+    "tags": ["Indexer"],
     "description": "A trustless data network from which to explore and interact with blockchains, enabling the best crypto experience.",
     "github": "https://github.com/PangeaFoundation/pangea-client/blob/master/rust-examples/examples/fuel.rs",
     "twitter": "https://x.com/in_pangea",
@@ -898,9 +795,7 @@
     "isLive": false,
     "name": "Pipeline Finance",
     "url": "https://www.pipeline.finance/",
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "Pipeline Finance is the go-to solution for affordable and secure token streaming on the Fuel network. Experience seamless, real-time payments with ease.",
     "github": "https://github.com/wt-xyz/pipeline",
     "twitter": "https://x.com/pipeline_fi",
@@ -912,10 +807,7 @@
     "isLive": true,
     "name": "Props Octane",
     "url": "https://fuel.props.app/",
-    "tags": [
-      "Launchpad",
-      "NFT"
-    ],
+    "tags": ["Launchpad", "NFT"],
     "description": "Props Octane is an NFT launchpad on Fuel that empowers creators to mint and showcase NFTs and provides developers with an SDK for efficient dApp and smart contract development.",
     "github": "https://github.com/Props-Labs/props-fuels",
     "twitter": "https://x.com/props",
@@ -927,10 +819,7 @@
     "isLive": true,
     "name": "Props SDK",
     "url": "https://props-fuels.vercel.app/",
-    "tags": [
-      "NFT",
-      "Tooling"
-    ],
+    "tags": ["NFT", "Tooling"],
     "description": "The Props NFT SDK for Fuel empowers developers to easily build and manage dApps, games, & rewards.",
     "github": "https://github.com/Props-Labs/props-fuels",
     "twitter": "https://x.com/props",
@@ -958,9 +847,7 @@
       ],
       "sepolia": []
     },
-    "tags": [
-      "Oracle"
-    ],
+    "tags": ["Oracle"],
     "description": "Build apps with high-fidelity oracle feeds designed for mission-critical systems.",
     "github": "https://github.com/pyth-network",
     "twitter": "https://x.com/PythNetwork",
@@ -972,9 +859,7 @@
     "isLive": true,
     "name": "RedStone Oracle",
     "url": "https://redstone.finance/",
-    "tags": [
-      "Oracle"
-    ],
+    "tags": ["Oracle"],
     "description": "Modular Oracles tailored to your decentralized application.",
     "github": "https://github.com/redstone-finance",
     "twitter": "https://x.com/redstone_defi",
@@ -986,9 +871,7 @@
     "isLive": true,
     "name": "Retrobridge",
     "url": "https://app.retrobridge.io/",
-    "tags": [
-      "Bridge"
-    ],
+    "tags": ["Bridge"],
     "description": "Multichain made easy. All chains, single app.",
     "github": "https://github.com/retro-bridge",
     "twitter": "https://x.com/retro_bridge",
@@ -1000,9 +883,7 @@
     "isLive": true,
     "name": "RetroFuel",
     "url": "https://retrofuel.xyz/",
-    "tags": [
-      "NFT"
-    ],
+    "tags": ["NFT"],
     "description": "We bring retro aesthetics to life through unique digital collectibles.",
     "github": "https://github.com/koby32px",
     "twitter": "https://x.com/retro_fuel",
@@ -1051,9 +932,7 @@
       ],
       "sepolia": []
     },
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "Ruscet is a permissionless, hyper-performant perps exchange on Fuel.",
     "github": "https://github.com/burralabs/ruscet-contracts",
     "twitter": "https://x.com/ruscetfi",
@@ -1064,9 +943,7 @@
     "isLive": false,
     "name": "Sail Exchange",
     "url": "https://www.sail.exchange/",
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "Sail Exchange is a central limit order book built on Fuel.",
     "github": "https://github.com/Sail-Exchange",
     "twitter": "https://x.com/_sailexchange",
@@ -1078,9 +955,7 @@
     "isLive": true,
     "name": "Sangoro",
     "url": "https://sangoro.xyz/",
-    "tags": [
-      "NFT"
-    ],
+    "tags": ["NFT"],
     "description": "Sangoro Travel Club is the world's first Web3.0 community built by Chinese & Turks travelers.",
     "github": "",
     "twitter": "https://x.com/Sangoro_SGR",
@@ -1092,10 +967,7 @@
     "isLive": true,
     "name": "Sentio",
     "url": "https://www.sentio.xyz/",
-    "tags": [
-      "Indexer",
-      "Analytics"
-    ],
+    "tags": ["Indexer", "Analytics"],
     "description": "Sentio builds data and dev tooling products with strong developer-focus. Our product covers indexer, analytics/monitoring, debugger/simulator and code search.",
     "github": "https://github.com/sentioxyz",
     "twitter": "https://x.com/sentioxyz",
@@ -1136,9 +1008,7 @@
         }
       ]
     },
-    "tags": [
-      "Oracle"
-    ],
+    "tags": ["Oracle"],
     "description": "Stork is a high performance oracle powering next gen DeFi applications.",
     "github": "https://github.com/stork-oracle",
     "twitter": "https://x.com/storkoracle",
@@ -1173,9 +1043,7 @@
       ],
       "sepolia": []
     },
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "The Rig powers stFUEL, the native LST for $FUEL which enables instant staking, DeFi composability, and layered yields.",
     "github": "https://github.com/Rig-Labs",
     "twitter": "https://x.com/theriglst",
@@ -1188,9 +1056,7 @@
     "isLive": true,
     "name": "V12",
     "url": "https://v12.trade/",
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "V12 is a predicate-based central limit order book.",
     "github": "https://github.com/compolabs/spark",
     "twitter": "https://x.com/v12trade",
@@ -1202,9 +1068,7 @@
     "isLive": true,
     "name": "SQD",
     "url": "https://docs.sqd.ai/fuel-indexing/",
-    "tags": [
-      "Indexer"
-    ],
+    "tags": ["Indexer"],
     "description": "SQD enables permissionless, cost-efficient access to petabytes of high-value Web3 data.",
     "github": "https://github.com/subsquid/squid-sdk/tree/master/fuel",
     "twitter": "https://x.com/subsquid",
@@ -1216,9 +1080,7 @@
     "isLive": true,
     "name": "Sway Analyzer",
     "url": "https://github.com/ourovoros-io/sway-analyzer",
-    "tags": [
-      "Tooling"
-    ],
+    "tags": ["Tooling"],
     "description": "A security-focused static analyzer for Sway written in Rust.",
     "github": "https://github.com/ourovoros-io/sway-analyzer",
     "twitter": "",
@@ -1246,10 +1108,7 @@
       ],
       "sepolia": []
     },
-    "tags": [
-      "Fuel",
-      "Gaming"
-    ],
+    "tags": ["Fuel", "Gaming"],
     "description": "Grow and sell tomatoes to become a Sway Farm Hero.",
     "github": "https://github.com/FuelLabs/sway-farm",
     "twitter": "https://x.com/fuel_network",
@@ -1261,10 +1120,7 @@
     "isLive": true,
     "name": "Sway Playground",
     "url": "https://www.sway-playground.org/",
-    "tags": [
-      "Fuel",
-      "Tooling"
-    ],
+    "tags": ["Fuel", "Tooling"],
     "description": "Sway Playground enables developers to build, deploy, and interact with simple sway contracts in the browser with no installation of tools.",
     "github": "https://github.com/FuelLabs/sway-playground",
     "twitter": "https://x.com/SwayLang",
@@ -1304,9 +1160,7 @@
       ],
       "sepolia": []
     },
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "Swaylend is the first lending protocol on Fuel.",
     "github": "https://github.com/Swaylend/",
     "twitter": "https://x.com/swaylend",
@@ -1317,10 +1171,7 @@
     "isLive": false,
     "name": "Tan Theta",
     "url": "https://tantheta.io/",
-    "tags": [
-      "Tooling",
-      "Prediction Market"
-    ],
+    "tags": ["Tooling", "Prediction Market"],
     "description": "Tan Theta provides sophisticated predicates-based order matching engine for seamless and efficient trading experiences in prediction markets, sports books, spot exchanges, and derivatives exchanges.",
     "github": "https://github.com/Tan-Theta-Protocol/",
     "twitter": "https://x.com/tanthetamarkets",
@@ -1403,9 +1254,7 @@
       ],
       "sepolia": []
     },
-    "tags": [
-      "NFT"
-    ],
+    "tags": ["NFT"],
     "description": "Thunder is the superior NFT marketplace on Fuel.",
     "github": "",
     "twitter": "https://x.com/ThunderbyFuel",
@@ -1416,9 +1265,7 @@
     "isLive": false,
     "name": "Transak",
     "url": "https://transak.com/",
-    "tags": [
-      "On-Ramp"
-    ],
+    "tags": ["On-Ramp"],
     "description": "On-Ramp with most payment methods",
     "github": "",
     "twitter": "https://x.com/Transak",
@@ -1442,9 +1289,7 @@
     "isLive": true,
     "name": "Immunefi",
     "url": "https://immunefi.com/",
-    "tags": [
-      "Security"
-    ],
+    "tags": ["Security"],
     "description": "Immunefi is the leading onchain crowdsourced security platform. Guarding $190B+ in user funds across projects like Wormhole, Polygon and Optimism, Immunefi has paid out $100M+ to security researchers.",
     "github": "https://github.com/immunefi-team/",
     "twitter": "https://x.com/immunefi",
@@ -1455,9 +1300,7 @@
     "isLive": true,
     "name": "Blocksec",
     "url": "https://blocksec.com/",
-    "tags": [
-      "Security"
-    ],
+    "tags": ["Security"],
     "description": "It provides expert security auditing services and post-launch security product Phalcon, which can monitor and block hacks.",
     "github": "https://github.com/blocksecteam",
     "twitter": "https://x.com/blocksecteam",
@@ -1468,9 +1311,7 @@
     "isLive": true,
     "name": "Hexens",
     "url": "https://hexens.io/",
-    "tags": [
-      "Security"
-    ],
+    "tags": ["Security"],
     "description": "Hexens is a premier cybersecurity provider with an essential focus on blockchain. Staying on the edge of the knife of emerging tech, it secures more than $85 BLN assets net worth across Web2 and Web3.",
     "github": "https://github.com/Hexens",
     "twitter": "https://x.com/hexensio",
@@ -1481,9 +1322,7 @@
     "isLive": true,
     "name": "Quill Audits",
     "url": "https://www.quillaudits.com/",
-    "tags": [
-      "Security"
-    ],
+    "tags": ["Security"],
     "description": "Web3 security leader offering robust audit and pentest services, having secured 1000+ projects since 2018.",
     "github": "https://github.com/quillhash/QuillAudit_Reports",
     "twitter": "https://x.com/quillaudits_ai",
@@ -1494,9 +1333,7 @@
     "isLive": true,
     "name": "CD Security",
     "url": "https://cdsecurity.site/",
-    "tags": [
-      "Security"
-    ],
+    "tags": ["Security"],
     "description": "Providing Elite Smart Contract Security. Expert security reviews for your smart contracts and blockchain projects.",
     "github": "https://github.com/CDSecurity/audits",
     "twitter": "https://x.com/CDSecurity_",
@@ -1507,9 +1344,7 @@
     "isLive": true,
     "name": "Sherlock",
     "url": "https://www.sherlock.xyz/",
-    "tags": [
-      "Security"
-    ],
+    "tags": ["Security"],
     "description": "Mobilize Sherlock’s distributed network of auditors to protect your users from the most dangerous vulnerabilities",
     "github": "https://github.com/sherlock-protocol/sherlock-reports",
     "twitter": "https://x.com/sherlockdefi",
@@ -1520,9 +1355,7 @@
     "isLive": true,
     "name": "Zellic",
     "url": "https://www.zellic.io/",
-    "tags": [
-      "Security"
-    ],
+    "tags": ["Security"],
     "description": "Zellic is a security research firm with deep expertise in blockchain security and cryptography, led by the best hackers in the world.",
     "github": "https://github.com/zellic/",
     "twitter": "https://twitter.com/zellic_io",
@@ -1533,9 +1366,7 @@
     "isLive": true,
     "name": "Linum Labs",
     "url": "https://www.linumlabs.com/",
-    "tags": [
-      "Security"
-    ],
+    "tags": ["Security"],
     "description": "Linum Labs specializes in custom blockchain solutions and is one of the leading agencies offering Sway smart contract auditing services on Fuel Network.",
     "github": "",
     "twitter": "https://x.com/linumlabs",
@@ -1546,9 +1377,7 @@
     "isLive": true,
     "name": "Trail of Bits",
     "url": "https://www.trailofbits.com/",
-    "tags": [
-      "Security"
-    ],
+    "tags": ["Security"],
     "description": "Trail of Bits doesn't just find bugs - we deliver comprehensive security solutions in AI/ML, application security, blockchain, and cryptography through design reviews, threat models, and code reviews.",
     "github": "https://github.com/trailofbits",
     "twitter": "https://x.com/trailofbits",
@@ -1559,9 +1388,7 @@
     "isLive": true,
     "name": "Safe Edges",
     "url": "https://safeedges.in/",
-    "tags": [
-      "Security"
-    ],
+    "tags": ["Security"],
     "description": "Safe Edges is fully focused Sway security audits for projects built on the Fuel Network",
     "github": "https://github.com/Safe-Edges",
     "twitter": "https://x.com/safe_edges",
@@ -1572,9 +1399,7 @@
     "isLive": true,
     "name": "Simply Staking",
     "url": "https://stake.simplystaking.com/fuel/",
-    "tags": [
-      "Tooling"
-    ],
+    "tags": ["Tooling"],
     "description": "Stake your Fuel tokens effortlessly with Simply Staking's secure, intuitive dashboard. Track rewards, access updates, and maximize your staking potential.",
     "github": "https://github.com/SimplyStaking",
     "twitter": "https://x.com/SimplyStaking",
@@ -1585,9 +1410,7 @@
     "isLive": true,
     "name": "Ourovoros",
     "url": "https://ourovoros.io/",
-    "tags": [
-      "Security"
-    ],
+    "tags": ["Security"],
     "description": "Ourovoros is a collective of ex-auditors with over 500 audits under our belt. We are focused on delivering high quality development and auditing for blockchain solutions.",
     "github": "https://github.com/ourovoros-io",
     "twitter": "https://x.com/ioourovoros/",
@@ -1598,9 +1421,7 @@
     "isLive": true,
     "name": "Hacken",
     "url": "https://hacken.io/",
-    "tags": [
-      "Security"
-    ],
+    "tags": ["Security"],
     "description": "Our services include Smart Contract Audit, Blockchain Protocol Audit, dApp Audit, Penetration Testing, and CCSS Audit. Our product portfolio features HackenProof bug bounties, CER.live cybersecurity ranking, and Extractor on-chain monitoring.",
     "github": "https://github.com/hknio",
     "twitter": "https://x.com/hackenclub",
@@ -1611,11 +1432,7 @@
     "isLive": true,
     "name": "Hexagate",
     "url": "https://www.chainalysis.com/product/hexagate/",
-    "tags": [
-      "Security",
-      "Risk Management",
-      "Chainalysis"
-    ],
+    "tags": ["Security", "Risk Management", "Chainalysis"],
     "description": "Hexagate, now part of Chainalysis, provides real-time threat detection, prevention, and remediation for protocols, chains, exchanges, and asset managers. It uses machine learning and advanced algorithms to proactively manage Web3 risks.",
     "github": "",
     "twitter": "https://x.com/hexagate_",
@@ -1626,9 +1443,7 @@
     "isLive": false,
     "name": "Cybernetics",
     "url": "https://www.cybernetics.gg/",
-    "tags": [
-      "NFT"
-    ],
+    "tags": ["NFT"],
     "description": "The First Utility-Driven NFT Collection on Fuel Featuring 1912 Unique Artworks.",
     "github": "https://github.com/DevForce99",
     "twitter": "https://x.com/fuelcybernetics",
@@ -1683,17 +1498,13 @@
         }
       ]
     },
-    "tags": [
-      "DeFi"
-    ]
+    "tags": ["DeFi"]
   },
   {
     "name": "Fuel Staking",
     "url": "https://app.fuel.network/staking",
     "description": "Official Fuel Staking",
-    "tags": [
-      "Bridge"
-    ],
+    "tags": ["Bridge"],
     "isLiveMainnet": true,
     "isLive": true,
     "hidden": true,
@@ -1732,9 +1543,7 @@
         }
       ]
     },
-    "tags": [
-      "NFT"
-    ],
+    "tags": ["NFT"],
     "description": "Fuel-powered NFT marketplace. Where Fuel culture gets assembled. Join. Create. Trade.",
     "github": "https://github.com/Bako-Labs",
     "twitter": "https://x.com/garagedotzone",
@@ -1762,9 +1571,7 @@
       ],
       "sepolia": []
     },
-    "tags": [
-      "DeFi"
-    ],
+    "tags": ["DeFi"],
     "description": "Reactor DEX is a decentralized exchange protocol operating on the Fuel Network. It functions as an AMM that utilizes a concentrated liquidity model.",
     "github": "https://github.com/Reactor-Fuel",
     "twitter": "https://x.com/ReactorDEX",
