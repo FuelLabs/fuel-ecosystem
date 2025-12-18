@@ -12,30 +12,6 @@
     "image": "1delta"
   },
   {
-    "isLiveMainnet": false,
-    "isLive": false,
-    "isFeatured": false,
-    "name": "Arcana",
-    "url": "https://arcana.network/",
-    "tags": ["Wallet"],
-    "description": "Arcana wallet. First-ever Chain Abstraction Enabled Web3 Wallet. Spend your token balances across chains, instantly without bridging.",
-    "github": "https://github.com/arcana-network",
-    "twitter": "https://x.com/ArcanaNetwork",
-    "discord": "https://discord.com/invite/6g7fQvEpdy",
-    "image": "arcana"
-  },
-  {
-    "isLive": false,
-    "name": "ArtDAO",
-    "url": "https://artdao.xyz/",
-    "tags": ["NFT"],
-    "description": "Scaling the possibilities of digital art on Ethereum - artists helping artists.",
-    "github": "",
-    "twitter": "https://x.com/Artdao_xyz",
-    "discord": "",
-    "image": "artdao"
-  },
-  {
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Bako ID",
@@ -161,50 +137,6 @@
     "image": "bubblemaps"
   },
   {
-    "isLive": false,
-    "name": "Bubbly Finance",
-    "url": "https://www.bubbly.finance",
-    "tags": ["DeFi"],
-    "description": "Bubbly Finance is an AMM-based DEX, aiming to become the Uniswap for pre-market assets",
-    "github": "https://github.com/bubbly-finance",
-    "twitter": "https://x.com/BubblyFinance",
-    "discord": "",
-    "image": "bubbly"
-  },
-  {
-    "isLive": false,
-    "name": "Capsule",
-    "url": "https://usecapsule.com/",
-    "tags": ["Wallet"],
-    "description": "Capsule is the cross-app embedded wallet infrastructure",
-    "github": "https://github.com/capsule-org",
-    "twitter": "https://x.com/usecapsule",
-    "discord": "",
-    "image": "capsule"
-  },
-  {
-    "isLive": false,
-    "name": "Catalyst",
-    "url": "https://fuelcatalyst.io",
-    "tags": ["Fuel", "Launchpad"],
-    "description": "The Launchpad for the Fuel Ecosystem",
-    "github": "",
-    "twitter": "https://x.com/fuel_catalyst",
-    "discord": "",
-    "image": "catalyst"
-  },
-  {
-    "isLive": false,
-    "name": "Chainrisk",
-    "url": "https://chainrisk.xyz",
-    "tags": ["DeFi"],
-    "description": "Chainrisk automates Economic risk management for DeFi Applications",
-    "github": "",
-    "twitter": "https://x.com/chain_risk",
-    "discord": "",
-    "image": "chainrisk"
-  },
-  {
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Charcoal Transpiler",
@@ -242,17 +174,6 @@
     "image": "envio"
   },
   {
-    "isLive": false,
-    "name": "Everclear",
-    "url": "https://www.everclear.org/",
-    "tags": ["Bridge"],
-    "description": "Everclear coordinates the global settlement of liquidity between chains, solving fragmentation for modular blockchains.",
-    "github": "https://github.com/everclearorg",
-    "twitter": "https://x.com/everclearorg",
-    "discord": "https://discord.gg/everclear",
-    "image": "everclear"
-  },
-  {
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Executoors",
@@ -265,8 +186,8 @@
     "image": "executoors"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
+    "isLiveMainnet": false,
+    "isLive": false,
     "name": "Fluid Protocol",
     "url": "https://fluidprotocol.xyz/",
     "tags": ["DeFi"],
@@ -275,19 +196,6 @@
     "twitter": "https://x.com/Fluid_Protocol",
     "discord": "https://discord.gg/fluidprotocol",
     "image": "fluid"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "isFeatured": true,
-    "name": "FuelUp Fun",
-    "url": "https://fuelup.fun/",
-    "tags": ["DeFi", "Launchpad"],
-    "description": "Launch a Meme Token on Fuel and GO UP ONLY ON FUEL UP.",
-    "github": "https://github.com/LYNC-WORLD/FuelUp",
-    "twitter": "https://x.com/FuelUp_Fun",
-    "discord": "",
-    "image": "fuelup"
   },
   {
     "isLiveMainnet": true,
@@ -313,19 +221,6 @@
     "discord": "",
     "image": "fuelmonkees",
     "hidden": true
-  },
-  {
-    "order": 3,
-    "isLive": true,
-    "isFeatured": true,
-    "name": "Fuel Name Service",
-    "url": "https://fuelname.com/",
-    "tags": ["Social"],
-    "description": "Fuel Name Service (FNS) is a domain name service built on the Fuel blockchain.",
-    "github": "https://github.com/fuelet",
-    "twitter": "https://x.com/FuelNameService",
-    "discord": "https://discord.com/invite/8RF78b5X6a",
-    "image": "fuelnameservice"
   },
   {
     "isLiveMainnet": true,
@@ -475,58 +370,7 @@
     "image": "fuelet"
   },
   {
-    "isLiveMainnet": true,
     "isLive": true,
-    "name": "Gas.zip",
-    "url": "https://www.gas.zip/",
-    "tags": ["Bridge"],
-    "description": "Gas.zip is the fastest one-stop gas refuel bridge for over 250+ chains and counting.",
-    "github": "https://github.com/gasdotzip",
-    "twitter": "https://x.com/gasdotzip",
-    "discord": "https://discord.com/invite/gasdotzip",
-    "image": "gaszip"
-  },
-  {
-    "order": 4,
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Griffy",
-    "url": "https://griffy.app/",
-    "predicates": {
-      "mainnet": [
-        {
-          "blob_id": "",
-          "name": "Order Predicate",
-          "description": "This is the order predicate for Griffy.",
-          "source": "",
-          "commit": "",
-          "repo": "https://github.com/FuelLabs/fuel-connectors",
-          "links": [],
-          "audits": []
-        }
-      ],
-      "sepolia": []
-    },
-    "tags": ["Prediction Market"],
-    "description": "The NASDAQ for opinions. Griffy empowers users to trade their opinions. You can select your interest from real world events like sports, politics, celebrities, fashion and a wide range of topics and trade your opinions like you trade stocks!",
-    "github": "",
-    "twitter": "https://x.com/GriffyCommunity",
-    "discord": "",
-    "image": "griffy"
-  },
-  {
-    "isLive": true,
-    "name": "Guild",
-    "url": "https://guild.xyz/fuel",
-    "tags": ["Social"],
-    "description": "Automated membership management for the platforms your community already uses.",
-    "github": "https://github.com/agoraxyz/guild.xyz",
-    "twitter": "https://x.com/guildxyz",
-    "discord": "https://discord.gg/guildxyz",
-    "image": "guildxyz"
-  },
-  {
-    "isLive": false,
     "name": "Hyperlane",
     "url": "https://hyperlane.xyz/",
     "tags": ["Bridge"],
@@ -592,42 +436,6 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
-    "name": "Lync",
-    "url": "https://docs.lync.world/fuel/lync-unity-fuel-sdk",
-    "tags": ["Tooling"],
-    "description": "A set of SDKs for Gaming and NFTs on Fuel.",
-    "github": "",
-    "twitter": "https://twitter.com/Lyncworld",
-    "discord": "",
-    "image": "lync"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Meld",
-    "url": "http://www.meld.io",
-    "tags": ["On-Ramp"],
-    "description": "Fintech Stack as a Service: Connect and route fintech integrations through a single API and out of the box UI flows!",
-    "github": "",
-    "twitter": "https://x.com/realmeld",
-    "discord": "",
-    "image": "meld"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "MemeBridge",
-    "url": "https://memebridge.xyz",
-    "tags": ["Bridge"],
-    "description": "The cheapest Layer2 bridge. Bridge through Layer2s within seconds.",
-    "github": "https://github.com/MeMeBridge",
-    "twitter": "https://x.com/MemebridgeB",
-    "discord": "",
-    "image": "memebridge"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
     "name": "Metaschool",
     "url": "https://metaschool.so/",
     "tags": ["Education"],
@@ -689,8 +497,8 @@
     "image": "microchain"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
+    "isLiveMainnet": false,
+    "isLive": false,
     "name": "Nukedrop",
     "url": "https://nukedrop.fun/",
     "tags": ["DeFi", "Launchpad"],
@@ -699,18 +507,6 @@
     "twitter": "https://x.com/nukedropdotfun",
     "discord": "",
     "image": "nukedrop"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "ORAO",
-    "url": "https://orao.network/",
-    "tags": ["Oracle"],
-    "description": "Oracle service for custom data feeds.",
-    "github": "https://github.com/orao-network/fuel-vrf",
-    "twitter": "https://x.com/OraoNetwork",
-    "discord": "",
-    "image": "orao"
   },
   {
     "isLiveMainnet": true,
@@ -726,65 +522,6 @@
     "discord": "https://discord.com/invite/FbztTBvnBT",
     "image": "orbiter",
     "address": "0xE485bC364E5BAF7365E772Ce8911d5F67aa983adf8469D92bB7D29C4cd5f459A"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Owlto Finance",
-    "url": "https://owlto.finance",
-    "tags": ["Bridge"],
-    "description": "Owlto Finance is an intent-centric interoperability protocol. Bridge the World with an AI Agent",
-    "github": "https://github.com/owlto-finance/",
-    "twitter": "https://x.com/Owlto_Finance",
-    "discord": "https://discord.com/invite/owlto",
-    "image": "owltofinance"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Pangea",
-    "url": "https://docs.pangea.foundation/chain-data/fuel/fuel.html",
-    "tags": ["Indexer"],
-    "description": "A trustless data network from which to explore and interact with blockchains, enabling the best crypto experience.",
-    "github": "https://github.com/PangeaFoundation/pangea-client/blob/master/rust-examples/examples/fuel.rs",
-    "twitter": "https://x.com/in_pangea",
-    "discord": "",
-    "image": "pangea"
-  },
-  {
-    "isLive": false,
-    "name": "Pipeline Finance",
-    "url": "https://www.pipeline.finance/",
-    "tags": ["DeFi"],
-    "description": "Pipeline Finance is the go-to solution for affordable and secure token streaming on the Fuel network. Experience seamless, real-time payments with ease.",
-    "github": "https://github.com/wt-xyz/pipeline",
-    "twitter": "https://x.com/pipeline_fi",
-    "discord": "",
-    "image": "pipeline"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Props Octane",
-    "url": "https://fuel.props.app/",
-    "tags": ["Launchpad", "NFT"],
-    "description": "Props Octane is an NFT launchpad on Fuel that empowers creators to mint and showcase NFTs and provides developers with an SDK for efficient dApp and smart contract development.",
-    "github": "https://github.com/Props-Labs/props-fuels",
-    "twitter": "https://x.com/props",
-    "discord": "https://discord.gg/feyCaDbGqU",
-    "image": "propsoctane"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Props SDK",
-    "url": "https://props-fuels.vercel.app/",
-    "tags": ["NFT", "Tooling"],
-    "description": "The Props NFT SDK for Fuel empowers developers to easily build and manage dApps, games, & rewards.",
-    "github": "https://github.com/Props-Labs/props-fuels",
-    "twitter": "https://x.com/props",
-    "discord": "https://discord.gg/feyCaDbGqU",
-    "image": "propssdk"
   },
   {
     "isLiveMainnet": true,
@@ -813,30 +550,6 @@
     "twitter": "https://x.com/PythNetwork",
     "discord": "https://discord.gg/invite/PythNetwork",
     "image": "pyth"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "RedStone Oracle",
-    "url": "https://redstone.finance/",
-    "tags": ["Oracle"],
-    "description": "Modular Oracles tailored to your decentralized application.",
-    "github": "https://github.com/redstone-finance",
-    "twitter": "https://x.com/redstone_defi",
-    "discord": "",
-    "image": "redstone"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Retrobridge",
-    "url": "https://app.retrobridge.io/",
-    "tags": ["Bridge"],
-    "description": "Multichain made easy. All chains, single app.",
-    "github": "https://github.com/retro-bridge",
-    "twitter": "https://x.com/retro_bridge",
-    "discord": "https://discord.com/invite/retrobridge",
-    "image": "retrobridge"
   },
   {
     "isLiveMainnet": true,
@@ -898,17 +611,6 @@
     "twitter": "https://x.com/ruscetfi",
     "discord": "https://discord.gg/4EejrTfbXS",
     "image": "ruscet"
-  },
-  {
-    "isLive": false,
-    "name": "Sail Exchange",
-    "url": "https://www.sail.exchange/",
-    "tags": ["DeFi"],
-    "description": "Sail Exchange is a central limit order book built on Fuel.",
-    "github": "https://github.com/Sail-Exchange",
-    "twitter": "https://x.com/_sailexchange",
-    "discord": "",
-    "image": "sail"
   },
   {
     "isLiveMainnet": true,
@@ -1012,8 +714,8 @@
   },
   {
     "order": 2,
-    "isLiveMainnet": true,
-    "isLive": true,
+    "isLiveMainnet": false,
+    "isLive": false,
     "name": "V12",
     "url": "https://v12.trade/",
     "tags": ["DeFi"],
@@ -1126,110 +828,6 @@
     "twitter": "https://x.com/swaylend",
     "discord": "https://discord.gg/7N796pdHNk",
     "image": "swaylend"
-  },
-  {
-    "isLive": false,
-    "name": "Tan Theta",
-    "url": "https://tantheta.io/",
-    "tags": ["Tooling", "Prediction Market"],
-    "description": "Tan Theta provides sophisticated predicates-based order matching engine for seamless and efficient trading experiences in prediction markets, sports books, spot exchanges, and derivatives exchanges.",
-    "github": "https://github.com/Tan-Theta-Protocol/",
-    "twitter": "https://x.com/tanthetamarkets",
-    "discord": "",
-    "image": "tantheta"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Thunder",
-    "url": "https://thundernft.market/",
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x243ef4c2301f44eecbeaf1c39fee9379664b59a2e5b75317e8c7e7f26a25ed4d",
-          "name": "Thunder Exchange",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/ThunderFuel/smart-contracts/refs/heads/main/contracts-v1/thunder_exchange/src/main.sw",
-          "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
-          "repo": "https://github.com/ThunderFuel/smart-contracts",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/thunder-exchange/thunder_exchange-abi.json"
-        },
-        {
-          "id": "0x1b3de4f663c79fce77ff5a0ae4d92693c3a2001f6d7e39c3d16eb1a80df38fe6",
-          "name": "Thunder AssetManager",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/ThunderFuel/smart-contracts/refs/heads/main/contracts-v1/asset_manager/src/main.sw",
-          "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
-          "repo": "https://github.com/ThunderFuel/smart-contracts",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/thunder-exchange/asset_manager-abi.json"
-        },
-        {
-          "id": "0x773ca186f811c1655be9d6dcc84aef437cf25c2ebe8c367810529a8ee53fc92a",
-          "name": "Thunder Pool",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/ThunderFuel/smart-contracts/refs/heads/main/contracts-v1/pool/src/main.sw",
-          "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
-          "repo": "https://github.com/ThunderFuel/smart-contracts",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/thunder-exchange/pool-abi.json"
-        },
-        {
-          "id": "0xfb2b92c17160f9856664bde85bec51f5839d565898d489a6ef8fcb9b73575b57",
-          "name": "Thunder StrategyFixedPrice",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/ThunderFuel/smart-contracts/refs/heads/main/contracts-v1/execution_strategies/strategy_fixed_price_sale/src/main.sw",
-          "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
-          "repo": "https://github.com/ThunderFuel/smart-contracts",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/thunder-exchange/strategy_fixed_price_sale-abi.json"
-        },
-        {
-          "id": "0xd5af7d47d518a679495f5ebd6de51bc8ddffbe173f3c1775d90f7acb7e6655ad",
-          "name": "Thunder ExecutionManager",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/ThunderFuel/smart-contracts/refs/heads/main/contracts-v1/execution_manager/src/main.sw",
-          "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
-          "repo": "https://github.com/ThunderFuel/smart-contracts",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/thunder-exchange/execution_manager-abi.json"
-        },
-        {
-          "id": "0x2340a412a77607108d160926222632dd427bafc6f57e185c0140c849d88b8e99",
-          "name": "Thunder RoyaltyManager",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/ThunderFuel/smart-contracts/refs/heads/main/contracts-v1/royalty_manager/src/main.sw",
-          "commit": "aa2876be3aa292f03856a1b7332824fdd276715f",
-          "repo": "https://github.com/ThunderFuel/smart-contracts",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/thunder-exchange/royalty_manager-abi.json"
-        }
-      ],
-      "sepolia": []
-    },
-    "tags": ["NFT"],
-    "description": "Thunder is the superior NFT marketplace on Fuel.",
-    "github": "",
-    "twitter": "https://x.com/ThunderbyFuel",
-    "discord": "https://discord.gg/thundernftmarket",
-    "image": "thunder"
-  },
-  {
-    "isLive": false,
-    "name": "Transak",
-    "url": "https://transak.com/",
-    "tags": ["On-Ramp"],
-    "description": "On-Ramp with most payment methods",
-    "github": "",
-    "twitter": "https://x.com/Transak",
-    "image": "transak"
   },
   {
     "isLive": false,
@@ -1399,17 +997,6 @@
     "image": "hexagate"
   },
   {
-    "isLiveMainnet": false,
-    "isLive": false,
-    "name": "Cybernetics",
-    "url": "https://www.cybernetics.gg/",
-    "tags": ["NFT"],
-    "description": "The First Utility-Driven NFT Collection on Fuel Featuring 1912 Unique Artworks.",
-    "github": "https://github.com/DevForce99",
-    "twitter": "https://x.com/fuelcybernetics",
-    "image": "cybernetics"
-  },
-  {
     "isLiveMainnet": true,
     "isLive": true,
     "name": "MEXC",
@@ -1434,31 +1021,6 @@
     "discord": "https://discord.com/invite/bitget",
     "image": "bitget",
     "address": "0xAFdDA1Cd084Ed0F56D35f570b2e9D34E7C7380191058e2a2fb16e0c58cbBC7c2"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Diesel Dex",
-    "url": "https://www.dieseldex.com/",
-    "twitter": "https://x.com/DieselDex_Fuel",
-    "image": "dieseldex",
-    "description": "The Best Trading Experience On Fuel Network",
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x7c293b054938bedca41354203be4c08aec2c3466412cac803f4ad62abf22e476",
-          "name": "Diesel v1 core",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/incepthink/DieselDex_v1core/refs/heads/main/contracts/diesel_amm_contract/src/main.sw",
-          "commit": "ddaffc56a9b14a257d839f70b000d3f1761a972f",
-          "repo": "https://github.com/incepthink/DieselDex_v1core",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/diesel-dex/diesel_amm_contract-abi.json"
-        }
-      ]
-    },
-    "tags": ["DeFi"]
   },
   {
     "name": "Fuel Staking",
@@ -1509,6 +1071,19 @@
     "twitter": "https://x.com/garagedotzone",
     "discord": "",
     "image": "garage"
+  },
+    {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "isFeatured": true,
+    "name": "o2",
+    "url": "https://o2.app/",
+    "tags": ["DeFi"],
+    "description": "The Arena of Conviction. High-performance fully onchain spot DEX, powered by Fuel.",
+    "github": "https://github.com/o2-exchange",
+    "twitter": "https://x.com/o2dotapp",
+    "discord": "https://discord.gg/w2de3DKET9",
+    "image": "o2"
   },
   {
     "isLiveMainnet": true,
