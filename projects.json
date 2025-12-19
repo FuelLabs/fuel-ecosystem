@@ -83,7 +83,7 @@
     "image": "bakoid"
   },
   {
-    "order": 1,
+    "order": 6,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
@@ -126,17 +126,6 @@
     "image": "banxa"
   },
   {
-    "isLive": false,
-    "name": "Bubblemaps",
-    "url": "https://bubblemaps.io/",
-    "tags": ["Analytics"],
-    "description": "Bubblemaps is the first supply auditing tool for DeFi tokens and NFTs. Our unique and colorful bubbles make on-chain data easy to understand.",
-    "github": "",
-    "twitter": "https://x.com/bubblemaps",
-    "discord": "https://discord.gg/6DexjezHzV",
-    "image": "bubblemaps"
-  },
-  {
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Charcoal Transpiler",
@@ -161,7 +150,6 @@
     "image": "cookbook"
   },
   {
-    "order": 1,
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Envio",
@@ -184,18 +172,6 @@
     "twitter": "https://x.com/executoors",
     "discord": "",
     "image": "executoors"
-  },
-  {
-    "isLiveMainnet": false,
-    "isLive": false,
-    "name": "Fluid Protocol",
-    "url": "https://fluidprotocol.xyz/",
-    "tags": ["DeFi"],
-    "description": "Fluid is the native decentralized stablecoin on Fuel.",
-    "github": "",
-    "twitter": "https://x.com/Fluid_Protocol",
-    "discord": "https://discord.gg/fluidprotocol",
-    "image": "fluid"
   },
   {
     "isLiveMainnet": true,
@@ -226,7 +202,7 @@
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuel Pengus",
-    "url": "https://fuelpengus.com/",
+    "url": "",
     "tags": ["NFT"],
     "description": "Fuel Pengus is a collection of 5555 Penguin PFPs, Aiming to build the biggest NFT community on Fuel!",
     "github": "",
@@ -259,22 +235,6 @@
     },
     "description": "Bridge assets from Ethereum to Fuel with Fuel's native bridge.",
     "github": "https://github.com/FuelLabs/fuel-bridge",
-    "twitter": "https://x.com/fuel_network",
-    "discord": "https://discord.gg/fuelnetwork",
-    "image": "fuelbridge"
-  },
-  {
-    "isFeatured": true,
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Fuel Bridge Auto-Relayer",
-    "url": "https://app.fuel.network/bridge",
-    "hidden": true,
-    "isExternalExchange": true,
-    "showAccountTag": true,
-    "address": "0x4F27654EA3713143Ba28828362b12e678080CEb011E7337Ad9b8cBF1CeF4F6A1",
-    "description": "",
-    "github": "https://github.com/FuelLabs/auto-relayer",
     "twitter": "https://x.com/fuel_network",
     "discord": "https://discord.gg/fuelnetwork",
     "image": "fuelbridge"
@@ -336,7 +296,7 @@
     "isLiveMainnet": true,
     "isLive": true,
     "name": "Fuel Rocks",
-    "url": "https://thundernft.market/collection/fuel-rocks",
+    "url": "",
     "tags": ["NFT"],
     "description": "Fuel Rocks 🪨⛽️, inspired by EtherRock, will redefine the Fuel ecosystem with 2019 unique rocks.",
     "github": "",
@@ -381,17 +341,6 @@
     "image": "hyperlane"
   },
   {
-    "isLive": false,
-    "name": "Kassiopea",
-    "url": "https://www.kassiopea.xyz/",
-    "tags": ["DeFi"],
-    "description": "Kassiopea is a decentralized perpetual trading platform that revolutionizes the way people trade commodities, RWA and cryptocurrencies amidst gameplay.",
-    "github": "",
-    "twitter": "https://x.com/Kassiopea_xyz",
-    "discord": "https://discord.gg/SX8M4YYT",
-    "image": "kassiopea"
-  },
-  {
     "isFeatured": true,
     "isLiveMainnet": true,
     "isLive": true,
@@ -434,19 +383,7 @@
     "image": "learnweb3"
   },
   {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Metaschool",
-    "url": "https://metaschool.so/",
-    "tags": ["Education"],
-    "description": "Metaschool is a web3 education platform with 140K+ developers that helps developers enter web3 by building and shipping DApps.",
-    "github": "https://github.com/0xmetaschool",
-    "twitter": "https://x.com/0xmetaschool",
-    "discord": "https://discord.com/invite/vbVMUwXWgc",
-    "image": "metaschool"
-  },
-  {
-    "order": 1,
+    "order": 3,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
@@ -464,7 +401,7 @@
           "links": [
             {
               "title": "Security Audit",
-              "url": "https://docs.mira.ly/developer-guides/security-audit"
+              "url": "https://docs.microchain.systems/resources/security-audits"
             }
           ],
           "audits": [],
@@ -480,7 +417,7 @@
           "links": [
             {
               "title": "Security Audit",
-              "url": "https://docs.mira.ly/developer-guides/security-audit"
+              "url": "https://docs.microchain.systems/resources/security-audits"
             }
           ],
           "audits": [],
@@ -495,18 +432,6 @@
     "twitter": "https://x.com/MicrochainDLM",
     "discord": "https://discord.gg/9HzukDUKSq",
     "image": "microchain"
-  },
-  {
-    "isLiveMainnet": false,
-    "isLive": false,
-    "name": "Nukedrop",
-    "url": "https://nukedrop.fun/",
-    "tags": ["DeFi", "Launchpad"],
-    "description": "Launch a coin in under 30 seconds that's instantly deployed on Fuel for 0.005 ETH. ",
-    "github": "https://github.com/NukeDrop",
-    "twitter": "https://x.com/nukedropdotfun",
-    "discord": "",
-    "image": "nukedrop"
   },
   {
     "isLiveMainnet": true,
@@ -566,67 +491,6 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
-    "name": "Ruscet Exchange",
-    "url": "https://ruscet.xyz/",
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x8002f2e86302ef9421558d0ae25a68cdfdbec5d27915cc2db49eded220799ecc",
-          "name": "Ruscet Vault",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/burralabs/ruscet-contracts/a7d1f4604c06183d81b361e5efa5472f5b58074a/contracts/core/vault/src/main.sw",
-          "commit": "a7d1f4604c06183d81b361e5efa5472f5b58074a",
-          "repo": "https://github.com/burralabs/ruscet-contracts",
-          "links": [
-            {
-              "title": "Security Audit",
-              "url": "https://docs.ruscet.xyz/security/audits"
-            }
-          ],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/ruscet/vault-abi.json"
-        },
-        {
-          "id": "0x1d9d3b612524384c98e1cf03a1cda6a3aadb8ac794c9df87fe5ca6ac39ae3bcc",
-          "name": "Ruscet RLP Contract",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/burralabs/ruscet-contracts/a7d1f4604c06183d81b361e5efa5472f5b58074a/contracts/assets/rlp/src/main.sw",
-          "commit": "a7d1f4604c06183d81b361e5efa5472f5b58074a",
-          "repo": "https://github.com/burralabs/ruscet-contracts",
-          "links": [
-            {
-              "title": "Security Audit",
-              "url": "https://docs.ruscet.xyz/security/audits"
-            }
-          ],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/ruscet/rlp-abi.json"
-        }
-      ],
-      "sepolia": []
-    },
-    "tags": ["DeFi"],
-    "description": "Ruscet is a permissionless, hyper-performant perps exchange on Fuel.",
-    "github": "https://github.com/burralabs/ruscet-contracts",
-    "twitter": "https://x.com/ruscetfi",
-    "discord": "https://discord.gg/4EejrTfbXS",
-    "image": "ruscet"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Sangoro",
-    "url": "https://sangoro.xyz/",
-    "tags": ["NFT"],
-    "description": "Sangoro Travel Club is the world's first Web3.0 community built by Chinese & Turks travelers.",
-    "github": "",
-    "twitter": "https://x.com/Sangoro_SGR",
-    "discord": "",
-    "image": "sangoro"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
     "name": "Sentio",
     "url": "https://www.sentio.xyz/",
     "tags": ["Indexer", "Analytics"],
@@ -678,7 +542,7 @@
     "image": "stork"
   },
   {
-    "order": 1,
+    "order": 4,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
@@ -690,9 +554,9 @@
           "id": "0x2181f1b8e00756672515807cab7de10c70a9b472a4a9b1b6ca921435b0a1f49b",
           "name": "The Rig V1",
           "description": "",
-          "source": "https://github.com/Rig-Labs/the-rig/blob/main/ignition/contracts/rig/src/main.sw",
-          "commit": "d8178a789b2221e5e67b1586a7ffbf1e7a93cc30",
-          "repo": "https://github.com/Rig-Labs/the-rig",
+          "source": "https://github.com/Rig-Labs/smart-contracts/blob/main/ignition/contracts/rig/src/main.sw",
+          "commit": "31496c41663e36862ba952cf7a03969268420a28",
+          "repo": "https://github.com/Rig-Labs",
           "links": [
             {
               "title": "Rig Docs",
@@ -711,19 +575,6 @@
     "twitter": "https://x.com/theriglst",
     "discord": "https://t.me/TheRigLiquidStaking",
     "image": "rig"
-  },
-  {
-    "order": 2,
-    "isLiveMainnet": false,
-    "isLive": false,
-    "name": "V12",
-    "url": "https://v12.trade/",
-    "tags": ["DeFi"],
-    "description": "V12 is a predicate-based central limit order book.",
-    "github": "https://github.com/compolabs/spark",
-    "twitter": "https://x.com/v12trade",
-    "discord": "https://discord.com/invite/composability-labs-1051946457793581175",
-    "image": "v12"
   },
   {
     "isLiveMainnet": true,
@@ -790,7 +641,7 @@
     "image": "swayplayground"
   },
   {
-    "order": 2,
+    "order": 5,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
@@ -1023,28 +874,6 @@
     "address": "0xAFdDA1Cd084Ed0F56D35f570b2e9D34E7C7380191058e2a2fb16e0c58cbBC7c2"
   },
   {
-    "name": "Fuel Staking",
-    "url": "https://app.fuel.network/staking",
-    "description": "Official Fuel Staking",
-    "tags": ["Bridge"],
-    "isLiveMainnet": true,
-    "isLive": true,
-    "hidden": true,
-    "github": "https://github.com/fuellabs",
-    "twitter": "https://x.com/fuel_network",
-    "image": "fuelstaking",
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x095faac82412324c60fdf6934405b5df9de49982284779536218d16d5ee3dc4c",
-          "name": "Fuel Staking",
-          "description": "Fuel Staking"
-        }
-      ],
-      "sepolia": []
-    }
-  },
-  {
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
@@ -1072,7 +901,8 @@
     "discord": "",
     "image": "garage"
   },
-    {
+  {
+    "order": 1,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
@@ -1086,6 +916,7 @@
     "image": "o2"
   },
   {
+    "order": 2,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
