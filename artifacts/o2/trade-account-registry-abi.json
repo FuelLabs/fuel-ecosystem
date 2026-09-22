@@ -1,0 +1,1267 @@
+{
+    "programType": "contract",
+    "specVersion": "1.2",
+    "encodingVersion": "1",
+    "concreteTypes": [
+        {
+            "type": "()",
+            "concreteTypeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+        },
+        {
+            "type": "(u64, struct std::vec::Vec<u8>)",
+            "concreteTypeId": "b9352ceca7ae9a3761acde62a1e9e9bdd9136f5d1fb0c46079c83e41a5118394",
+            "metadataTypeId": 0
+        },
+        {
+            "type": "b256",
+            "concreteTypeId": "7c5ee1cecf5f8eacd1284feb5f0bf2bdea533a51e2f0c9aabe9236d335989f3b"
+        },
+        {
+            "type": "bool",
+            "concreteTypeId": "b760f44fa5965c2474a3b471467a22c43185152129295af588b022ae50b50903"
+        },
+        {
+            "type": "enum contract_schema::prop_account::PropAccountRegistryError",
+            "concreteTypeId": "d64f4d73d3e2806db0483f4d4aae8a30517b3c6296e11d6773dd23e1b6574e31",
+            "metadataTypeId": 1
+        },
+        {
+            "type": "enum contract_schema::register::TradeAccountRegistryError",
+            "concreteTypeId": "81255b874c9fc86ae2e8a8b4614d8e0607a10dcdda9017b0f79b944fc8e758c4",
+            "metadataTypeId": 2
+        },
+        {
+            "type": "enum ownership::errors::InitializationError",
+            "concreteTypeId": "b1fddf488ccb9e63d11888b2750bbd1280a1ae1c49f2d6637fd4cf1e930d1468",
+            "metadataTypeId": 3
+        },
+        {
+            "type": "enum pausable::errors::PauseError",
+            "concreteTypeId": "455b46a49016f5c03c18ce54b969ea3d0d33c9b00263b3dcc36aa8da27558b8a",
+            "metadataTypeId": 4
+        },
+        {
+            "type": "enum src5::AccessError",
+            "concreteTypeId": "f1247475d0d1466599267010f088190f8664dd31663a40c5d5e525d8e64b995d",
+            "metadataTypeId": 5
+        },
+        {
+            "type": "enum src5::State",
+            "concreteTypeId": "287a382c1e0b1f11d12a422e77a248d27761327cd17515cc6e6369d528cf31ca",
+            "metadataTypeId": 6
+        },
+        {
+            "type": "enum std::identity::Identity",
+            "concreteTypeId": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335",
+            "metadataTypeId": 7
+        },
+        {
+            "type": "enum std::option::Option<b256>",
+            "concreteTypeId": "0c2beb9013490c4f753f2757dfe2d8340b22ce3827d596d81d249b7038033cb6",
+            "metadataTypeId": 8,
+            "typeArguments": [
+                "7c5ee1cecf5f8eacd1284feb5f0bf2bdea533a51e2f0c9aabe9236d335989f3b"
+            ]
+        },
+        {
+            "type": "enum std::option::Option<enum std::identity::Identity>",
+            "concreteTypeId": "253aea1197e8005518365bd24c8bc31f73a434fac0f7350e57696edfdd4850c2",
+            "metadataTypeId": 8,
+            "typeArguments": [
+                "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335"
+            ]
+        },
+        {
+            "type": "enum std::option::Option<struct std::contract_id::ContractId>",
+            "concreteTypeId": "0d79387ad3bacdc3b7aad9da3a96f4ce60d9a1b6002df254069ad95a3931d5c8",
+            "metadataTypeId": 8,
+            "typeArguments": [
+                "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54"
+            ]
+        },
+        {
+            "type": "enum std::option::Option<struct std::vec::Vec<(u64, struct std::vec::Vec<u8>)>>",
+            "concreteTypeId": "58b7cc87a4aecd6a5c1faa417383600c5d9a35f1c894ae472185fdfbdcde3e63",
+            "metadataTypeId": 8,
+            "typeArguments": [
+                "74430a1b843471b86fba24e136228591c66aa952a4ea52fd2471d8a5716b29b8"
+            ]
+        },
+        {
+            "type": "enum std::result::Result<b256,str>",
+            "concreteTypeId": "72005a1ad434ed967d65131b03a4cc88237886a260812c8996c799ed3067e3cd",
+            "metadataTypeId": 9,
+            "typeArguments": [
+                "7c5ee1cecf5f8eacd1284feb5f0bf2bdea533a51e2f0c9aabe9236d335989f3b",
+                "8c25cb3686462e9a86d2883c5688a22fe738b0bbc85f458d2d2b5f3f667c6d5a"
+            ]
+        },
+        {
+            "type": "str",
+            "concreteTypeId": "8c25cb3686462e9a86d2883c5688a22fe738b0bbc85f458d2d2b5f3f667c6d5a"
+        },
+        {
+            "type": "struct contract_schema::prop_account::MarginTradeAccountRegistered",
+            "concreteTypeId": "007edbdb2ae4befabbe06422d9031e08941d57d02f90de6a206c5d4f4a2a8343",
+            "metadataTypeId": 13
+        },
+        {
+            "type": "struct contract_schema::register::Page<struct contract_schema::register::TradeAccountRegistered>",
+            "concreteTypeId": "07a77d05b7a972f7ac63e2af2e90771d862ca986225926eefd19b18fe58c44a2",
+            "metadataTypeId": 14,
+            "typeArguments": [
+                "52263c09bcffd7d30a4ebc34479f97ebf0d11599056a3cda6e132bb537a18c6e"
+            ]
+        },
+        {
+            "type": "struct contract_schema::register::Page<struct std::contract_id::ContractId>",
+            "concreteTypeId": "dd7cadfa2d4f77b8b00feddf4ca548659d0b6db97db1ec4d5f3f24ffa54edaa4",
+            "metadataTypeId": 14,
+            "typeArguments": [
+                "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54"
+            ]
+        },
+        {
+            "type": "struct contract_schema::register::TradeAccountReferer",
+            "concreteTypeId": "82b1d1629ff781d78852d17f7cfa63ee7f756025ba747ce202a5cbeba4da90cd",
+            "metadataTypeId": 15
+        },
+        {
+            "type": "struct contract_schema::register::TradeAccountRegistered",
+            "concreteTypeId": "52263c09bcffd7d30a4ebc34479f97ebf0d11599056a3cda6e132bb537a18c6e",
+            "metadataTypeId": 16
+        },
+        {
+            "type": "struct contract_schema::register::TrialTradeAccountLinked",
+            "concreteTypeId": "02c4274ec17542243cf2dde6c960bacde97ea57a19260b1e0f96999bd72ab464",
+            "metadataTypeId": 17
+        },
+        {
+            "type": "struct contract_schema::register::TrialTradeAccountRegistered",
+            "concreteTypeId": "a31ac2245e3f130b91eecc994b27737a1281e661740caf0e4c5369b9acf85750",
+            "metadataTypeId": 18
+        },
+        {
+            "type": "struct ownership::events::OwnershipSet",
+            "concreteTypeId": "8c0d2488561c35a28ef795bb8bcc4c43999cdd1e3ecbd10c226e0a68660c54d4",
+            "metadataTypeId": 19
+        },
+        {
+            "type": "struct ownership::events::OwnershipTransferred",
+            "concreteTypeId": "a2a2643e0252b510328c0323a0ea60724fb4cb3309a2322ab31b27566ff9a79d",
+            "metadataTypeId": 20
+        },
+        {
+            "type": "struct pausable::events::PauseEvent",
+            "concreteTypeId": "692983a9aba767e36b5014d3eb842447c736e341cc3b30fcb051b1f5a3d5f80a",
+            "metadataTypeId": 21
+        },
+        {
+            "type": "struct pausable::events::UnpauseEvent",
+            "concreteTypeId": "0026d386ad84e75b525bec3e7c8b6a63df3fcd108a8c4b26438c8a7a2e2c218b",
+            "metadataTypeId": 22
+        },
+        {
+            "type": "struct std::asset_id::AssetId",
+            "concreteTypeId": "c0710b6731b1dd59799cf6bef33eee3b3b04a2e40e80a0724090215bbf2ca974",
+            "metadataTypeId": 24
+        },
+        {
+            "type": "struct std::contract_id::ContractId",
+            "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "metadataTypeId": 25
+        },
+        {
+            "type": "struct std::vec::Vec<(u64, struct std::vec::Vec<u8>)>",
+            "concreteTypeId": "74430a1b843471b86fba24e136228591c66aa952a4ea52fd2471d8a5716b29b8",
+            "metadataTypeId": 28,
+            "typeArguments": [
+                "b9352ceca7ae9a3761acde62a1e9e9bdd9136f5d1fb0c46079c83e41a5118394"
+            ]
+        },
+        {
+            "type": "struct std::vec::Vec<struct std::contract_id::ContractId>",
+            "concreteTypeId": "b8ca7626a08e8fb93379b5d9d58d8a12eede8de9f087bfa21feccca44f92e211",
+            "metadataTypeId": 28,
+            "typeArguments": [
+                "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54"
+            ]
+        },
+        {
+            "type": "u64",
+            "concreteTypeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+        }
+    ],
+    "metadataTypes": [
+        {
+            "type": "(_, _)",
+            "metadataTypeId": 0,
+            "components": [
+                {
+                    "name": "__tuple_element",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "__tuple_element",
+                    "typeId": 28,
+                    "typeArguments": [
+                        {
+                            "name": "",
+                            "typeId": 29
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "enum contract_schema::prop_account::PropAccountRegistryError",
+            "metadataTypeId": 1,
+            "components": [
+                {
+                    "name": "AlreadyRegistered",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "InvalidContract",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "InvalidProxyTarget",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "InvalidParent",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "NotParent",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "InvalidOracle",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                }
+            ]
+        },
+        {
+            "type": "enum contract_schema::register::TradeAccountRegistryError",
+            "metadataTypeId": 2,
+            "components": [
+                {
+                    "name": "OwnerAlreadyHasTradeAccount",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "TradeAccountNotRegistered",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "TradeAccountAlreadyHasReferer",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                }
+            ]
+        },
+        {
+            "type": "enum ownership::errors::InitializationError",
+            "metadataTypeId": 3,
+            "components": [
+                {
+                    "name": "CannotReinitialized",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                }
+            ]
+        },
+        {
+            "type": "enum pausable::errors::PauseError",
+            "metadataTypeId": 4,
+            "components": [
+                {
+                    "name": "Paused",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "NotPaused",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                }
+            ]
+        },
+        {
+            "type": "enum src5::AccessError",
+            "metadataTypeId": 5,
+            "components": [
+                {
+                    "name": "NotOwner",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                }
+            ]
+        },
+        {
+            "type": "enum src5::State",
+            "metadataTypeId": 6,
+            "components": [
+                {
+                    "name": "Uninitialized",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "Initialized",
+                    "typeId": 7
+                },
+                {
+                    "name": "Revoked",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                }
+            ]
+        },
+        {
+            "type": "enum std::identity::Identity",
+            "metadataTypeId": 7,
+            "components": [
+                {
+                    "name": "Address",
+                    "typeId": 23
+                },
+                {
+                    "name": "ContractId",
+                    "typeId": 25
+                }
+            ]
+        },
+        {
+            "type": "enum std::option::Option",
+            "metadataTypeId": 8,
+            "components": [
+                {
+                    "name": "None",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "Some",
+                    "typeId": 11
+                }
+            ],
+            "typeParameters": [
+                11
+            ]
+        },
+        {
+            "type": "enum std::result::Result",
+            "metadataTypeId": 9,
+            "components": [
+                {
+                    "name": "Ok",
+                    "typeId": 11
+                },
+                {
+                    "name": "Err",
+                    "typeId": 10
+                }
+            ],
+            "typeParameters": [
+                11,
+                10
+            ]
+        },
+        {
+            "type": "generic E",
+            "metadataTypeId": 10
+        },
+        {
+            "type": "generic T",
+            "metadataTypeId": 11
+        },
+        {
+            "type": "raw untyped ptr",
+            "metadataTypeId": 12
+        },
+        {
+            "type": "struct contract_schema::prop_account::MarginTradeAccountRegistered",
+            "metadataTypeId": 13,
+            "components": [
+                {
+                    "name": "contract_id",
+                    "typeId": 25
+                },
+                {
+                    "name": "parent",
+                    "typeId": 7
+                },
+                {
+                    "name": "index",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "timestamp",
+                    "typeId": 26
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::register::Page",
+            "metadataTypeId": 14,
+            "components": [
+                {
+                    "name": "items",
+                    "typeId": 28,
+                    "typeArguments": [
+                        {
+                            "name": "",
+                            "typeId": 11
+                        }
+                    ]
+                },
+                {
+                    "name": "page",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "total",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ],
+            "typeParameters": [
+                11
+            ]
+        },
+        {
+            "type": "struct contract_schema::register::TradeAccountReferer",
+            "metadataTypeId": 15,
+            "components": [
+                {
+                    "name": "trade_account",
+                    "typeId": 25
+                },
+                {
+                    "name": "referer",
+                    "typeId": 7
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::register::TradeAccountRegistered",
+            "metadataTypeId": 16,
+            "components": [
+                {
+                    "name": "contract_id",
+                    "typeId": 25
+                },
+                {
+                    "name": "owner",
+                    "typeId": 7
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::register::TrialTradeAccountLinked",
+            "metadataTypeId": 17,
+            "components": [
+                {
+                    "name": "trial_trade_account",
+                    "typeId": 25
+                },
+                {
+                    "name": "parent_account",
+                    "typeId": 7
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::register::TrialTradeAccountRegistered",
+            "metadataTypeId": 18,
+            "components": [
+                {
+                    "name": "contract_id",
+                    "typeId": 25
+                },
+                {
+                    "name": "funded_amount",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "funded_asset_id",
+                    "typeId": 24
+                },
+                {
+                    "name": "activated_at",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "trial_duration",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "liquidation_threshold_amount",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "liquidation_threshold_asset_id",
+                    "typeId": 24
+                },
+                {
+                    "name": "session_id",
+                    "typeId": 7
+                },
+                {
+                    "name": "trial_allowed_order_book_ids",
+                    "typeId": 28,
+                    "typeArguments": [
+                        {
+                            "name": "",
+                            "typeId": 25
+                        }
+                    ]
+                },
+                {
+                    "name": "trial_user_profit_share_bps",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "trial_platform_payout_identity",
+                    "typeId": 7
+                }
+            ]
+        },
+        {
+            "type": "struct ownership::events::OwnershipSet",
+            "metadataTypeId": 19,
+            "components": [
+                {
+                    "name": "new_owner",
+                    "typeId": 7
+                }
+            ]
+        },
+        {
+            "type": "struct ownership::events::OwnershipTransferred",
+            "metadataTypeId": 20,
+            "components": [
+                {
+                    "name": "new_owner",
+                    "typeId": 7
+                },
+                {
+                    "name": "previous_owner",
+                    "typeId": 7
+                }
+            ]
+        },
+        {
+            "type": "struct pausable::events::PauseEvent",
+            "metadataTypeId": 21,
+            "components": [
+                {
+                    "name": "caller",
+                    "typeId": 7
+                }
+            ]
+        },
+        {
+            "type": "struct pausable::events::UnpauseEvent",
+            "metadataTypeId": 22,
+            "components": [
+                {
+                    "name": "caller",
+                    "typeId": 7
+                }
+            ]
+        },
+        {
+            "type": "struct std::address::Address",
+            "metadataTypeId": 23,
+            "components": [
+                {
+                    "name": "bits",
+                    "typeId": "7c5ee1cecf5f8eacd1284feb5f0bf2bdea533a51e2f0c9aabe9236d335989f3b"
+                }
+            ]
+        },
+        {
+            "type": "struct std::asset_id::AssetId",
+            "metadataTypeId": 24,
+            "components": [
+                {
+                    "name": "bits",
+                    "typeId": "7c5ee1cecf5f8eacd1284feb5f0bf2bdea533a51e2f0c9aabe9236d335989f3b"
+                }
+            ]
+        },
+        {
+            "type": "struct std::contract_id::ContractId",
+            "metadataTypeId": 25,
+            "components": [
+                {
+                    "name": "bits",
+                    "typeId": "7c5ee1cecf5f8eacd1284feb5f0bf2bdea533a51e2f0c9aabe9236d335989f3b"
+                }
+            ]
+        },
+        {
+            "type": "struct std::time::Time",
+            "metadataTypeId": 26,
+            "components": [
+                {
+                    "name": "unix",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ]
+        },
+        {
+            "type": "struct std::vec::RawVec",
+            "metadataTypeId": 27,
+            "components": [
+                {
+                    "name": "ptr",
+                    "typeId": 12
+                },
+                {
+                    "name": "cap",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ],
+            "typeParameters": [
+                11
+            ]
+        },
+        {
+            "type": "struct std::vec::Vec",
+            "metadataTypeId": 28,
+            "components": [
+                {
+                    "name": "buf",
+                    "typeId": 27,
+                    "typeArguments": [
+                        {
+                            "name": "",
+                            "typeId": 11
+                        }
+                    ]
+                },
+                {
+                    "name": "len",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ],
+            "typeParameters": [
+                11
+            ]
+        },
+        {
+            "type": "u8",
+            "metadataTypeId": 29
+        }
+    ],
+    "functions": [
+        {
+            "name": "factory_bytecode_root",
+            "inputs": [],
+            "output": "0c2beb9013490c4f753f2757dfe2d8340b22ce3827d596d81d249b7038033cb6",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "is_valid",
+            "inputs": [
+                {
+                    "name": "child_contract",
+                    "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54"
+                }
+            ],
+            "output": "b760f44fa5965c2474a3b471467a22c43185152129295af588b022ae50b50903",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "register_contract",
+            "inputs": [
+                {
+                    "name": "child_contract",
+                    "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54"
+                },
+                {
+                    "name": "configurables",
+                    "concreteTypeId": "58b7cc87a4aecd6a5c1faa417383600c5d9a35f1c894ae472185fdfbdcde3e63"
+                }
+            ],
+            "output": "72005a1ad434ed967d65131b03a4cc88237886a260812c8996c799ed3067e3cd",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "default_bytecode",
+            "inputs": [],
+            "output": "0d79387ad3bacdc3b7aad9da3a96f4ce60d9a1b6002df254069ad95a3931d5c8",
+            "attributes": null
+        },
+        {
+            "name": "default_trial_bytecode",
+            "inputs": [],
+            "output": "0d79387ad3bacdc3b7aad9da3a96f4ce60d9a1b6002df254069ad95a3931d5c8",
+            "attributes": null
+        },
+        {
+            "name": "get_oracle_id",
+            "inputs": [],
+            "output": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "attributes": null
+        },
+        {
+            "name": "get_trade_account",
+            "inputs": [
+                {
+                    "name": "owner",
+                    "concreteTypeId": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335"
+                }
+            ],
+            "output": "0d79387ad3bacdc3b7aad9da3a96f4ce60d9a1b6002df254069ad95a3931d5c8",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "get_trade_account_referer",
+            "inputs": [
+                {
+                    "name": "contract_id",
+                    "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54"
+                }
+            ],
+            "output": "253aea1197e8005518365bd24c8bc31f73a434fac0f7350e57696edfdd4850c2",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "get_trade_accounts",
+            "inputs": [
+                {
+                    "name": "page",
+                    "concreteTypeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ],
+            "output": "07a77d05b7a972f7ac63e2af2e90771d862ca986225926eefd19b18fe58c44a2",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "get_trial_oracle_id",
+            "inputs": [],
+            "output": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "attributes": null
+        },
+        {
+            "name": "get_trial_trade_account_creator",
+            "inputs": [],
+            "output": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "get_trial_trade_accounts",
+            "inputs": [
+                {
+                    "name": "page",
+                    "concreteTypeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ],
+            "output": "dd7cadfa2d4f77b8b00feddf4ca548659d0b6db97db1ec4d5f3f24ffa54edaa4",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "register_referer",
+            "inputs": [
+                {
+                    "name": "referer",
+                    "concreteTypeId": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "set_trial_trade_account_creator",
+            "inputs": [
+                {
+                    "name": "trial_trade_account_creator",
+                    "concreteTypeId": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "trial_factory_bytecode_root",
+            "inputs": [],
+            "output": "0c2beb9013490c4f753f2757dfe2d8340b22ce3827d596d81d249b7038033cb6",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "trial_is_valid",
+            "inputs": [
+                {
+                    "name": "child_contract",
+                    "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54"
+                }
+            ],
+            "output": "b760f44fa5965c2474a3b471467a22c43185152129295af588b022ae50b50903",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "trial_register_contract",
+            "inputs": [
+                {
+                    "name": "child_contract",
+                    "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54"
+                },
+                {
+                    "name": "configurables",
+                    "concreteTypeId": "58b7cc87a4aecd6a5c1faa417383600c5d9a35f1c894ae472185fdfbdcde3e63"
+                },
+                {
+                    "name": "trial_duration",
+                    "concreteTypeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "liquidation_threshold_amount",
+                    "concreteTypeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "liquidation_threshold_asset_id",
+                    "concreteTypeId": "c0710b6731b1dd59799cf6bef33eee3b3b04a2e40e80a0724090215bbf2ca974"
+                },
+                {
+                    "name": "trial_allowed_order_book_ids",
+                    "concreteTypeId": "b8ca7626a08e8fb93379b5d9d58d8a12eede8de9f087bfa21feccca44f92e211"
+                },
+                {
+                    "name": "trial_user_profit_share_bps",
+                    "concreteTypeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "trial_platform_payout_identity",
+                    "concreteTypeId": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335"
+                }
+            ],
+            "output": "72005a1ad434ed967d65131b03a4cc88237886a260812c8996c799ed3067e3cd",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                },
+                {
+                    "name": "payable",
+                    "arguments": []
+                }
+            ]
+        },
+        {
+            "name": "trial_report_account_link",
+            "inputs": [
+                {
+                    "name": "parent_account",
+                    "concreteTypeId": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "default_prop_bytecode",
+            "inputs": [],
+            "output": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "attributes": null
+        },
+        {
+            "name": "get_prop_oracle_id",
+            "inputs": [],
+            "output": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "attributes": null
+        },
+        {
+            "name": "get_prop_pool_id",
+            "inputs": [],
+            "output": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "attributes": null
+        },
+        {
+            "name": "prop_is_valid",
+            "inputs": [
+                {
+                    "name": "child",
+                    "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54"
+                }
+            ],
+            "output": "b760f44fa5965c2474a3b471467a22c43185152129295af588b022ae50b50903",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "prop_parent",
+            "inputs": [
+                {
+                    "name": "child",
+                    "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54"
+                }
+            ],
+            "output": "253aea1197e8005518365bd24c8bc31f73a434fac0f7350e57696edfdd4850c2",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "prop_register_contract",
+            "inputs": [
+                {
+                    "name": "child",
+                    "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54"
+                },
+                {
+                    "name": "parent",
+                    "concreteTypeId": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335"
+                },
+                {
+                    "name": "index",
+                    "concreteTypeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ],
+            "output": "7c5ee1cecf5f8eacd1284feb5f0bf2bdea533a51e2f0c9aabe9236d335989f3b",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "initialize",
+            "inputs": [],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "transfer_ownership",
+            "inputs": [
+                {
+                    "name": "new_owner",
+                    "concreteTypeId": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "owner",
+            "inputs": [],
+            "output": "287a382c1e0b1f11d12a422e77a248d27761327cd17515cc6e6369d528cf31ca",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "is_paused",
+            "inputs": [],
+            "output": "b760f44fa5965c2474a3b471467a22c43185152129295af588b022ae50b50903",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "pause",
+            "inputs": [],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "unpause",
+            "inputs": [],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "write"
+                    ]
+                }
+            ]
+        }
+    ],
+    "loggedTypes": [
+        {
+            "logId": "17376141311665587813",
+            "concreteTypeId": "f1247475d0d1466599267010f088190f8664dd31663a40c5d5e525d8e64b995d"
+        },
+        {
+            "logId": "7577732612780156899",
+            "concreteTypeId": "692983a9aba767e36b5014d3eb842447c736e341cc3b30fcb051b1f5a3d5f80a"
+        },
+        {
+            "logId": "10928624505251675",
+            "concreteTypeId": "0026d386ad84e75b525bec3e7c8b6a63df3fcd108a8c4b26438c8a7a2e2c218b"
+        },
+        {
+            "logId": "12825652816513834595",
+            "concreteTypeId": "b1fddf488ccb9e63d11888b2750bbd1280a1ae1c49f2d6637fd4cf1e930d1468"
+        },
+        {
+            "logId": "10091762507985991074",
+            "concreteTypeId": "8c0d2488561c35a28ef795bb8bcc4c43999cdd1e3ecbd10c226e0a68660c54d4"
+        },
+        {
+            "logId": "10098701174489624218",
+            "concreteTypeId": "8c25cb3686462e9a86d2883c5688a22fe738b0bbc85f458d2d2b5f3f667c6d5a"
+        },
+        {
+            "logId": "4997665884103701952",
+            "concreteTypeId": "455b46a49016f5c03c18ce54b969ea3d0d33c9b00263b3dcc36aa8da27558b8a"
+        },
+        {
+            "logId": "9305944841695250538",
+            "concreteTypeId": "81255b874c9fc86ae2e8a8b4614d8e0607a10dcdda9017b0f79b944fc8e758c4"
+        },
+        {
+            "logId": "9417538517329215959",
+            "concreteTypeId": "82b1d1629ff781d78852d17f7cfa63ee7f756025ba747ce202a5cbeba4da90cd"
+        },
+        {
+            "logId": "5919484772748351443",
+            "concreteTypeId": "52263c09bcffd7d30a4ebc34479f97ebf0d11599056a3cda6e132bb537a18c6e"
+        },
+        {
+            "logId": "11719039397861176592",
+            "concreteTypeId": "a2a2643e0252b510328c0323a0ea60724fb4cb3309a2322ab31b27566ff9a79d"
+        },
+        {
+            "logId": "15442646807148134509",
+            "concreteTypeId": "d64f4d73d3e2806db0483f4d4aae8a30517b3c6296e11d6773dd23e1b6574e31"
+        },
+        {
+            "logId": "35707581429497594",
+            "concreteTypeId": "007edbdb2ae4befabbe06422d9031e08941d57d02f90de6a206c5d4f4a2a8343"
+        },
+        {
+            "logId": "11752919639032533771",
+            "concreteTypeId": "a31ac2245e3f130b91eecc994b27737a1281e661740caf0e4c5369b9acf85750"
+        },
+        {
+            "logId": "199327502717764132",
+            "concreteTypeId": "02c4274ec17542243cf2dde6c960bacde97ea57a19260b1e0f96999bd72ab464"
+        }
+    ],
+    "messagesTypes": [],
+    "configurables": [
+        {
+            "name": "INITIAL_OWNER",
+            "concreteTypeId": "287a382c1e0b1f11d12a422e77a248d27761327cd17515cc6e6369d528cf31ca",
+            "offset": 49376,
+            "indirect": false
+        },
+        {
+            "name": "INITIAL_TRIAL_TRADE_ACCOUNT_CREATOR",
+            "concreteTypeId": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335",
+            "offset": 49424,
+            "indirect": false
+        },
+        {
+            "name": "ORACLE_CONTRACT_ID",
+            "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "offset": 49464,
+            "indirect": false
+        },
+        {
+            "name": "TRIAL_ORACLE_CONTRACT_ID",
+            "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "offset": 49584,
+            "indirect": false
+        },
+        {
+            "name": "TRADE_ACCOUNT_PROXY_ROOT",
+            "concreteTypeId": "7c5ee1cecf5f8eacd1284feb5f0bf2bdea533a51e2f0c9aabe9236d335989f3b",
+            "offset": 49552,
+            "indirect": false
+        },
+        {
+            "name": "TRIAL_TRADE_ACCOUNT_PROXY_ROOT",
+            "concreteTypeId": "7c5ee1cecf5f8eacd1284feb5f0bf2bdea533a51e2f0c9aabe9236d335989f3b",
+            "offset": 49616,
+            "indirect": false
+        },
+        {
+            "name": "DEFAULT_TRADE_ACCOUNT_PROXY",
+            "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "offset": 49312,
+            "indirect": false
+        },
+        {
+            "name": "DEFAULT_TRIAL_TRADE_ACCOUNT_PROXY",
+            "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "offset": 49344,
+            "indirect": false
+        },
+        {
+            "name": "PROP_ACCOUNT_ORACLE_CONTRACT_ID",
+            "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "offset": 49496,
+            "indirect": false
+        },
+        {
+            "name": "DEFAULT_PROP_ACCOUNT_PROXY",
+            "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "offset": 49280,
+            "indirect": false
+        },
+        {
+            "name": "PROP_ORACLE_CONFIG_OFFSET",
+            "concreteTypeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0",
+            "offset": 49536,
+            "indirect": false
+        },
+        {
+            "name": "PROP_PARENT_CONFIG_OFFSET",
+            "concreteTypeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0",
+            "offset": 49544,
+            "indirect": false
+        },
+        {
+            "name": "PROP_INDEX_CONFIG_OFFSET",
+            "concreteTypeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0",
+            "offset": 49528,
+            "indirect": false
+        }
+    ],
+    "errorCodes": {},
+    "panickingCalls": {}
+}

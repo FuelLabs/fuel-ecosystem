@@ -16,6 +16,9 @@ The home for ecosystem applications building on the Fuel Network. Find all the r
 | `isLive` | Whether the project is live or not |
 | `isFeatured` | Whether the project is featured or not |
 | `contracts` | Contract information related to the project |
+| `contracts[].abi` | URL of the contract's JSON ABI. The explorer uses it to decode calls and logs |
+| `contracts[].market` | For order book contracts: `symbol`, `baseAssetId` and `quoteAssetId`, used to format amounts and prices |
+| `callerContracts` | ABIs for contracts that have no fixed id, keyed by network. The explorer applies them to any contract that calls one of the project's `contracts` in the same transaction |
 | `name` | The name of the project |
 | `url` | The URL of the project |
 | `tags` | The tags of the project |

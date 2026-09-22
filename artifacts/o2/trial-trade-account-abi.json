@@ -1,0 +1,1400 @@
+{
+    "programType": "contract",
+    "specVersion": "1.2",
+    "encodingVersion": "1",
+    "concreteTypes": [
+        {
+            "type": "()",
+            "concreteTypeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+        },
+        {
+            "type": "bool",
+            "concreteTypeId": "b760f44fa5965c2474a3b471467a22c43185152129295af588b022ae50b50903"
+        },
+        {
+            "type": "enum contract_schema::trade_account_errors::ExtendedNonceError",
+            "concreteTypeId": "2839bba2575d61e3c6cbd733c70c82e630da3bcae8c0f84e0f370c9219c57a18",
+            "metadataTypeId": 3
+        },
+        {
+            "type": "enum contract_schema::trial_account::TrialTradeAccountError",
+            "concreteTypeId": "8e2505d0cfde32725bc7b2f84fc2f7f8a839bec97eb8c3fbdb3b6be09981f840",
+            "metadataTypeId": 4
+        },
+        {
+            "type": "enum std::crypto::signature::Signature",
+            "concreteTypeId": "2a32867dec49ed8ddf6b7d2ed19d53c626d3f593369b5dd82a317d7b300e1c39",
+            "metadataTypeId": 5
+        },
+        {
+            "type": "enum std::identity::Identity",
+            "concreteTypeId": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335",
+            "metadataTypeId": 6
+        },
+        {
+            "type": "enum std::option::Option<enum std::crypto::signature::Signature>",
+            "concreteTypeId": "8c8a9aeea8dc1a1ac1f1fe31c77823653152feda3fa93cd494eedbf84395ca40",
+            "metadataTypeId": 7,
+            "typeArguments": [
+                "2a32867dec49ed8ddf6b7d2ed19d53c626d3f593369b5dd82a317d7b300e1c39"
+            ]
+        },
+        {
+            "type": "enum std::option::Option<enum std::identity::Identity>",
+            "concreteTypeId": "253aea1197e8005518365bd24c8bc31f73a434fac0f7350e57696edfdd4850c2",
+            "metadataTypeId": 7,
+            "typeArguments": [
+                "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335"
+            ]
+        },
+        {
+            "type": "enum std::option::Option<struct contract_schema::session::Session>",
+            "concreteTypeId": "8ee10917cb48b981cfce7fd1dea6bbb5cc8be7fe49d3e5d54044cd2c41a53bd7",
+            "metadataTypeId": 7,
+            "typeArguments": [
+                "f6edd57223d771412495547d019aa1b7533bc3ed27255e9118fc803f244a556c"
+            ]
+        },
+        {
+            "type": "enum std::result::Result<(),enum contract_schema::trade_account_errors::ExtendedNonceError>",
+            "concreteTypeId": "edeec773f10b1c35ceeb107f134494c71c4b910a91fb4896d97407c97c6a8d26",
+            "metadataTypeId": 8,
+            "typeArguments": [
+                "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+                "2839bba2575d61e3c6cbd733c70c82e630da3bcae8c0f84e0f370c9219c57a18"
+            ]
+        },
+        {
+            "type": "struct contract_schema::session::Session",
+            "concreteTypeId": "f6edd57223d771412495547d019aa1b7533bc3ed27255e9118fc803f244a556c",
+            "metadataTypeId": 12
+        },
+        {
+            "type": "struct contract_schema::session::SessionCreatedEvent",
+            "concreteTypeId": "cfccb0b9b57671b92f0435d1d261690876e4ef2d8be63c837284032734825b04",
+            "metadataTypeId": 13
+        },
+        {
+            "type": "struct contract_schema::session::SessionRevokedEvent",
+            "concreteTypeId": "278cb587808481b72a555be60b7a1b670422d1a886b431eed10a2d0c12eaaaed",
+            "metadataTypeId": 14
+        },
+        {
+            "type": "struct contract_schema::trade_account_par::NonceSessionWindow",
+            "concreteTypeId": "67c5930a2e12f4035de71fcc3cd0496d4f4e48801fa464e77002520fddf176f4",
+            "metadataTypeId": 16
+        },
+        {
+            "type": "struct contract_schema::trade_account_par::ParallelCallContractArgs",
+            "concreteTypeId": "bcb864588e4de0cfed9235a42c859a520a296e4cb3acab92dab913134c6a068f",
+            "metadataTypeId": 17
+        },
+        {
+            "type": "struct contract_schema::trade_account_par::ParallelMultiCallContractArgs",
+            "concreteTypeId": "9d4abea3c3ded72594ba630071d98b649db8348d3ab2970852317e69b5bece52",
+            "metadataTypeId": 18
+        },
+        {
+            "type": "struct contract_schema::trade_account_par::ParallelNonceUsedEvent",
+            "concreteTypeId": "0aeddd0e2c420b4162249ce8bf6408c224e31586679b7278d6331df6215e28cf",
+            "metadataTypeId": 19
+        },
+        {
+            "type": "struct contract_schema::trade_account_par::ParallelRevokeArgs",
+            "concreteTypeId": "cc16af760fc50309e1c4fae03a03d4177844d68a5db161bc63fe02eb9c29ae11",
+            "metadataTypeId": 20
+        },
+        {
+            "type": "struct contract_schema::trade_account_par::ParallelSessionArgs",
+            "concreteTypeId": "621624a91c02fc7fb3cc397282d788d786ffb08c334878ff7923643395c535d1",
+            "metadataTypeId": 21
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialAccountClosureEvent",
+            "concreteTypeId": "20c6e23d3f760a82f4beadbc82b8a977897941922e0bc07170a8ae936ce3e703",
+            "metadataTypeId": 23
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialAccountLinkedEvent",
+            "concreteTypeId": "d19df3af19ae5e72fa65df150bcb9e5b71de39f2f1c92eb8b23aea78898b36aa",
+            "metadataTypeId": 24
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialCloseAccountArgs",
+            "concreteTypeId": "ed1c0d4b326f38e6cc0e8d0844e92cc0b936e227a02dac250671f512cf5308f7",
+            "metadataTypeId": 25
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialContractCallEvent",
+            "concreteTypeId": "4ff9a890dfa265d4e9c34dae41600c6d94378892f8dc5fbab001124749ffeed9",
+            "metadataTypeId": 26
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialDurationArgs",
+            "concreteTypeId": "3f9096d30048a4f23813327ef376828d8a2b6af270d1ebbcaf086cbec9555577",
+            "metadataTypeId": 27
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialDurationUpdatedEvent",
+            "concreteTypeId": "4d8197c85b4ccdce850d98c5e6e40a93ff2f1a46114c029a00c6f417547f0917",
+            "metadataTypeId": 28
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialLinkAccountArgs",
+            "concreteTypeId": "874b9617012066c7562b987bc146c1bfcef574cf2d38e447b9d5a8e61b025f9d",
+            "metadataTypeId": 29
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialWithdrawArgs",
+            "concreteTypeId": "1fec21c9453549f8e4ba7aa00e77feec9a6ba2e6a363857c2b28ba03216fdc64",
+            "metadataTypeId": 30
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialWithdrawEvent",
+            "concreteTypeId": "7323d0cdc400d6b9351fae096aa37418cfd28659db0ef7b23f47d099f40915f4",
+            "metadataTypeId": 31
+        },
+        {
+            "type": "struct std::asset_id::AssetId",
+            "concreteTypeId": "c0710b6731b1dd59799cf6bef33eee3b3b04a2e40e80a0724090215bbf2ca974",
+            "metadataTypeId": 33
+        },
+        {
+            "type": "struct std::contract_id::ContractId",
+            "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "metadataTypeId": 36
+        },
+        {
+            "type": "struct std::vec::Vec<struct contract_schema::trade_account_par::NonceSessionWindow>",
+            "concreteTypeId": "2a0b29d8abc10bfd4d3f4684fc07113309302cdfb843d3d57120906949758fae",
+            "metadataTypeId": 43,
+            "typeArguments": [
+                "67c5930a2e12f4035de71fcc3cd0496d4f4e48801fa464e77002520fddf176f4"
+            ]
+        },
+        {
+            "type": "struct std::vec::Vec<struct std::contract_id::ContractId>",
+            "concreteTypeId": "b8ca7626a08e8fb93379b5d9d58d8a12eede8de9f087bfa21feccca44f92e211",
+            "metadataTypeId": 43,
+            "typeArguments": [
+                "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54"
+            ]
+        },
+        {
+            "type": "u256",
+            "concreteTypeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+        },
+        {
+            "type": "u64",
+            "concreteTypeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+        }
+    ],
+    "metadataTypes": [
+        {
+            "type": "[_; 64]",
+            "metadataTypeId": 0,
+            "components": [
+                {
+                    "name": "__array_element",
+                    "typeId": 44
+                }
+            ]
+        },
+        {
+            "type": "[_; 8]",
+            "metadataTypeId": 1,
+            "components": [
+                {
+                    "name": "__array_element",
+                    "typeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                }
+            ]
+        },
+        {
+            "type": "b256",
+            "metadataTypeId": 2
+        },
+        {
+            "type": "enum contract_schema::trade_account_errors::ExtendedNonceError",
+            "metadataTypeId": 3,
+            "components": [
+                {
+                    "name": "ReservedBitsSet",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "BitmapPositionOutOfRange",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "NonceSessionIdOutOfRange",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "Expired",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "WordPosOutOfWindow",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "AlreadyUsed",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                }
+            ]
+        },
+        {
+            "type": "enum contract_schema::trial_account::TrialTradeAccountError",
+            "metadataTypeId": 4,
+            "components": [
+                {
+                    "name": "CannotReinitialize",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "InvalidCosign",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "InvalidUserSig",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "InvalidCosigner",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "AlreadyLinked",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "InvalidLinkCaller",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "InvalidLinkSig",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "TrialExpired",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "InvalidRegistry",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "AlreadyClosed",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "InvalidProfitShare",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                }
+            ]
+        },
+        {
+            "type": "enum std::crypto::signature::Signature",
+            "metadataTypeId": 5,
+            "components": [
+                {
+                    "name": "Secp256k1",
+                    "typeId": 38
+                },
+                {
+                    "name": "Secp256r1",
+                    "typeId": 39
+                },
+                {
+                    "name": "Ed25519",
+                    "typeId": 37
+                }
+            ]
+        },
+        {
+            "type": "enum std::identity::Identity",
+            "metadataTypeId": 6,
+            "components": [
+                {
+                    "name": "Address",
+                    "typeId": 32
+                },
+                {
+                    "name": "ContractId",
+                    "typeId": 36
+                }
+            ]
+        },
+        {
+            "type": "enum std::option::Option",
+            "metadataTypeId": 7,
+            "components": [
+                {
+                    "name": "None",
+                    "typeId": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+                },
+                {
+                    "name": "Some",
+                    "typeId": 10
+                }
+            ],
+            "typeParameters": [
+                10
+            ]
+        },
+        {
+            "type": "enum std::result::Result",
+            "metadataTypeId": 8,
+            "components": [
+                {
+                    "name": "Ok",
+                    "typeId": 10
+                },
+                {
+                    "name": "Err",
+                    "typeId": 9
+                }
+            ],
+            "typeParameters": [
+                10,
+                9
+            ]
+        },
+        {
+            "type": "generic E",
+            "metadataTypeId": 9
+        },
+        {
+            "type": "generic T",
+            "metadataTypeId": 10
+        },
+        {
+            "type": "raw untyped ptr",
+            "metadataTypeId": 11
+        },
+        {
+            "type": "struct contract_schema::session::Session",
+            "metadataTypeId": 12,
+            "components": [
+                {
+                    "name": "session_id",
+                    "typeId": 6
+                },
+                {
+                    "name": "expiry",
+                    "typeId": 41
+                },
+                {
+                    "name": "contract_ids",
+                    "typeId": 43,
+                    "typeArguments": [
+                        {
+                            "name": "",
+                            "typeId": 36
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::session::SessionCreatedEvent",
+            "metadataTypeId": 13,
+            "components": [
+                {
+                    "name": "account",
+                    "typeId": 6
+                },
+                {
+                    "name": "session",
+                    "typeId": 12
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::session::SessionRevokedEvent",
+            "metadataTypeId": 14,
+            "components": [
+                {
+                    "name": "account",
+                    "typeId": 6
+                },
+                {
+                    "name": "session_id",
+                    "typeId": 6
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trade_account::CallContractArg",
+            "metadataTypeId": 15,
+            "components": [
+                {
+                    "name": "contract_id",
+                    "typeId": 36
+                },
+                {
+                    "name": "function_selector",
+                    "typeId": 34
+                },
+                {
+                    "name": "call_params",
+                    "typeId": 40
+                },
+                {
+                    "name": "call_data",
+                    "typeId": 7,
+                    "typeArguments": [
+                        {
+                            "name": "",
+                            "typeId": 34
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trade_account_par::NonceSessionWindow",
+            "metadataTypeId": 16,
+            "components": [
+                {
+                    "name": "base",
+                    "typeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                },
+                {
+                    "name": "slots",
+                    "typeId": 1
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trade_account_par::ParallelCallContractArgs",
+            "metadataTypeId": 17,
+            "components": [
+                {
+                    "name": "nonce",
+                    "typeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                },
+                {
+                    "name": "call_contract_args",
+                    "typeId": 15
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trade_account_par::ParallelMultiCallContractArgs",
+            "metadataTypeId": 18,
+            "components": [
+                {
+                    "name": "nonce",
+                    "typeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                },
+                {
+                    "name": "call_contract_args",
+                    "typeId": 43,
+                    "typeArguments": [
+                        {
+                            "name": "",
+                            "typeId": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trade_account_par::ParallelNonceUsedEvent",
+            "metadataTypeId": 19,
+            "components": [
+                {
+                    "name": "nonce",
+                    "typeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trade_account_par::ParallelRevokeArgs",
+            "metadataTypeId": 20,
+            "components": [
+                {
+                    "name": "nonce",
+                    "typeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trade_account_par::ParallelSessionArgs",
+            "metadataTypeId": 21,
+            "components": [
+                {
+                    "name": "nonce",
+                    "typeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                },
+                {
+                    "name": "session_id",
+                    "typeId": 6
+                },
+                {
+                    "name": "expiry",
+                    "typeId": 41
+                },
+                {
+                    "name": "contract_ids",
+                    "typeId": 43,
+                    "typeArguments": [
+                        {
+                            "name": "",
+                            "typeId": 36
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trial_account::OrderBookCleanup",
+            "metadataTypeId": 22,
+            "components": [
+                {
+                    "name": "order_book_id",
+                    "typeId": 36
+                },
+                {
+                    "name": "order_ids",
+                    "typeId": 43,
+                    "typeArguments": [
+                        {
+                            "name": "",
+                            "typeId": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialAccountClosureEvent",
+            "metadataTypeId": 23,
+            "components": [
+                {
+                    "name": "timestamp",
+                    "typeId": 41
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialAccountLinkedEvent",
+            "metadataTypeId": 24,
+            "components": [
+                {
+                    "name": "parent_account",
+                    "typeId": 6
+                },
+                {
+                    "name": "session_id",
+                    "typeId": 6
+                },
+                {
+                    "name": "nonce",
+                    "typeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                },
+                {
+                    "name": "timestamp",
+                    "typeId": 41
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialCloseAccountArgs",
+            "metadataTypeId": 25,
+            "components": [
+                {
+                    "name": "order_book_cleanups",
+                    "typeId": 43,
+                    "typeArguments": [
+                        {
+                            "name": "",
+                            "typeId": 22
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialContractCallEvent",
+            "metadataTypeId": 26,
+            "components": [
+                {
+                    "name": "authority",
+                    "typeId": 6
+                },
+                {
+                    "name": "called_contract",
+                    "typeId": 36
+                },
+                {
+                    "name": "nonce",
+                    "typeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                },
+                {
+                    "name": "timestamp",
+                    "typeId": 41
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialDurationArgs",
+            "metadataTypeId": 27,
+            "components": [
+                {
+                    "name": "nonce",
+                    "typeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                },
+                {
+                    "name": "duration",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialDurationUpdatedEvent",
+            "metadataTypeId": 28,
+            "components": [
+                {
+                    "name": "old_duration",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "new_duration",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "timestamp",
+                    "typeId": 41
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialLinkAccountArgs",
+            "metadataTypeId": 29,
+            "components": [
+                {
+                    "name": "nonce",
+                    "typeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                },
+                {
+                    "name": "parent_account",
+                    "typeId": 6
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialWithdrawArgs",
+            "metadataTypeId": 30,
+            "components": [
+                {
+                    "name": "nonce",
+                    "typeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                },
+                {
+                    "name": "asset_id",
+                    "typeId": 33
+                },
+                {
+                    "name": "amount",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "to",
+                    "typeId": 6
+                }
+            ]
+        },
+        {
+            "type": "struct contract_schema::trial_account::TrialWithdrawEvent",
+            "metadataTypeId": 31,
+            "components": [
+                {
+                    "name": "to",
+                    "typeId": 6
+                },
+                {
+                    "name": "asset_id",
+                    "typeId": 33
+                },
+                {
+                    "name": "amount",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "timestamp",
+                    "typeId": 41
+                }
+            ]
+        },
+        {
+            "type": "struct std::address::Address",
+            "metadataTypeId": 32,
+            "components": [
+                {
+                    "name": "bits",
+                    "typeId": 2
+                }
+            ]
+        },
+        {
+            "type": "struct std::asset_id::AssetId",
+            "metadataTypeId": 33,
+            "components": [
+                {
+                    "name": "bits",
+                    "typeId": 2
+                }
+            ]
+        },
+        {
+            "type": "struct std::bytes::Bytes",
+            "metadataTypeId": 34,
+            "components": [
+                {
+                    "name": "buf",
+                    "typeId": 35
+                },
+                {
+                    "name": "len",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ]
+        },
+        {
+            "type": "struct std::bytes::RawBytes",
+            "metadataTypeId": 35,
+            "components": [
+                {
+                    "name": "ptr",
+                    "typeId": 11
+                },
+                {
+                    "name": "cap",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ]
+        },
+        {
+            "type": "struct std::contract_id::ContractId",
+            "metadataTypeId": 36,
+            "components": [
+                {
+                    "name": "bits",
+                    "typeId": 2
+                }
+            ]
+        },
+        {
+            "type": "struct std::crypto::ed25519::Ed25519",
+            "metadataTypeId": 37,
+            "components": [
+                {
+                    "name": "bits",
+                    "typeId": 0
+                }
+            ]
+        },
+        {
+            "type": "struct std::crypto::secp256k1::Secp256k1",
+            "metadataTypeId": 38,
+            "components": [
+                {
+                    "name": "bits",
+                    "typeId": 0
+                }
+            ]
+        },
+        {
+            "type": "struct std::crypto::secp256r1::Secp256r1",
+            "metadataTypeId": 39,
+            "components": [
+                {
+                    "name": "bits",
+                    "typeId": 0
+                }
+            ]
+        },
+        {
+            "type": "struct std::low_level_call::CallParams",
+            "metadataTypeId": 40,
+            "components": [
+                {
+                    "name": "coins",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                },
+                {
+                    "name": "asset_id",
+                    "typeId": 33
+                },
+                {
+                    "name": "gas",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ]
+        },
+        {
+            "type": "struct std::time::Time",
+            "metadataTypeId": 41,
+            "components": [
+                {
+                    "name": "unix",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ]
+        },
+        {
+            "type": "struct std::vec::RawVec",
+            "metadataTypeId": 42,
+            "components": [
+                {
+                    "name": "ptr",
+                    "typeId": 11
+                },
+                {
+                    "name": "cap",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ],
+            "typeParameters": [
+                10
+            ]
+        },
+        {
+            "type": "struct std::vec::Vec",
+            "metadataTypeId": 43,
+            "components": [
+                {
+                    "name": "buf",
+                    "typeId": 42,
+                    "typeArguments": [
+                        {
+                            "name": "",
+                            "typeId": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "len",
+                    "typeId": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0"
+                }
+            ],
+            "typeParameters": [
+                10
+            ]
+        },
+        {
+            "type": "u8",
+            "metadataTypeId": 44
+        }
+    ],
+    "functions": [
+        {
+            "name": "activated_at",
+            "inputs": [],
+            "output": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "call_contract",
+            "inputs": [
+                {
+                    "name": "user_signature",
+                    "concreteTypeId": "2a32867dec49ed8ddf6b7d2ed19d53c626d3f593369b5dd82a317d7b300e1c39"
+                },
+                {
+                    "name": "cosigner_signature",
+                    "concreteTypeId": "2a32867dec49ed8ddf6b7d2ed19d53c626d3f593369b5dd82a317d7b300e1c39"
+                },
+                {
+                    "name": "call",
+                    "concreteTypeId": "bcb864588e4de0cfed9235a42c859a520a296e4cb3acab92dab913134c6a068f"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "call_contracts",
+            "inputs": [
+                {
+                    "name": "user_signature",
+                    "concreteTypeId": "2a32867dec49ed8ddf6b7d2ed19d53c626d3f593369b5dd82a317d7b300e1c39"
+                },
+                {
+                    "name": "cosigner_signature",
+                    "concreteTypeId": "2a32867dec49ed8ddf6b7d2ed19d53c626d3f593369b5dd82a317d7b300e1c39"
+                },
+                {
+                    "name": "calls",
+                    "concreteTypeId": "9d4abea3c3ded72594ba630071d98b649db8348d3ab2970852317e69b5bece52"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "expires_at",
+            "inputs": [],
+            "output": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "get_current_session",
+            "inputs": [],
+            "output": "8ee10917cb48b981cfce7fd1dea6bbb5cc8be7fe49d3e5d54044cd2c41a53bd7",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "get_linked_account",
+            "inputs": [],
+            "output": "253aea1197e8005518365bd24c8bc31f73a434fac0f7350e57696edfdd4850c2",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "get_nonce_session_window",
+            "inputs": [
+                {
+                    "name": "nonce_session_id",
+                    "concreteTypeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                }
+            ],
+            "output": "67c5930a2e12f4035de71fcc3cd0496d4f4e48801fa464e77002520fddf176f4",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "get_nonce_session_windows",
+            "inputs": [],
+            "output": "2a0b29d8abc10bfd4d3f4684fc07113309302cdfb843d3d57120906949758fae",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "is_expired",
+            "inputs": [],
+            "output": "b760f44fa5965c2474a3b471467a22c43185152129295af588b022ae50b50903",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "link_account",
+            "inputs": [
+                {
+                    "name": "session_signature",
+                    "concreteTypeId": "2a32867dec49ed8ddf6b7d2ed19d53c626d3f593369b5dd82a317d7b300e1c39"
+                },
+                {
+                    "name": "args",
+                    "concreteTypeId": "874b9617012066c7562b987bc146c1bfcef574cf2d38e447b9d5a8e61b025f9d"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "liquidation_threshold_amount",
+            "inputs": [],
+            "output": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "liquidation_threshold_asset_id",
+            "inputs": [],
+            "output": "c0710b6731b1dd59799cf6bef33eee3b3b04a2e40e80a0724090215bbf2ca974",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "nonce_is_available",
+            "inputs": [
+                {
+                    "name": "nonce",
+                    "concreteTypeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e"
+                }
+            ],
+            "output": "edeec773f10b1c35ceeb107f134494c71c4b910a91fb4896d97407c97c6a8d26",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "revoke_session",
+            "inputs": [
+                {
+                    "name": "_args",
+                    "concreteTypeId": "cc16af760fc50309e1c4fae03a03d4177844d68a5db161bc63fe02eb9c29ae11"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "set_session",
+            "inputs": [
+                {
+                    "name": "session",
+                    "concreteTypeId": "621624a91c02fc7fb3cc397282d788d786ffb08c334878ff7923643395c535d1"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "trial_allowed_order_book_ids",
+            "inputs": [],
+            "output": "b8ca7626a08e8fb93379b5d9d58d8a12eede8de9f087bfa21feccca44f92e211",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "trial_duration",
+            "inputs": [],
+            "output": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "trial_platform_payout_identity",
+            "inputs": [],
+            "output": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "trial_user_profit_share_bps",
+            "inputs": [],
+            "output": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "validate_session",
+            "inputs": [
+                {
+                    "name": "session_id",
+                    "concreteTypeId": "ab7cd04e05be58e3fc15d424c2c4a57f824a2a2d97d67252440a3925ebdc1335"
+                }
+            ],
+            "output": "b760f44fa5965c2474a3b471467a22c43185152129295af588b022ae50b50903",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "close_account",
+            "inputs": [
+                {
+                    "name": "signature",
+                    "concreteTypeId": "8c8a9aeea8dc1a1ac1f1fe31c77823653152feda3fa93cd494eedbf84395ca40"
+                },
+                {
+                    "name": "args",
+                    "concreteTypeId": "ed1c0d4b326f38e6cc0e8d0844e92cc0b936e227a02dac250671f512cf5308f7"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "cosigner_call",
+            "inputs": [
+                {
+                    "name": "signature",
+                    "concreteTypeId": "8c8a9aeea8dc1a1ac1f1fe31c77823653152feda3fa93cd494eedbf84395ca40"
+                },
+                {
+                    "name": "args",
+                    "concreteTypeId": "bcb864588e4de0cfed9235a42c859a520a296e4cb3acab92dab913134c6a068f"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "cosigner_call_contracts",
+            "inputs": [
+                {
+                    "name": "signature",
+                    "concreteTypeId": "8c8a9aeea8dc1a1ac1f1fe31c77823653152feda3fa93cd494eedbf84395ca40"
+                },
+                {
+                    "name": "args",
+                    "concreteTypeId": "9d4abea3c3ded72594ba630071d98b649db8348d3ab2970852317e69b5bece52"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "set_trial_duration",
+            "inputs": [
+                {
+                    "name": "signature",
+                    "concreteTypeId": "8c8a9aeea8dc1a1ac1f1fe31c77823653152feda3fa93cd494eedbf84395ca40"
+                },
+                {
+                    "name": "args",
+                    "concreteTypeId": "3f9096d30048a4f23813327ef376828d8a2b6af270d1ebbcaf086cbec9555577"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "withdraw",
+            "inputs": [
+                {
+                    "name": "signature",
+                    "concreteTypeId": "8c8a9aeea8dc1a1ac1f1fe31c77823653152feda3fa93cd494eedbf84395ca40"
+                },
+                {
+                    "name": "args",
+                    "concreteTypeId": "1fec21c9453549f8e4ba7aa00e77feec9a6ba2e6a363857c2b28ba03216fdc64"
+                }
+            ],
+            "output": "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d",
+            "attributes": [
+                {
+                    "name": "storage",
+                    "arguments": [
+                        "read",
+                        "write"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "implementation_version",
+            "inputs": [],
+            "output": "1506e6f44c1d6291cdf46395a8e573276a4fa79e8ace3fc891e092ef32d1b0a0",
+            "attributes": null
+        }
+    ],
+    "loggedTypes": [
+        {
+            "logId": "787528562801511233",
+            "concreteTypeId": "0aeddd0e2c420b4162249ce8bf6408c224e31586679b7278d6331df6215e28cf"
+        },
+        {
+            "logId": "2898554141114458595",
+            "concreteTypeId": "2839bba2575d61e3c6cbd733c70c82e630da3bcae8c0f84e0f370c9219c57a18"
+        },
+        {
+            "logId": "10242599321922843250",
+            "concreteTypeId": "8e2505d0cfde32725bc7b2f84fc2f7f8a839bec97eb8c3fbdb3b6be09981f840"
+        },
+        {
+            "logId": "8296704520721847993",
+            "concreteTypeId": "7323d0cdc400d6b9351fae096aa37418cfd28659db0ef7b23f47d099f40915f4"
+        },
+        {
+            "logId": "14973537172759933369",
+            "concreteTypeId": "cfccb0b9b57671b92f0435d1d261690876e4ef2d8be63c837284032734825b04"
+        },
+        {
+            "logId": "15104496658646195826",
+            "concreteTypeId": "d19df3af19ae5e72fa65df150bcb9e5b71de39f2f1c92eb8b23aea78898b36aa"
+        },
+        {
+            "logId": "5762822538377979348",
+            "concreteTypeId": "4ff9a890dfa265d4e9c34dae41600c6d94378892f8dc5fbab001124749ffeed9"
+        },
+        {
+            "logId": "2361823807287986818",
+            "concreteTypeId": "20c6e23d3f760a82f4beadbc82b8a977897941922e0bc07170a8ae936ce3e703"
+        },
+        {
+            "logId": "2849852257800061367",
+            "concreteTypeId": "278cb587808481b72a555be60b7a1b670422d1a886b431eed10a2d0c12eaaaed"
+        },
+        {
+            "logId": "5584911899697139150",
+            "concreteTypeId": "4d8197c85b4ccdce850d98c5e6e40a93ff2f1a46114c029a00c6f417547f0917"
+        }
+    ],
+    "messagesTypes": [],
+    "configurables": [
+        {
+            "name": "MAX_NONCE_SESSION_ID",
+            "concreteTypeId": "1b5759d94094368cfd443019e7ca5ec4074300e544e5ea993a979f5da627261e",
+            "offset": 59000,
+            "indirect": false
+        },
+        {
+            "name": "ORACLE_CONTRACT_ID",
+            "concreteTypeId": "29c10735d33b5159f0c71ee1dbd17b36a3e69e41f00fab0d42e1bd9f428d8a54",
+            "offset": 59032,
+            "indirect": false
+        }
+    ],
+    "errorCodes": {},
+    "panickingCalls": {}
+}
