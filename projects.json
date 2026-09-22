@@ -2003,24 +2003,40 @@
         {
           "name": "o2 Trade Account",
           "description": "A trader's o2 account. It signs session calls into o2 order books.",
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trade-account-abi.json"
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trade-account-abi.json",
+          "verify": {
+            "contractId": "0x284c6802ad33bb95a37a1113106238ee9d084aa337879b62d2c3a8a74401cdb2",
+            "method": "is_valid"
+          }
         },
         {
           "name": "o2 Trial Trade Account",
           "description": "A trial o2 account funded by o2.",
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trial-trade-account-abi.json"
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trial-trade-account-abi.json",
+          "verify": {
+            "contractId": "0x284c6802ad33bb95a37a1113106238ee9d084aa337879b62d2c3a8a74401cdb2",
+            "method": "trial_is_valid"
+          }
         }
       ],
       "sepolia": [
         {
           "name": "o2 Trade Account",
           "description": "A trader's o2 account. It signs session calls into o2 order books.",
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trade-account-abi.json"
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trade-account-abi.json",
+          "verify": {
+            "contractId": "0xe348ec55ed90ab8e77253db67e364b85dce7d155b1fee8b251f0c3abea65466e",
+            "method": "is_valid"
+          }
         },
         {
           "name": "o2 Trial Trade Account",
           "description": "A trial o2 account funded by o2.",
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trial-trade-account-abi.json"
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trial-trade-account-abi.json",
+          "verify": {
+            "contractId": "0xe348ec55ed90ab8e77253db67e364b85dce7d155b1fee8b251f0c3abea65466e",
+            "method": "trial_is_valid"
+          }
         }
       ]
     }

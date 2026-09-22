@@ -18,7 +18,7 @@ The home for ecosystem applications building on the Fuel Network. Find all the r
 | `contracts` | Contract information related to the project |
 | `contracts[].abi` | URL of the contract's JSON ABI. The explorer uses it to decode calls and logs |
 | `contracts[].market` | For order book contracts: `symbol`, `baseAssetId` and `quoteAssetId`, used to format amounts and prices |
-| `callerContracts` | ABIs for contracts that have no fixed id, keyed by network. The explorer applies them to any contract that calls one of the project's `contracts` in the same transaction |
+| `callerContracts` | ABIs for contracts that have no fixed id, keyed by network. `verify` names a listed contract and a read-only method that takes the candidate's contract id and returns `true` for genuine accounts. The explorer applies the ABI only to contracts that call one of the project's `contracts` and pass that check |
 | `name` | The name of the project |
 | `url` | The URL of the project |
 | `tags` | The tags of the project |
