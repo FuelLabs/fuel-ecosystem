@@ -938,7 +938,1108 @@
     "github": "https://github.com/o2-exchange",
     "twitter": "https://x.com/o2dotapp",
     "discord": "https://discord.gg/w2de3DKET9",
-    "image": "o2"
+    "image": "o2",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x5a908a89f5caac1a76b199e71e44e42ffed125b2c4e64d0982e60a536a394f76",
+          "name": "o2 Order Book ETH/USDC",
+          "description": "o2 ETH/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "ETH/USDC",
+            "baseAssetId": "0xac2aabc1c48e634800a723b1372388ad1eb6a23d0e012cde4c603082fb1a140a",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0xdf873d85d8d81f2863cecd5026de76efd3d51a47736ad46d1110c56695ca2665",
+          "name": "o2 Order Book FUEL/USDC",
+          "description": "o2 FUEL/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "FUEL/USDC",
+            "baseAssetId": "0x27821a5432b60fb3e70c64d0a612c2c86218c1088dd0f0f1b0dd6ae5ae17bd5b",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0xca78cbd896cd09f104cd32448e0ef155dace8a0a9ea21ad5f4f9435800038b9b",
+          "name": "o2 Order Book USDT/USDC",
+          "description": "o2 USDT/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "USDT/USDC",
+            "baseAssetId": "0x2269aa41cf3982753d978a40e0f04618ff9d84b07d1ce10e99831e3217d3a9b0",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0x1bbcb7353ea3d70d870691b1bf125349f2838c90b827e635234f67f2dc54ad4c",
+          "name": "o2 Order Book MOOR/USDC",
+          "description": "o2 MOOR/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "MOOR/USDC",
+            "baseAssetId": "0x851e17e6c88a20541279a873bb0d991ec09f78e4986196833366f4ccc4173dc7",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0x132ab8709aff3d228bbb07af7d2338d1e4f1fcb060135922495147849dd6b8fc",
+          "name": "o2 Order Book wBTC/USDC",
+          "description": "o2 wBTC/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "wBTC/USDC",
+            "baseAssetId": "0x1a48bde9b03ff7f6ab9d566c3f8968a532a782402976053cebfa113cbb9a03ef",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0xf31cc3a2fdef150bcef1b94bee2125e20e941380031ab0a6ced3fbfd92fceee6",
+          "name": "o2 Order Book XAUT/USDC",
+          "description": "o2 XAUT/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "XAUT/USDC",
+            "baseAssetId": "0xe3c3f7a37f9c5c03cc1f2278373487fff96126638699d2f873baafb3ba8f3dd0",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0x4added94e0ee97696d1a7baae2cdaaa88e7f0c3f1552aa53ec7fa04912e32939",
+          "name": "o2 Order Book UNI/USDC",
+          "description": "o2 UNI/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "UNI/USDC",
+            "baseAssetId": "0xcfcb8e2c50c39147a6aad0885f1a08d3c7b9a3ca62997fd580d37ca10aecc1bb",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0x8d5882f0b3dd5e23026b9be6ba9af27fa8b04f4f67d28281ca78e44334e58ffe",
+          "name": "o2 Order Book AAVE/USDC",
+          "description": "o2 AAVE/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "AAVE/USDC",
+            "baseAssetId": "0x13f4be131ce4a5cdee7ab0de0967f9da1168d1972fd202549bc5c22e24092b30",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0xf356cbb693d1a8ed9e7e56f6bd05533b21398d8093c796a6c82ccfe1bf5c048f",
+          "name": "o2 Order Book LINK/USDC",
+          "description": "o2 LINK/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "LINK/USDC",
+            "baseAssetId": "0x7ebf0913cc3cf93cd4a05bbdfc209de6805284f3e3262d0a6bd0ab75c64ebf58",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0xba088dd1d6b99958196d8e9926c503fd2edd07b72115ff75f4c5f117444fb241",
+          "name": "o2 Order Book ONDO/USDC",
+          "description": "o2 ONDO/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "ONDO/USDC",
+            "baseAssetId": "0xf2992fb8cf860c44577cc317cbefebfc75aaa17d17199b5fe5552e7df88ee166",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0x0a69f7fcc66c880aab1462362b7c23bad1403bb537129e6bb481bc00a0a343d7",
+          "name": "o2 Order Book ENA/USDC",
+          "description": "o2 ENA/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "ENA/USDC",
+            "baseAssetId": "0xdc9b17ba40a623c3184b3159be54da69f18bce239b05e094fb21a603d75c128c",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0x97c3537759c558a06c7b1ea4b20a9f42469ed6a00a05069ac0e23813d2b48c47",
+          "name": "o2 Order Book PYUSD/USDC",
+          "description": "o2 PYUSD/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "PYUSD/USDC",
+            "baseAssetId": "0x65e788c0998164593ef504dc204533fc7c6bbe604da3fb9c5fb9a70949fb5715",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0xd0078065d0658f6d8f01aaf634b440e03036b24a0561037ca8985fc9790e23c9",
+          "name": "o2 Order Book VVV/USDC",
+          "description": "o2 VVV/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "VVV/USDC",
+            "baseAssetId": "0x6f99581466e8aadbc749837d1fe063bf013b6d69980dfecf81cc00c648d2c55d",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0x295aa0c0dc226011bcb3eef703f406f401a08e9499b6940b6b619c1844757e25",
+          "name": "o2 Order Book WLD/USDC",
+          "description": "o2 WLD/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "WLD/USDC",
+            "baseAssetId": "0xef13df7d602c6a424ed6b1cb7de18eaed4397fa1eaf8eeb04db694ef2d709aea",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0x973b7d98b4c4aa6e9321820b021674feffe7ee5e1c933a67f5ba497060e81c61",
+          "name": "o2 Order Book LIT/USDC",
+          "description": "o2 LIT/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "LIT/USDC",
+            "baseAssetId": "0xfdb4b13bfa1beb8433bd92f7a63bbbe023852f1d4f30220ecbd6aeee54c050a0",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0x0512b03b2c4e6428622faab4f77009cb2db4d36563dcb407ceffd6f4fe911c1a",
+          "name": "o2 Order Book HYPE/USDC",
+          "description": "o2 HYPE/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "HYPE/USDC",
+            "baseAssetId": "0x27bb607bae34dca949fcad0ed777428476d3986c30222507341c46223953c1ac",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0xfd6d102ad71f04523809e1f1e139937db977caa5034b84861e4fd159253bbce3",
+          "name": "o2 Order Book BNB/USDC",
+          "description": "o2 BNB/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "BNB/USDC",
+            "baseAssetId": "0x829ad4f72a3e6e94f0ecc1ffcb48ed108965e4601cc45c41c6a931eafd6d02d0",
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+          }
+        },
+        {
+          "id": "0x284c6802ad33bb95a37a1113106238ee9d084aa337879b62d2c3a8a74401cdb2",
+          "name": "o2 Trade Account Registry",
+          "description": "Deploys and tracks o2 trade accounts",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trade-account-registry-abi.json"
+        },
+        {
+          "id": "0xcf500730294e90672baa0ec8cf0f04c28afea2411dfc28550212cd8a1381666f",
+          "name": "o2 Order Book Registry",
+          "description": "Registers o2 markets",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-registry-abi.json"
+        },
+        {
+          "id": "0x02c7b1edf72ac8135d21da3eb27205432ca09c88968a65eb6eb165b48e842368",
+          "name": "o2 Order Book Blacklist",
+          "description": "Blocks traders from o2 order books",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-blacklist-abi.json"
+        },
+        {
+          "id": "0x8746b0b1e5056c9282522181234f370177816d5edd243bdd1a654c10597a1a79",
+          "name": "o2 Trade Account Oracle",
+          "description": "Holds the current o2 trade account implementation",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trade-account-oracle-abi.json"
+        },
+        {
+          "id": "0xae731162189fa7f63ae108e041c30cbb490cfb61f00e9f491a6c465a7a33b0e8",
+          "name": "o2 Trial Trade Account Oracle",
+          "description": "Holds the current o2 trial trade account implementation",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trial-trade-account-oracle-abi.json"
+        },
+        {
+          "id": "0x2f809dbbcf785b897fbdb2f68bd405574e89deac9edbd2104e7e32cc6a5d75f7",
+          "name": "o2 Price Feed",
+          "description": "o2 onchain price feed",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/price-feed-abi.json"
+        }
+      ],
+      "sepolia": [
+        {
+          "id": "0x34d94dda61b498540b293594f9effc0ab3e0681772e4b713c433c01e6bebdc25",
+          "name": "o2 Order Book FUEL/USDC",
+          "description": "o2 FUEL/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "FUEL/USDC",
+            "baseAssetId": "0x96e0ba983a6991d3ba93cac9d939a4a7b17dacccc904e5af3ffd6918b24e1a96",
+            "quoteAssetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba"
+          }
+        },
+        {
+          "id": "0x3c08d8eebf082f2474c6f64ac1612f9961d546fa7e537cddaebdbecea65bbf33",
+          "name": "o2 Order Book fFUEL/fUSDC",
+          "description": "o2 fFUEL/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fFUEL/fUSDC",
+            "baseAssetId": "0x43eebd58e837c2e8fa94f1b2db1268175c551b5b1bf41a59fafc4f2c69ab7dc2",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0x4e40ec57d8316f31e176bd12c5aa046742087e67da3ac5cced482d3b09cf2b85",
+          "name": "o2 Order Book ETH/USDC",
+          "description": "o2 ETH/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "ETH/USDC",
+            "baseAssetId": "0x6b60e2728055ed4cffa9e76e9e069e9b7cc687dba2f290deb0db9857ab0667b1",
+            "quoteAssetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba"
+          }
+        },
+        {
+          "id": "0x2a78ab167c28f474d2ad62daabe7a42ce03f066dd8aa7cf57b984d14e4bd907b",
+          "name": "o2 Order Book fETH/fUSDC",
+          "description": "o2 fETH/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fETH/fUSDC",
+            "baseAssetId": "0xd2ccde1c40aa576196b1f868671d60dc59d604c2e463ac483686d14ccd4b38c8",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0x11386020500ed9eb88fce8a1822c687a3ae937325765de9f6f6d67888e9c6bfb",
+          "name": "o2 Order Book fUSDT/fUSDC",
+          "description": "o2 fUSDT/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fUSDT/fUSDC",
+            "baseAssetId": "0x1b7c7d86ad13e3dbd6e829bfed8798532e1abfcdd4de6caf3a5e18e808a1cc59",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0xd341bc2425c0fb54651b0cfa43776ca241f4bafb6223880f7a1b7c44272980c6",
+          "name": "o2 Order Book USDT/USDC",
+          "description": "o2 USDT/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "USDT/USDC",
+            "baseAssetId": "0x3a1ccec3c590e11a7b0da8bd437bca134747ee15597892167c0304829a93b8a8",
+            "quoteAssetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba"
+          }
+        },
+        {
+          "id": "0x5cebb3cba8bae19308304f0e4a165e5ae4be54fbec8f84ab1627082ee748d022",
+          "name": "o2 Order Book fMOOR/fUSDC",
+          "description": "o2 fMOOR/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fMOOR/fUSDC",
+            "baseAssetId": "0x80ccf78897bb7e73a8f87e91f0865d3bd6967edf3dcd531ee8cc6d9bc2d453c1",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0x135e8f26970b7ba469bd2fcac80cb7c21f9088285a4a0ca68c1d18212822dd9d",
+          "name": "o2 Order Book fwBTC/fUSDC",
+          "description": "o2 fwBTC/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fwBTC/fUSDC",
+            "baseAssetId": "0x2a952909edc3d0e74602e6cb88bad8b3d50be00def897ae13f97bd46a1e7cee8",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0x7fc00ffbc6e56af5beee12d65f7e3ddbd6a31326bb42b19c35214d57974d9688",
+          "name": "o2 Order Book MOOR/fUSDC",
+          "description": "o2 MOOR/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "MOOR/fUSDC",
+            "baseAssetId": "0x7a97e166850937abbad7b26b2fda9b90944800f145e59fd2cd9b8dddeecd102b",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0xfa73f55aa247e72dcb562b8823d161ffff3067aa8aff9292d7cfaa3a2e94df60",
+          "name": "o2 Order Book wBTC/fUSDC",
+          "description": "o2 wBTC/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "wBTC/fUSDC",
+            "baseAssetId": "0x6cb4521131003893fe93a3a66d69be8ff3e05e42a80320c60adc6d8188be5ba6",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0x62ffacd27f844e8e1d87e78bae90b55c37556da841fd53b04419d37ccad57700",
+          "name": "o2 Order Book fXAUT/fUSDC",
+          "description": "o2 fXAUT/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fXAUT/fUSDC",
+            "baseAssetId": "0x80e4cd06b5931df79ecb766a17fc707febf86b7812de2542815283ab4c1ac658",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0xd7d9d724a56be449a2afcddd61c0328673d6dec5dee92bfe75d0e587bd91a5ff",
+          "name": "o2 Order Book XAUT/USDC",
+          "description": "o2 XAUT/USDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "XAUT/USDC",
+            "baseAssetId": "0x16f9f828ccd602058deb3d614d0b3aea41e544e37971b24a4c884b69aa51d173",
+            "quoteAssetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba"
+          }
+        },
+        {
+          "id": "0xa571d96d7059ad12c3f36b3183314f1234306d78f803d1ef86d1c4d456078da4",
+          "name": "o2 Order Book fUNI/fUSDC",
+          "description": "o2 fUNI/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fUNI/fUSDC",
+            "baseAssetId": "0x20258b10af6bed8124d779dd064b5d1639523672505553261a0390cdfafdff89",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0x4fa9470470412c0c9ef8ec5778aea1c970762ff6a306d500acd3c1c679a2bd65",
+          "name": "o2 Order Book fAAVE/fUSDC",
+          "description": "o2 fAAVE/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fAAVE/fUSDC",
+            "baseAssetId": "0xc606e5bf19dbebb694124326694b8d976c72695cc5d92af45a9449b0310a0e6b",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0xb1d7d0df0c6325504f9812f0ad0bb520ca5868872ccc4a405e4d1d8b4f7853a7",
+          "name": "o2 Order Book fLINK/fUSDC",
+          "description": "o2 fLINK/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fLINK/fUSDC",
+            "baseAssetId": "0xfab2cafd7aee2ce4120dfa5b941fd0ab614382134780f2f12e386d94b5cbe574",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0x8f554d521f6e3bfe086671b725a5fb4af8240d598613b31f864f431fd23646b3",
+          "name": "o2 Order Book fONDO/fUSDC",
+          "description": "o2 fONDO/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fONDO/fUSDC",
+            "baseAssetId": "0xe9fd12604fa86ffe82f20d0de3ef551217266b36334af75896ae16c68f182a3c",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0xb18246b0bb1a7090ca8d7401a51c198d9d1c0b201aa3c29fe87015d8ce0beaf9",
+          "name": "o2 Order Book fENA/fUSDC",
+          "description": "o2 fENA/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fENA/fUSDC",
+            "baseAssetId": "0x03fc110199eee1d93e43ea5dfcfd22960af86b5593db5ce337513ee4c0cd7806",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0x7dfc1b60c42af1733d3a01c0e641fc19c6de22328375d41272c2701a9266a688",
+          "name": "o2 Order Book fPYUSD/fUSDC",
+          "description": "o2 fPYUSD/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fPYUSD/fUSDC",
+            "baseAssetId": "0xf3f7ebdab42d6c483cc3a0bb5bc6bb39651b7e4418a001133a53ebb27aaad67b",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0xbbc140da87960a213b782bd107949d511b44a2c4e293eed0795a3dd6d415da32",
+          "name": "o2 Order Book fVVV/fUSDC",
+          "description": "o2 fVVV/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fVVV/fUSDC",
+            "baseAssetId": "0x676058658636eb0ddb9f4579aa5740d552ec60b692d98248394eaff70c70a4f7",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0xb6ef58ef65bed13d94d75c3c056fd8dac22f5650dbf2c0e0b301ace1e31dc2d8",
+          "name": "o2 Order Book fWLD/fUSDC",
+          "description": "o2 fWLD/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fWLD/fUSDC",
+            "baseAssetId": "0xc34b0ee92a9dbd8b889c3e4d5c5372344ea0dd2ca72dbe76312f3e708fac74c9",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0xfb7904dfa15f109ec176089b10df75ec998c64cf288219f6538e914ff0779d66",
+          "name": "o2 Order Book fLIT/fUSDC",
+          "description": "o2 fLIT/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fLIT/fUSDC",
+            "baseAssetId": "0x225a5816716b43b993422f35941269acf95b55a041a39b6d67c93360c752c66d",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0x0fa1c2ed215a3cc0fa84895fd4e9a4246a9620ce02f871169e40c9c4e7eec406",
+          "name": "o2 Order Book fHYPE/fUSDC",
+          "description": "o2 fHYPE/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fHYPE/fUSDC",
+            "baseAssetId": "0xfab8fea82e44e343d789504f947f6cf77c9905dbfa96b941afa352b2438c4e70",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0xca0045e0163ec2c244b0595d57f6351a9a9b6e8f72564e4b8d7fb867e6ef6789",
+          "name": "o2 Order Book fBNB/fUSDC",
+          "description": "o2 fBNB/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fBNB/fUSDC",
+            "baseAssetId": "0x9a8ac7ae61f7f5cb64569785bd6c3bf45a71b153005a56558b34ccab98be4e06",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0x9b83d7b2697d34383030ef560c5e53fb6928739ca8e4115d542b0cd0c2910480",
+          "name": "o2 Order Book fSOL/fUSDC",
+          "description": "o2 fSOL/fUSDC spot order book",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-abi.json",
+          "market": {
+            "symbol": "fSOL/fUSDC",
+            "baseAssetId": "0xcf2fae5354184225319083340c3b1096f2965a8a07b2bf9013377f2fa92a38ca",
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+          }
+        },
+        {
+          "id": "0xe348ec55ed90ab8e77253db67e364b85dce7d155b1fee8b251f0c3abea65466e",
+          "name": "o2 Trade Account Registry",
+          "description": "Deploys and tracks o2 trade accounts",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trade-account-registry-abi.json"
+        },
+        {
+          "id": "0x92c32a4c11d570187d0045abd1c0e8900a305f8ce7b608b8f3ea332ab01d2f69",
+          "name": "o2 Order Book Registry",
+          "description": "Registers o2 markets",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-registry-abi.json"
+        },
+        {
+          "id": "0xabffb1d639cf2879ac460a3313e91bc56772c0494dc1ec1946a491316d863965",
+          "name": "o2 Order Book Blacklist",
+          "description": "Blocks traders from o2 order books",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/order-book-blacklist-abi.json"
+        },
+        {
+          "id": "0x8ece231c882a751c604f3fa78d405a71942c6441474603c5a86b0bb2e4ae26c6",
+          "name": "o2 Trade Account Oracle",
+          "description": "Holds the current o2 trade account implementation",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trade-account-oracle-abi.json"
+        },
+        {
+          "id": "0x6a527283e5905c412d130d587f2d2b54851c5a0cc52e79c27717af72773b1493",
+          "name": "o2 Trial Trade Account Oracle",
+          "description": "Holds the current o2 trial trade account implementation",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trial-trade-account-oracle-abi.json"
+        },
+        {
+          "id": "0x7ab771b983bec88a0f7296f55d67e033cdfd40d114fe0f26f3bf1534cfbabf35",
+          "name": "o2 Price Feed",
+          "description": "o2 onchain price feed",
+          "source": "",
+          "commit": "",
+          "repo": "",
+          "links": [
+            {
+              "title": "Docs",
+              "url": "https://docs.o2.app"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/price-feed-abi.json"
+        }
+      ]
+    },
+    "callerContracts": {
+      "mainnet": [
+        {
+          "name": "o2 Trade Account",
+          "description": "A trader's o2 account. It signs session calls into o2 order books.",
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trade-account-abi.json",
+          "verify": {
+            "contractId": "0x284c6802ad33bb95a37a1113106238ee9d084aa337879b62d2c3a8a74401cdb2",
+            "method": "is_valid"
+          }
+        },
+        {
+          "name": "o2 Trial Trade Account",
+          "description": "A trial o2 account funded by o2.",
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trial-trade-account-abi.json",
+          "verify": {
+            "contractId": "0x284c6802ad33bb95a37a1113106238ee9d084aa337879b62d2c3a8a74401cdb2",
+            "method": "trial_is_valid"
+          }
+        }
+      ],
+      "sepolia": [
+        {
+          "name": "o2 Trade Account",
+          "description": "A trader's o2 account. It signs session calls into o2 order books.",
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trade-account-abi.json",
+          "verify": {
+            "contractId": "0xe348ec55ed90ab8e77253db67e364b85dce7d155b1fee8b251f0c3abea65466e",
+            "method": "is_valid"
+          }
+        },
+        {
+          "name": "o2 Trial Trade Account",
+          "description": "A trial o2 account funded by o2.",
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/o2/trial-trade-account-abi.json",
+          "verify": {
+            "contractId": "0xe348ec55ed90ab8e77253db67e364b85dce7d155b1fee8b251f0c3abea65466e",
+            "method": "trial_is_valid"
+          }
+        }
+      ]
+    }
   },
   {
     "order": 2,
