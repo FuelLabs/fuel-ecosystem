@@ -959,7 +959,11 @@
           "market": {
             "symbol": "ETH/USDC",
             "baseAssetId": "0xac2aabc1c48e634800a723b1372388ad1eb6a23d0e012cde4c603082fb1a140a",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "ETH",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -980,7 +984,11 @@
           "market": {
             "symbol": "FUEL/USDC",
             "baseAssetId": "0x27821a5432b60fb3e70c64d0a612c2c86218c1088dd0f0f1b0dd6ae5ae17bd5b",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "FUEL",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1001,7 +1009,11 @@
           "market": {
             "symbol": "USDT/USDC",
             "baseAssetId": "0x2269aa41cf3982753d978a40e0f04618ff9d84b07d1ce10e99831e3217d3a9b0",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "USDT",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1022,7 +1034,11 @@
           "market": {
             "symbol": "MOOR/USDC",
             "baseAssetId": "0x851e17e6c88a20541279a873bb0d991ec09f78e4986196833366f4ccc4173dc7",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "MOOR",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1043,7 +1059,11 @@
           "market": {
             "symbol": "wBTC/USDC",
             "baseAssetId": "0x1a48bde9b03ff7f6ab9d566c3f8968a532a782402976053cebfa113cbb9a03ef",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "wBTC",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1064,7 +1084,11 @@
           "market": {
             "symbol": "XAUT/USDC",
             "baseAssetId": "0xe3c3f7a37f9c5c03cc1f2278373487fff96126638699d2f873baafb3ba8f3dd0",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "XAUT",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1085,7 +1109,11 @@
           "market": {
             "symbol": "UNI/USDC",
             "baseAssetId": "0xcfcb8e2c50c39147a6aad0885f1a08d3c7b9a3ca62997fd580d37ca10aecc1bb",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "UNI",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1106,7 +1134,11 @@
           "market": {
             "symbol": "AAVE/USDC",
             "baseAssetId": "0x13f4be131ce4a5cdee7ab0de0967f9da1168d1972fd202549bc5c22e24092b30",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "AAVE",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1127,7 +1159,11 @@
           "market": {
             "symbol": "LINK/USDC",
             "baseAssetId": "0x7ebf0913cc3cf93cd4a05bbdfc209de6805284f3e3262d0a6bd0ab75c64ebf58",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "LINK",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1148,7 +1184,11 @@
           "market": {
             "symbol": "ONDO/USDC",
             "baseAssetId": "0xf2992fb8cf860c44577cc317cbefebfc75aaa17d17199b5fe5552e7df88ee166",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "ONDO",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1169,7 +1209,11 @@
           "market": {
             "symbol": "ENA/USDC",
             "baseAssetId": "0xdc9b17ba40a623c3184b3159be54da69f18bce239b05e094fb21a603d75c128c",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "ENA",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1190,7 +1234,11 @@
           "market": {
             "symbol": "PYUSD/USDC",
             "baseAssetId": "0x65e788c0998164593ef504dc204533fc7c6bbe604da3fb9c5fb9a70949fb5715",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "PYUSD",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1211,7 +1259,11 @@
           "market": {
             "symbol": "VVV/USDC",
             "baseAssetId": "0x6f99581466e8aadbc749837d1fe063bf013b6d69980dfecf81cc00c648d2c55d",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "VVV",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1232,7 +1284,11 @@
           "market": {
             "symbol": "WLD/USDC",
             "baseAssetId": "0xef13df7d602c6a424ed6b1cb7de18eaed4397fa1eaf8eeb04db694ef2d709aea",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "WLD",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1253,7 +1309,11 @@
           "market": {
             "symbol": "LIT/USDC",
             "baseAssetId": "0xfdb4b13bfa1beb8433bd92f7a63bbbe023852f1d4f30220ecbd6aeee54c050a0",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "LIT",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1274,7 +1334,11 @@
           "market": {
             "symbol": "HYPE/USDC",
             "baseAssetId": "0x27bb607bae34dca949fcad0ed777428476d3986c30222507341c46223953c1ac",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "HYPE",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1295,7 +1359,11 @@
           "market": {
             "symbol": "BNB/USDC",
             "baseAssetId": "0x829ad4f72a3e6e94f0ecc1ffcb48ed108965e4601cc45c41c6a931eafd6d02d0",
-            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6"
+            "quoteAssetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
+            "baseSymbol": "BNB",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1414,7 +1482,11 @@
           "market": {
             "symbol": "FUEL/USDC",
             "baseAssetId": "0x96e0ba983a6991d3ba93cac9d939a4a7b17dacccc904e5af3ffd6918b24e1a96",
-            "quoteAssetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba"
+            "quoteAssetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba",
+            "baseSymbol": "FUEL",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1435,7 +1507,11 @@
           "market": {
             "symbol": "fFUEL/fUSDC",
             "baseAssetId": "0x43eebd58e837c2e8fa94f1b2db1268175c551b5b1bf41a59fafc4f2c69ab7dc2",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fFUEL",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1456,7 +1532,11 @@
           "market": {
             "symbol": "ETH/USDC",
             "baseAssetId": "0x6b60e2728055ed4cffa9e76e9e069e9b7cc687dba2f290deb0db9857ab0667b1",
-            "quoteAssetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba"
+            "quoteAssetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba",
+            "baseSymbol": "ETH",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1477,7 +1557,11 @@
           "market": {
             "symbol": "fETH/fUSDC",
             "baseAssetId": "0xd2ccde1c40aa576196b1f868671d60dc59d604c2e463ac483686d14ccd4b38c8",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fETH",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1498,7 +1582,11 @@
           "market": {
             "symbol": "fUSDT/fUSDC",
             "baseAssetId": "0x1b7c7d86ad13e3dbd6e829bfed8798532e1abfcdd4de6caf3a5e18e808a1cc59",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fUSDT",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1519,7 +1607,11 @@
           "market": {
             "symbol": "USDT/USDC",
             "baseAssetId": "0x3a1ccec3c590e11a7b0da8bd437bca134747ee15597892167c0304829a93b8a8",
-            "quoteAssetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba"
+            "quoteAssetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba",
+            "baseSymbol": "USDT",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1540,7 +1632,11 @@
           "market": {
             "symbol": "fMOOR/fUSDC",
             "baseAssetId": "0x80ccf78897bb7e73a8f87e91f0865d3bd6967edf3dcd531ee8cc6d9bc2d453c1",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fMOOR",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1561,7 +1657,11 @@
           "market": {
             "symbol": "fwBTC/fUSDC",
             "baseAssetId": "0x2a952909edc3d0e74602e6cb88bad8b3d50be00def897ae13f97bd46a1e7cee8",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fwBTC",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1582,7 +1682,11 @@
           "market": {
             "symbol": "MOOR/fUSDC",
             "baseAssetId": "0x7a97e166850937abbad7b26b2fda9b90944800f145e59fd2cd9b8dddeecd102b",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "MOOR",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1603,7 +1707,11 @@
           "market": {
             "symbol": "wBTC/fUSDC",
             "baseAssetId": "0x6cb4521131003893fe93a3a66d69be8ff3e05e42a80320c60adc6d8188be5ba6",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "wBTC",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1624,7 +1732,11 @@
           "market": {
             "symbol": "fXAUT/fUSDC",
             "baseAssetId": "0x80e4cd06b5931df79ecb766a17fc707febf86b7812de2542815283ab4c1ac658",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fXAUT",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1645,7 +1757,11 @@
           "market": {
             "symbol": "XAUT/USDC",
             "baseAssetId": "0x16f9f828ccd602058deb3d614d0b3aea41e544e37971b24a4c884b69aa51d173",
-            "quoteAssetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba"
+            "quoteAssetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba",
+            "baseSymbol": "XAUT",
+            "quoteSymbol": "USDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1666,7 +1782,11 @@
           "market": {
             "symbol": "fUNI/fUSDC",
             "baseAssetId": "0x20258b10af6bed8124d779dd064b5d1639523672505553261a0390cdfafdff89",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fUNI",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1687,7 +1807,11 @@
           "market": {
             "symbol": "fAAVE/fUSDC",
             "baseAssetId": "0xc606e5bf19dbebb694124326694b8d976c72695cc5d92af45a9449b0310a0e6b",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fAAVE",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1708,7 +1832,11 @@
           "market": {
             "symbol": "fLINK/fUSDC",
             "baseAssetId": "0xfab2cafd7aee2ce4120dfa5b941fd0ab614382134780f2f12e386d94b5cbe574",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fLINK",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1729,7 +1857,11 @@
           "market": {
             "symbol": "fONDO/fUSDC",
             "baseAssetId": "0xe9fd12604fa86ffe82f20d0de3ef551217266b36334af75896ae16c68f182a3c",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fONDO",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1750,7 +1882,11 @@
           "market": {
             "symbol": "fENA/fUSDC",
             "baseAssetId": "0x03fc110199eee1d93e43ea5dfcfd22960af86b5593db5ce337513ee4c0cd7806",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fENA",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1771,7 +1907,11 @@
           "market": {
             "symbol": "fPYUSD/fUSDC",
             "baseAssetId": "0xf3f7ebdab42d6c483cc3a0bb5bc6bb39651b7e4418a001133a53ebb27aaad67b",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fPYUSD",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1792,7 +1932,11 @@
           "market": {
             "symbol": "fVVV/fUSDC",
             "baseAssetId": "0x676058658636eb0ddb9f4579aa5740d552ec60b692d98248394eaff70c70a4f7",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fVVV",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1813,7 +1957,11 @@
           "market": {
             "symbol": "fWLD/fUSDC",
             "baseAssetId": "0xc34b0ee92a9dbd8b889c3e4d5c5372344ea0dd2ca72dbe76312f3e708fac74c9",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fWLD",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1834,7 +1982,11 @@
           "market": {
             "symbol": "fLIT/fUSDC",
             "baseAssetId": "0x225a5816716b43b993422f35941269acf95b55a041a39b6d67c93360c752c66d",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fLIT",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1855,7 +2007,11 @@
           "market": {
             "symbol": "fHYPE/fUSDC",
             "baseAssetId": "0xfab8fea82e44e343d789504f947f6cf77c9905dbfa96b941afa352b2438c4e70",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fHYPE",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1876,7 +2032,11 @@
           "market": {
             "symbol": "fBNB/fUSDC",
             "baseAssetId": "0x9a8ac7ae61f7f5cb64569785bd6c3bf45a71b153005a56558b34ccab98be4e06",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fBNB",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
@@ -1897,7 +2057,11 @@
           "market": {
             "symbol": "fSOL/fUSDC",
             "baseAssetId": "0xcf2fae5354184225319083340c3b1096f2965a8a07b2bf9013377f2fa92a38ca",
-            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68"
+            "quoteAssetId": "0x993a09322c3d856c5ae7e13c9c4eae52abebb78273aeefea374ab772cee72f68",
+            "baseSymbol": "fSOL",
+            "quoteSymbol": "fUSDC",
+            "baseDecimals": 9,
+            "quoteDecimals": 9
           }
         },
         {
