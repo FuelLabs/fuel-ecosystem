@@ -2,383 +2,103 @@
   {
     "isLiveMainnet": true,
     "isLive": true,
-    "name": "1Delta",
-    "url": "https://1delta.io/",
-    "tags": ["DeFi"],
-    "description": "1delta provides access to $20B+ of liquidity for spot & margin trading, and yield farming.",
-    "github": "https://github.com/1delta-DAO",
-    "twitter": "https://x.com/1deltaDAO",
-    "discord": "",
-    "image": "1delta"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Bako ID",
-    "url": "https://www.bako.id/",
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x3bb2e28713f05a171dbd193d3b86a358d259b5a94cda74a6ae16e4f20d32e1b8",
-          "name": "Bako ID Registry",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/registry/src/main.sw",
-          "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
-          "repo": "https://github.com/infinitybase/bako-id",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/bako-id/registry-abi.json"
-        },
-        {
-          "id": "0x4a62d08448e5e91c954dee7244cf2ac09e790de039e96283b2aded0e96d23ec9",
-          "name": "Bako ID Registry (Proxy)",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/registry/src/main.sw",
-          "commit": "bcbd58aee7350e996b28e518951166a78f4893cd",
-          "repo": "https://github.com/infinitybase/bako-id",
-          "links": [],
-          "audits": []
-        },
-        {
-          "id": "0x6a209d27a050740dc2539dcc41914f07c35ecb21f0c02279e85777353b474801",
-          "name": "Bako ID NFT",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/nft/src/main.sw",
-          "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
-          "repo": "https://github.com/infinitybase/bako-id",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/bako-id/nft-abi.json"
-        },
-        {
-          "id": "0x3ca7ac3db222a740e1c89158d9255afc2c3591ee3f34aedcaaf7cfeceebd0833",
-          "name": "Bako ID Manager",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/manager/src/main.sw",
-          "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
-          "repo": "https://github.com/infinitybase/bako-id",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/bako-id/manager-abi.json"
-        },
-        {
-          "id": "0x3f12590e0fbd5fa29044b54fb3af17c1441c8eda1f1a74bdbf0f03ae489c448d",
-          "name": "Bako ID Resolver",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/resolver/src/main.sw",
-          "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
-          "repo": "https://github.com/infinitybase/bako-id",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/bako-id/resolver-abi.json"
-        }
-      ],
-      "sepolia": []
-    },
-    "tags": ["Social"],
-    "description": "Bako ID is a comprehensive Identity System for Rollups.",
-    "github": "https://github.com/Bako-Labs",
-    "twitter": "https://x.com/bakoidentity",
-    "discord": "https://discord.com/invite/E5kYKSKncj",
-    "image": "bakoid"
-  },
-  {
-    "order": 6,
-    "isLiveMainnet": true,
-    "isLive": true,
-    "isFeatured": true,
-    "name": "Bako Safe",
-    "url": "https://www.bako.global/",
-    "predicates": {
-      "mainnet": [
-        {
-          "blob_id": "0x7cf30ca9e83e8b7e0d1e608fb6252d53a08144a65cd73031ff2fbc52614b8a6a",
-          "name": "Bako Safe",
-          "description": "The Bako Safe is a multi-signature wallet that supports Fuel native wallets and passkeys.",
-          "source": "https://raw.githubusercontent.com/Bako-Labs/bako-safe/refs/heads/main/packages/sway/src/predicate/src/main.sw",
-          "commit": "3638b3d237891cc2a1833e6b1280320e61bd819a",
-          "repo": "https://github.com/Bako-Labs/bako-safe/tree/main/packages/sway/src/predicate",
-          "image": "bakosafe",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/artifacts/bako-safe/bako-predicate-abi.json"
-        }
-      ],
-      "sepolia": []
-    },
-    "tags": ["Wallet"],
-    "description": "Bako Safe is a Fuel native multi-signature wallet.",
-    "github": "https://github.com/Bako-Labs",
-    "twitter": "https://x.com/bakosafe",
-    "discord": "https://discord.com/invite/E5kYKSKncj",
-    "image": "bakosafe"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Banxa",
-    "url": "https://banxa.com/",
-    "tags": ["On-Ramp"],
-    "description": "Banxa is a fiat-to-crypto on & off ramp solutions enabling users to conveniently and securely convert traditional fiat currencies into cryptocurrencies.",
-    "github": "",
-    "twitter": "https://x.com/BanxaOfficial",
-    "discord": "",
-    "image": "banxa"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Charcoal Transpiler",
-    "url": "https://github.com/ourovoros-io/charcoal",
-    "tags": ["Tooling"],
-    "description": "Solidity to Sway transpiler. Available on the Sway Playground.",
-    "github": "https://github.com/ourovoros-io",
-    "twitter": "",
-    "discord": "",
-    "image": "charcoal"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Cookbook",
-    "url": "https://contracts.cookbook.dev/chains/Fuel",
-    "tags": ["Education"],
-    "description": "Find smart contracts, Sway libraries, and discover protocols. Available on the Fuel Documentation.",
-    "github": "",
-    "twitter": "https://x.com/cookbook_dev",
-    "discord": "https://discord.gg/cookbookdev",
-    "image": "cookbook"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Envio",
-    "url": "https://docs.envio.dev/docs/HyperIndex/fuel",
-    "tags": ["Indexer"],
-    "description": "Envio is a modern, multi-chain EVM blockchain indexing framework speed-optimized for querying real-time and historical data.",
-    "github": "https://github.com/enviodev",
-    "twitter": "https://x.com/envio_indexer",
-    "discord": "https://discord.gg/amcY528zbZ",
-    "image": "envio"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Executoors",
-    "url": "https://executoors.com",
-    "tags": ["NFT"],
-    "description": "A series of Executoors in search of the most flawless execution environment.",
-    "github": "",
-    "twitter": "https://x.com/executoors",
-    "discord": "",
-    "image": "executoors"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Fuel Bomba",
-    "url": "https://fuelbomba.com/",
-    "tags": ["DeFi", "NFT"],
-    "description": "NFTs where holders short/long ETH, earn points, and get Woopa token airdrops! ⛽️",
-    "github": "",
-    "twitter": "https://x.com/Fuelbomba",
-    "discord": "",
-    "image": "fuelbomba"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Fuel Monkees",
-    "url": "https://fuelmonkees.com",
-    "tags": ["NFT"],
-    "description": "A chaotic NFT Tribe on Fuel, uniting degens with unmatched art and unstoppable energy.",
-    "github": "https://github.com/fuelmonkees",
-    "twitter": "https://x.com/fuelmonkees",
-    "discord": "",
-    "image": "fuelmonkees",
-    "hidden": true
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Fuel Pengus",
-    "url": "",
-    "tags": ["NFT"],
-    "description": "Fuel Pengus is a collection of 5555 Penguin PFPs, Aiming to build the biggest NFT community on Fuel!",
-    "github": "",
-    "twitter": "https://x.com/FuelPengus",
-    "discord": "https://discord.gg/JMuWQ8AZZf",
-    "image": "fuelpengus"
-  },
-  {
-    "isFeatured": true,
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Fuel Bridge",
-    "url": "https://app.fuel.network/bridge",
-    "tags": ["Bridge", "Fuel", "Tooling"],
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
-          "name": "Fuel Token Gateway",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/FuelLabs/fuel-bridge/refs/heads/main/packages/fungible-token/bridge-fungible-token/implementation/src/main.sw",
-          "commit": "2f61bd81cee13a6346fed3053919e28c53e1754e",
-          "repo": "https://github.com/FuelLabs/fuel-bridge",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/fuel-bridge/bridge_fungible_token-abi.json"
-        }
-      ],
-      "sepolia": []
-    },
-    "description": "Bridge assets from Ethereum to Fuel with Fuel's native bridge.",
-    "github": "https://github.com/FuelLabs/fuel-bridge",
-    "twitter": "https://x.com/fuel_network",
-    "discord": "https://discord.gg/fuelnetwork",
-    "image": "fuelbridge"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Fuel Connectors",
-    "url": "https://docs.fuel.network/guides/fuel-connectors/non-technical-guide",
-    "tags": ["Fuel", "Wallet"],
-    "predicates": {
-      "mainnet": [
-        {
-          "blob_id": "0xc58d08df0d31dfaaadd57de9f04d89b7abc88b28a2f45f522cc5c1fd8da67978",
-          "name": "Ethereum Connector",
-          "description": "This connector supports EVM compatible EOA accounts such as MetaMask and Rabby.",
-          "source": "https://raw.githubusercontent.com/FuelLabs/fuel-connectors/refs/heads/main/packages/evm-predicates/predicate/src/main.sw",
-          "commit": "01c65cc6d75dd677f6fbe5fdb6975af36465a967",
-          "repo": "https://github.com/FuelLabs/fuel-connectors/tree/main/packages/evm-predicates/predicate",
-          "image": "ethereumconnector",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/fuel-connectors/evm-verification-predicate-abi.json"
-        },
-        {
-          "blob_id": "0x3ac5c446f2f99d83d0e2dc773bb77c619783f1389c4d0198bba9b48680b80177",
-          "name": "Solana Connector",
-          "description": "This connector supports SVM compatible EOA accounts such as Phantom and Backpack.",
-          "source": "https://raw.githubusercontent.com/FuelLabs/fuel-connectors/refs/heads/main/packages/solana-connector/predicate/src/main.sw",
-          "commit": "01c65cc6d75dd677f6fbe5fdb6975af36465a967",
-          "repo": "https://github.com/FuelLabs/fuel-connectors/tree/main/packages/solana-connector/predicate",
-          "image": "solanaconnector",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/fuel-connectors/solana-verification-predicate-abi.json"
-        }
-      ],
-      "sepolia": []
-    },
-    "description": "The Fuel Connector supports EVM (e.g. MetaMask), SVM (e.g. Phantom) and many other compatible wallet types.",
-    "github": "https://github.com/FuelLabs/fuel-connectors",
-    "twitter": "https://x.com/fuel_network",
-    "discord": "https://discord.gg/fuelnetwork",
-    "image": "fuelwallet"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Fuel Fast Bridge",
-    "url": "",
-    "tags": ["Bridge"],
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x91cfcbef2caad02996cdcb5b897222170e85a91cd2db8f23f07ea7d9ca030c19",
-          "name": "Fuel Fast Bridge",
-          "description": "Fuel Fast Bridge"
-        }
-      ],
-      "sepolia": [
-        {
-          "id": "0xabc551b1ada359b1b0769f9af9f7d24b347109085635bee4d8a59d4f3de90e63",
-          "name": "Fuel Fast Bridge",
-          "description": "Fuel Fast Bridge on Sepolia Testnet"
-        }
-      ]
-    },
-    "hidden": true,
-    "image": "fuelbridge"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Fuel Pumps",
-    "url": "https://www.fuelpump.xyz/",
-    "tags": ["NFT"],
-    "description": "OG PFP collection 2019 unique fuel pumps, marking Fuel V1's launch year ✨",
-    "github": "https://github.com/Fuelpumps",
-    "twitter": "https://x.com/Pumps_fuel",
-    "discord": "",
-    "image": "fuelpumps"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Fuel Rocks",
-    "url": "",
-    "tags": ["NFT"],
-    "description": "Fuel Rocks 🪨⛽️, inspired by EtherRock, will redefine the Fuel ecosystem with 2019 unique rocks.",
-    "github": "",
-    "twitter": "https://x.com/FuelRocks2019",
-    "discord": "",
-    "image": "fuelrocks"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
     "name": "Fuel Wallet",
-    "url": "https://wallet.fuel.network/docs/install/",
+    "url": "https://wallet.fuel.network",
     "tags": ["Fuel", "Wallet"],
-    "description": "Explore decentralized applications and manage your crypto assets, all in one place.",
+    "description": "The official wallet for managing assets and interacting with apps on Fuel.",
     "github": "https://github.com/fuellabs/fuels-wallet",
     "twitter": "https://x.com/fuel_network",
     "discord": "https://discord.gg/fuel-network",
-    "image": "fuelwallet"
+    "image": "fuelwallet",
+    "slug": "fuel-wallet",
+    "category": "Wallets",
+    "collection": "suite",
+    "tagline": "The official wallet for Fuel",
+    "about": [
+      "Fuel Wallet is the home base for your assets on Fuel: send, receive, and connect to any app in the ecosystem.",
+      "Designed around Fuel's account model for fast signing and clear transaction previews."
+    ]
   },
   {
     "isLiveMainnet": true,
     "isLive": true,
-    "isFeatured": true,
-    "name": "Fuelet Wallet",
-    "url": "https://fuelet.app/",
-    "tags": ["Wallet"],
-    "description": "Join 200,000+ users who count on us to explore Fuel Ecosystem with user-friendly UX and unparalleled security.",
-    "github": "https://github.com/fuelet",
-    "twitter": "https://x.com/FueletWallet",
-    "discord": "https://discord.gg/fueletwallet",
-    "image": "fuelet"
-  },
-  {
-    "isLive": true,
-    "name": "Hyperlane",
-    "url": "https://hyperlane.xyz/",
-    "tags": ["Bridge"],
-    "description": "Hyperlane is the permissionless Interoperability layer built for the modular future.",
-    "github": "https://github.com/hyperlane-xyz",
-    "twitter": "https://x.com/hyperlane_xyz",
+    "name": "Fuel Explorer",
+    "url": "https://app.fuel.network",
+    "tags": ["Fuel", "Analytics"],
+    "github": "",
+    "twitter": "https://x.com/fuel_network",
     "discord": "",
-    "image": "hyperlane"
+    "image": "fuelsuite",
+    "slug": "fuel-explorer",
+    "category": "Data & Infrastructure",
+    "collection": "suite",
+    "tagline": "Blocks, transactions, and accounts",
+    "description": "Explore blocks, transactions, and accounts across the Fuel network.",
+    "about": [
+      "Fuel Explorer gives builders and users a live window into network activity.",
+      "Inspect transactions, trace contract calls, and follow accounts in real time."
+    ]
   },
   {
-    "isFeatured": true,
     "isLiveMainnet": true,
     "isLive": true,
-    "name": "LayerSwap",
-    "url": "https://layerswap.io/",
-    "tags": ["Bridge"],
-    "description": "The reliable solution for transferring crypto assets across networks in a matter of minutes.",
-    "github": "https://github.com/layerswap/layerswapapp",
-    "twitter": "https://x.com/layerswap",
-    "discord": "https://discord.gg/layerswap",
-    "image": "layerswap",
-    "address": "0x4392c9c05547ecd01252139cdf1d1864207f1c033b09bdc42bedb100acba41ee",
-    "showAccountTag": true
+    "name": "Fuel Computer",
+    "url": "https://fuel.computer",
+    "tags": ["Fuel", "AI"],
+    "github": "",
+    "twitter": "https://x.com/fuel_network",
+    "discord": "",
+    "image": "fuelcomputer",
+    "slug": "fuel-computer",
+    "category": "AI",
+    "collection": "suite",
+    "tagline": "Private AI chat, encrypted by design.",
+    "description": "Private AI chat, encrypted by design: E2EE between your browser and NEAR's confidential model environment.",
+    "about": [
+      "Fuel Computer is private AI chat, encrypted by design. Private TEE chat is E2EE encrypted between your browser and NEAR's confidential model environment. Cloudflare relays ciphertext and sees operational metadata, but does not ordinarily receive conversation plaintext.",
+      "Inference defaults to GLM 5.3 Flash, with a curated selection of NEAR AI direct TEE models available per conversation."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Fuel Staking",
+    "url": "https://app.fuel.network/staking",
+    "tags": ["Fuel", "DeFi"],
+    "github": "",
+    "twitter": "https://x.com/fuel_network",
+    "discord": "",
+    "image": "fuelsuite",
+    "slug": "fuel-staking",
+    "category": "DeFi",
+    "collection": "suite",
+    "tagline": "Stake FUEL and secure the network",
+    "description": "Stake FUEL, secure the network, and earn rewards with native staking.",
+    "about": [
+      "Fuel Staking lets holders contribute to network security and earn rewards in return.",
+      "Staking is native to the protocol, with transparent onchain accounting."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Fuel Holdings",
+    "url": "https://fuel.holdings/",
+    "tags": ["Fuel", "Analytics"],
+    "github": "",
+    "twitter": "https://x.com/fuel_network",
+    "discord": "",
+    "image": "fuelsuite",
+    "slug": "fuel-holdings",
+    "category": "Data & Infrastructure",
+    "collection": "suite",
+    "tagline": "See who holds FUEL",
+    "description": "Fuel Holdings tracks the live distribution of FUEL across Ethereum, Base, BSC, and Fuel.",
+    "about": [
+      "Fuel Holdings is a public dashboard of FUEL ownership, indexing current balances across Ethereum, Base, BSC, and Fuel into one canonical view of supply.",
+      "Distribution is broken down by category: bridges and vaults, exchanges, and holder tiers from whales to dust, with bridge custody estimated from the canonical-supply remainder.",
+      "Chain allocation shows where supply sits by destination, including Ignition and Fuel Staking bridge backing, and a staking section tracks the active validator set, bonded stake, and delegations on the Fuel sequencer."
+    ]
   },
   {
     "isFeatured": true,
@@ -387,191 +107,27 @@
     "name": "Moor",
     "url": "https://moor.money/",
     "tags": ["DeFi"],
-    "description": "The borrowing engine powering Fuel’s next DeFi wave.",
+    "description": "A DeFi protocol building on Fuel's high-performance execution layer.",
     "github": "https://github.com/Rig-Labs/moor-docs",
-    "twitter": "https://x.com/theriglst",
+    "twitter": "https://x.com/MoorMoney",
     "discord": "",
     "image": "moor",
     "address": "0xd7795099227cc0b9dc5872d29ca2b10691d9db6bd45853a6bb532e68dd166ce3",
-    "showAccountTag": true
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "LearnWeb3",
-    "url": "https://learnweb3.io/",
-    "tags": ["Education"],
-    "description": "Access free, full stack, high quality education to become a Web3 expert!",
-    "github": "https://github.com/LearnWeb3DAO",
-    "twitter": "https://x.com/LearnWeb3DAO",
-    "discord": "https://discord.gg/learnweb3",
-    "image": "learnweb3"
-  },
-  {
-    "order": 3,
-    "isLiveMainnet": true,
-    "isLive": true,
-    "isFeatured": true,
-    "name": "Microchain (formerly Mira)",
-    "url": "https://microchain.systems/",
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x2e40f2b244b98ed6b8204b3de0156c6961f98525c8162f80162fcf53eebd90e7",
-          "name": "Mira V1 Core",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/mira-amm/mira-v1-core/0ebb28837216276ab7bdad615fa5a0545810d37c/contracts/mira_amm_contract/src/main.sw",
-          "commit": "0ebb28837216276ab7bdad615fa5a0545810d37c",
-          "repo": "https://github.com/mira-amm/mira-v1-core",
-          "links": [
-            {
-              "title": "Security Audit",
-              "url": "https://docs.microchain.systems/resources/security-audits"
-            }
-          ],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/mira-amm/mira_amm_contract-abi.json"
-        },
-        {
-          "id": "0xa703db08d1dbf30a6cd2fef942d8dcf03f25d2254e2091ee1f97bf5fa615639e",
-          "name": "Mira V1 Hook",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/mira-amm/mira-v1-core/refs/heads/main/contracts/mira_validation_hook/src/main.sw",
-          "commit": "794554705998b5f677e0666e9a950ce902a7201b",
-          "repo": "https://github.com/mira-amm/mira-v1-core",
-          "links": [
-            {
-              "title": "Security Audit",
-              "url": "https://docs.microchain.systems/resources/security-audits"
-            }
-          ],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/mira-amm/mira_validation_hook-abi.json"
-        }
-      ],
-      "sepolia": []
-    },
-    "tags": ["DeFi"],
-    "description": "The DLM-2000 is the biggest AMM on the Fuel Network. Earn rewards LPing and make lightning fast swaps.",
-    "github": "https://github.com/mira-amm",
-    "twitter": "https://x.com/MicrochainDLM",
-    "discord": "https://discord.gg/9HzukDUKSq",
-    "image": "microchain"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Orbiter Finance",
-    "url": "https://www.orbiter.finance/",
-    "tags": ["Bridge"],
-    "isExternalExchange": true,
     "showAccountTag": true,
-    "description": "Decentralized cross-rollup bridge offers low cost and almost instant transfers.",
-    "github": "https://github.com/Orbiter-Finance",
-    "twitter": "https://x.com/Orbiter_Finance",
-    "discord": "https://discord.com/invite/FbztTBvnBT",
-    "image": "orbiter",
-    "address": "0xE485bC364E5BAF7365E772Ce8911d5F67aa983adf8469D92bB7D29C4cd5f459A"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Pyth",
-    "url": "https://www.pyth.network/",
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x103465f1c0c901471b868b4a9e4e57c381168ac38ee5b59732943e9e004c488d",
-          "name": "Pyth Core",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/pyth-network/pyth-crosschain/refs/heads/main/target_chains/fuel/contracts/pyth-contract/src/main.sw",
-          "commit": "4ab64d2539a749e51e1281bdd7744781f5e9df8c",
-          "repo": "https://github.com/pyth-network/pyth-crosschain",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/pyth-network/pyth-contract-abi.json"
-        }
-      ],
-      "sepolia": []
-    },
-    "tags": ["Oracle"],
-    "description": "Build apps with high-fidelity oracle feeds designed for mission-critical systems.",
-    "github": "https://github.com/pyth-network",
-    "twitter": "https://x.com/PythNetwork",
-    "discord": "https://discord.gg/invite/PythNetwork",
-    "image": "pyth"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "RetroFuel",
-    "url": "https://retrofuel.xyz/",
-    "tags": ["NFT"],
-    "description": "We bring retro aesthetics to life through unique digital collectibles.",
-    "github": "https://github.com/koby32px",
-    "twitter": "https://x.com/retro_fuel",
-    "discord": "",
-    "image": "retrofuel"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Sentio",
-    "url": "https://www.sentio.xyz/",
-    "tags": ["Indexer", "Analytics"],
-    "description": "Sentio builds data and dev tooling products with strong developer-focus. Our product covers indexer, analytics/monitoring, debugger/simulator and code search.",
-    "github": "https://github.com/sentioxyz",
-    "twitter": "https://x.com/sentioxyz",
-    "discord": "https://discord.gg/vSdkMYqnjb",
-    "image": "sentio"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "isFeatured": true,
-    "name": "Stork",
-    "url": "https://www.stork.network/",
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x9c118ae13927dd51ba59c0370dc8c272a3b64ccd675950750c8840a649c81149",
-          "name": "Stork",
-          "description": "Fuel compatible Stork Contract",
-          "source": "https://raw.githubusercontent.com/Stork-Oracle/stork-external/refs/heads/main/chains/fuel/contracts/stork/src/main.sw",
-          "commit": "0aee8a75c6b56a0a1bd28dde53227000e08ac46b",
-          "repo": "https://github.com/Stork-Oracle/stork-external",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/Stork-Oracle/stork-external/refs/heads/main/chains/fuel/contracts/stork/artifacts/stork-abi.json"
-        }
-      ],
-      "sepolia": [
-        {
-          "id": "0x09c88f50d535ac5ce8945e34c418233b1e3834be9a88effb57cb137321fbae0c",
-          "name": "Stork",
-          "description": "Fuel compatible Stork Contract",
-          "source": "https://raw.githubusercontent.com/Stork-Oracle/stork-external/refs/heads/main/chains/fuel/contracts/stork/src/main.sw",
-          "commit": "0aee8a75c6b56a0a1bd28dde53227000e08ac46b",
-          "repo": "https://github.com/Stork-Oracle/stork-external",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/Stork-Oracle/stork-external/refs/heads/main/chains/fuel/contracts/stork/artifacts/stork-abi.json"
-        }
-      ]
-    },
-    "tags": ["Oracle"],
-    "description": "Stork is a high performance oracle powering next gen DeFi applications.",
-    "github": "https://github.com/stork-oracle",
-    "twitter": "https://x.com/storkoracle",
-    "discord": "https://discord.com/invite/storkoracle",
-    "image": "stork"
+    "slug": "moor",
+    "category": "DeFi",
+    "collection": "community",
+    "tagline": "DeFi on a high-performance execution layer",
+    "about": [
+      "Moor builds DeFi primitives that take advantage of Fuel's throughput and low latency."
+    ]
   },
   {
     "order": 4,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
-    "name": "The Rig",
+    "name": "Rig",
     "url": "https://rig.st",
     "contracts": {
       "mainnet": [
@@ -595,336 +151,19 @@
       "sepolia": []
     },
     "tags": ["DeFi"],
-    "description": "The Rig powers stFUEL, the native LST for $FUEL which enables instant staking, DeFi composability, and layered yields.",
+    "description": "The Rig is a native liquid staking protocol on Ignition, enabling instant stFUEL issuance for seamless DeFi participation and maximized staking yields.",
     "github": "https://github.com/Rig-Labs",
-    "twitter": "https://x.com/theriglst",
+    "twitter": "https://x.com/TheRigLST",
     "discord": "https://t.me/TheRigLiquidStaking",
-    "image": "rig"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "SQD",
-    "url": "https://docs.sqd.ai/fuel-indexing/",
-    "tags": ["Indexer"],
-    "description": "SQD enables permissionless, cost-efficient access to petabytes of high-value Web3 data.",
-    "github": "https://github.com/subsquid/squid-sdk/tree/master/fuel",
-    "twitter": "https://x.com/subsquid",
-    "discord": "https://discord.com/invite/subsquid",
-    "image": "subsquid"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Sway Analyzer",
-    "url": "https://github.com/ourovoros-io/sway-analyzer",
-    "tags": ["Tooling"],
-    "description": "A security-focused static analyzer for Sway written in Rust.",
-    "github": "https://github.com/ourovoros-io/sway-analyzer",
-    "twitter": "",
-    "discord": "",
-    "image": "swayanalyzer"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Sway Farm",
-    "url": "https://www.swayfarm.xyz/",
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x4a6914d9ee51445a57cfddf8690eb3f072933925d6cdfa6c1e5f953dd5b8e610",
-          "name": "Sway Farm",
-          "description": "The core Sway Farm game contract.",
-          "source": "https://raw.githubusercontent.com/FuelLabs/sway-farm/refs/heads/main/contract/src/main.sw",
-          "commit": "17af4d2e097abfa6e8e659387ff4b540be9b8af8",
-          "repo": "https://github.com/FuelLabs/sway-farm",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/sway-farm/farm-contract-abi.json"
-        }
-      ],
-      "sepolia": []
-    },
-    "tags": ["Fuel", "Gaming"],
-    "description": "Grow and sell tomatoes to become a Sway Farm Hero.",
-    "github": "https://github.com/FuelLabs/sway-farm",
-    "twitter": "https://x.com/fuel_network",
-    "discord": "https://discord.gg/fuel-network",
-    "image": "swayfarm"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Sway Playground",
-    "url": "https://www.sway-playground.org/",
-    "tags": ["Fuel", "Tooling"],
-    "description": "Sway Playground enables developers to build, deploy, and interact with simple sway contracts in the browser with no installation of tools.",
-    "github": "https://github.com/FuelLabs/sway-playground",
-    "twitter": "https://x.com/SwayLang",
-    "discord": "https://discord.gg/fuel-network",
-    "image": "swayplayground"
-  },
-  {
-    "order": 5,
-    "isLiveMainnet": true,
-    "isLive": true,
-    "isFeatured": true,
-    "name": "Swaylend",
-    "url": "https://swaylend.com/",
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x8748488e127dccd6f2cf2a536bf248b2f807028e32e3b845d77233ead1ce242c",
-          "name": "SwayLend USDC Market",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/Swaylend/swaylend-monorepo/refs/heads/develop/contracts/market/src/main.sw",
-          "commit": "0c84d3a19d777b197b03c34386031985cec71bd3",
-          "repo": "https://github.com/Swaylend/swaylend-monorepo",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/swaylend/market-abi.json"
-        },
-        {
-          "id": "0x657ab45a6eb98a4893a99fd104347179151e8b3828fd8f2a108cc09770d1ebae",
-          "name": "SwayLend USDC Market Proxy",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/Swaylend/swaylend-monorepo/refs/heads/develop/contracts/market/src/main.sw",
-          "commit": "0c84d3a19d777b197b03c34386031985cec71bd3",
-          "repo": "https://github.com/Swaylend/swaylend-monorepo",
-          "links": [],
-          "audits": []
-        }
-      ],
-      "sepolia": []
-    },
-    "tags": ["DeFi"],
-    "description": "Swaylend is the first lending protocol on Fuel.",
-    "github": "https://github.com/Swaylend/",
-    "twitter": "https://x.com/swaylend",
-    "discord": "https://discord.gg/7N796pdHNk",
-    "image": "swaylend"
-  },
-  {
-    "isLive": false,
-    "name": "Zap",
-    "url": "https://zappayment.org/",
-    "tags": [
-      "Tooling",
-      "Wallet"
-    ],
-    "description": "Zap is the gateway to better UX, cheaper transactions, and faster execution on Fuel",
-    "github": "https://github.com/Zap-Systems/get-zapped",
-    "twitter": "https://x.com/ZapPayment",
-    "image": "zap"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Immunefi",
-    "url": "https://immunefi.com/",
-    "tags": ["Security"],
-    "description": "Immunefi is the leading onchain crowdsourced security platform. Guarding $190B+ in user funds across projects like Wormhole, Polygon and Optimism, Immunefi has paid out $100M+ to security researchers.",
-    "github": "https://github.com/immunefi-team/",
-    "twitter": "https://x.com/immunefi",
-    "image": "immunefi"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Blocksec",
-    "url": "https://blocksec.com/",
-    "tags": ["Security"],
-    "description": "It provides expert security auditing services and post-launch security product Phalcon, which can monitor and block hacks.",
-    "github": "https://github.com/blocksecteam",
-    "twitter": "https://x.com/blocksecteam",
-    "image": "blocksec"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Hexens",
-    "url": "https://hexens.io/",
-    "tags": ["Security"],
-    "description": "Hexens is a premier cybersecurity provider with an essential focus on blockchain. Staying on the edge of the knife of emerging tech, it secures more than $85 BLN assets net worth across Web2 and Web3.",
-    "github": "https://github.com/Hexens",
-    "twitter": "https://x.com/hexensio",
-    "image": "hexens"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Quill Audits",
-    "url": "https://www.quillaudits.com/",
-    "tags": ["Security"],
-    "description": "Web3 security leader offering robust audit and pentest services, having secured 1000+ projects since 2018.",
-    "github": "https://github.com/quillhash/QuillAudit_Reports",
-    "twitter": "https://x.com/quillaudits_ai",
-    "image": "quillaudits"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "CD Security",
-    "url": "https://cdsecurity.site/",
-    "tags": ["Security"],
-    "description": "Providing Elite Smart Contract Security. Expert security reviews for your smart contracts and blockchain projects.",
-    "github": "https://github.com/CDSecurity/audits",
-    "twitter": "https://x.com/CDSecurity_",
-    "image": "cdsecurity"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Sherlock",
-    "url": "https://www.sherlock.xyz/",
-    "tags": ["Security"],
-    "description": "Mobilize Sherlock’s distributed network of auditors to protect your users from the most dangerous vulnerabilities",
-    "github": "https://github.com/sherlock-protocol/sherlock-reports",
-    "twitter": "https://x.com/sherlockdefi",
-    "image": "sherlock"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Zellic",
-    "url": "https://www.zellic.io/",
-    "tags": ["Security"],
-    "description": "Zellic is a security research firm with deep expertise in blockchain security and cryptography, led by the best hackers in the world.",
-    "github": "https://github.com/zellic/",
-    "twitter": "https://twitter.com/zellic_io",
-    "image": "zellic"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Linum Labs",
-    "url": "https://www.linumlabs.com/",
-    "tags": ["Security"],
-    "description": "Linum Labs specializes in custom blockchain solutions and is one of the leading agencies offering Sway smart contract auditing services on Fuel Network.",
-    "github": "",
-    "twitter": "https://x.com/linumlabs",
-    "image": "linumlabs"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Trail of Bits",
-    "url": "https://www.trailofbits.com/",
-    "tags": ["Security"],
-    "description": "Trail of Bits doesn't just find bugs - we deliver comprehensive security solutions in AI/ML, application security, blockchain, and cryptography through design reviews, threat models, and code reviews.",
-    "github": "https://github.com/trailofbits",
-    "twitter": "https://x.com/trailofbits",
-    "image": "trailofbits"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Safe Edges",
-    "url": "https://safeedges.in/",
-    "tags": ["Security"],
-    "description": "Safe Edges is fully focused Sway security audits for projects built on the Fuel Network",
-    "github": "https://github.com/Safe-Edges",
-    "twitter": "https://x.com/safe_edges",
-    "image": "safeedges"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Simply Staking",
-    "url": "https://stake.simplystaking.com/fuel/",
-    "tags": ["Tooling"],
-    "description": "Stake your Fuel tokens effortlessly with Simply Staking's secure, intuitive dashboard. Track rewards, access updates, and maximize your staking potential.",
-    "github": "https://github.com/SimplyStaking",
-    "twitter": "https://x.com/SimplyStaking",
-    "image": "simplystaking"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Ourovoros",
-    "url": "https://ourovoros.io/",
-    "tags": ["Security"],
-    "description": "Ourovoros is a collective of ex-auditors with over 500 audits under our belt. We are focused on delivering high quality development and auditing for blockchain solutions.",
-    "github": "https://github.com/ourovoros-io",
-    "twitter": "https://x.com/ioourovoros/",
-    "image": "ourovoros"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Hacken",
-    "url": "https://hacken.io/",
-    "tags": ["Security"],
-    "description": "Our services include Smart Contract Audit, Blockchain Protocol Audit, dApp Audit, Penetration Testing, and CCSS Audit. Our product portfolio features HackenProof bug bounties, CER.live cybersecurity ranking, and Extractor on-chain monitoring.",
-    "github": "https://github.com/hknio",
-    "twitter": "https://x.com/hackenclub",
-    "image": "hacken"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "Hexagate",
-    "url": "https://www.chainalysis.com/product/hexagate/",
-    "tags": ["Security", "Risk Management", "Chainalysis"],
-    "description": "Hexagate, now part of Chainalysis, provides real-time threat detection, prevention, and remediation for protocols, chains, exchanges, and asset managers. It uses machine learning and advanced algorithms to proactively manage Web3 risks.",
-    "github": "",
-    "twitter": "https://x.com/hexagate_",
-    "image": "hexagate"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "MEXC",
-    "url": "https://www.mexc.com/",
-    "isExternalExchange": true,
-    "showAccountTag": true,
-    "hidden": true,
-    "twitter": "https://x.com/MEXC_Official",
-    "discord": "https://discord.com/invite/AsDwGJ5T95",
-    "image": "mexc",
-    "address": "0xDB491B442f68ebAa785f077805158EBfDDEedE7063F16D5A26e1073FF6987601"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "name": "BitGet",
-    "url": "https://www.bitget.com/",
-    "isExternalExchange": true,
-    "showAccountTag": true,
-    "hidden": true,
-    "twitter": "https://x.com/bitgetglobal",
-    "discord": "https://discord.com/invite/bitget",
-    "image": "bitget",
-    "address": "0xAFdDA1Cd084Ed0F56D35f570b2e9D34E7C7380191058e2a2fb16e0c58cbBC7c2"
-  },
-  {
-    "isLiveMainnet": true,
-    "isLive": true,
-    "isFeatured": true,
-    "name": "Garage",
-    "url": "https://garage.zone/",
-    "contracts": {
-      "mainnet": [
-        {
-          "id": "0x7722e9314e1efbef5a18545a2440b79dac36cfc2f22d0d27bd0c1e4f2ec6df15",
-          "name": "Garage Marketplace",
-          "description": "",
-          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/marketplace/sway/contracts/marketplace/src/main.sw",
-          "commit": "7853b6bb307b09c82757868766b4e8b27b83d4ba",
-          "repo": "https://github.com/infinitybase/bako-id",
-          "links": [],
-          "audits": [],
-          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/garage/marketplace-abi.json"
-        }
-      ]
-    },
-    "tags": ["NFT"],
-    "description": "Fuel-powered NFT marketplace. Where Fuel culture gets assembled. Join. Create. Trade.",
-    "github": "https://github.com/Bako-Labs",
-    "twitter": "https://x.com/garagedotzone",
-    "discord": "",
-    "image": "garage"
+    "image": "rig",
+    "slug": "rig",
+    "category": "DeFi",
+    "collection": "community",
+    "tagline": "Native liquid staking on Fuel",
+    "about": [
+      "The Rig lets users stake FUEL and receive stFUEL, a liquid staking token that stays composable across Fuel's DeFi ecosystem.",
+      "Staking yields accrue automatically, and stFUEL can be deployed in lending, trading, and yield strategies without waiting for unbonding."
+    ]
   },
   {
     "order": 1,
@@ -932,9 +171,9 @@
     "isLive": true,
     "isFeatured": true,
     "name": "o2",
-    "url": "https://o2.app/",
+    "url": "https://trade.o2.app",
     "tags": ["DeFi"],
-    "description": "The Arena of Conviction. High-performance fully onchain spot DEX, powered by Fuel.",
+    "description": "Home of o2 Turbo: get funded up to $10k in prop-trading capital, no evaluation, keep 100% of the profit. One app, one exchange, two ways to use it.",
     "github": "https://github.com/o2-exchange",
     "twitter": "https://x.com/o2dotapp",
     "discord": "https://discord.gg/w2de3DKET9",
@@ -2203,14 +1442,38 @@
           }
         }
       ]
-    }
+    },
+    "slug": "o2",
+    "category": "DeFi",
+    "collection": "suite",
+    "isFlagship": true,
+    "tagline": "Fully onchain spot DEX, powered by Fuel",
+    "about": [
+      "o2 is the trading venue built by Fuel Labs, designed to feel as responsive as a centralized exchange while settling fully onchain.",
+      "There are two ways to use the app. The spot exchange delivers fast, fully onchain spot markets on Fuel's execution layer. o2 Turbo extends it with fully onchain prop trading: funding up to $10k, no evaluation, instant settlement, and 100% of the profit kept.",
+      "Both ways of using it are powered by the same exchange, sharing one liquidity engine and one settlement layer."
+    ],
+    "products": [
+      {
+        "name": "Spot Exchange",
+        "tagline": "Fully onchain spot DEX, powered by Fuel",
+        "description": "Fast, fully onchain spot markets on Fuel's execution layer, with order-book trading that settles onchain.",
+        "url": "https://trade.o2.app"
+      },
+      {
+        "name": "o2 Turbo",
+        "tagline": "Up to $10k funded · No evaluation · Keep 100% of profit",
+        "description": "A fully onchain prop trading product: get funded up to $10k in trading capital with no evaluation, and keep 100% of the profit. Powered by the same exchange.",
+        "url": "https://trade.o2.app"
+      }
+    ]
   },
   {
     "order": 2,
     "isLiveMainnet": true,
     "isLive": true,
     "isFeatured": true,
-    "name": "Reactor DEX",
+    "name": "Reactor",
     "url": "https://reactor.exchange/",
     "contracts": {
       "mainnet": [
@@ -2228,10 +1491,1073 @@
       "sepolia": []
     },
     "tags": ["DeFi"],
-    "description": "Reactor DEX is a decentralized exchange protocol operating on the Fuel Network. It functions as an AMM that utilizes a concentrated liquidity model.",
+    "description": "Reactor is a concentrated liquidity AMM (CLAMM) DEX built on Fuel.",
     "github": "https://github.com/Reactor-Fuel",
-    "twitter": "https://x.com/ReactorDEX",
+    "twitter": "https://x.com/ReactorExchange",
     "discord": "https://t.me/ReactorDEX",
-    "image": "reactor"
+    "image": "reactor",
+    "slug": "reactor",
+    "category": "DeFi",
+    "collection": "community",
+    "tagline": "CLAMM DEX on Fuel",
+    "about": [
+      "Reactor is a concentrated liquidity market maker (CLAMM) DEX built on Fuel. Liquidity providers concentrate capital within custom price ranges for tighter spreads and deeper pools, and traders swap through the most efficient liquidity in the ecosystem."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Quicknode",
+    "url": "https://www.quicknode.com/chains/fuel",
+    "tags": ["Infrastructure"],
+    "github": "",
+    "twitter": "https://x.com/QuickNode",
+    "discord": "",
+    "image": "quicknode",
+    "slug": "quicknode",
+    "category": "Data & Infrastructure",
+    "collection": "community",
+    "tagline": "Enterprise-grade RPC for Fuel",
+    "description": "Enterprise-grade RPC endpoints and node infrastructure for Fuel builders.",
+    "about": [
+      "Quicknode supplies managed RPC endpoints so teams can ship on Fuel without running their own nodes."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Envio",
+    "url": "https://envio.dev/",
+    "tags": ["Indexer"],
+    "description": "Blazing-fast blockchain indexing and real-time data for Fuel applications.",
+    "github": "https://github.com/enviodev",
+    "twitter": "https://x.com/envio_indexer",
+    "discord": "https://discord.gg/amcY528zbZ",
+    "image": "envio",
+    "slug": "envio",
+    "category": "Data & Infrastructure",
+    "collection": "community",
+    "tagline": "Real-time indexing and data",
+    "about": [
+      "Envio indexes Fuel network data and serves it to applications in real time."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Spectrum Nodes",
+    "url": "https://spectrumnodes.com/",
+    "tags": ["Infrastructure"],
+    "github": "",
+    "twitter": "https://x.com/SpectrumNodes",
+    "discord": "",
+    "image": "spectrumnodes",
+    "slug": "spectrum-nodes",
+    "category": "Data & Infrastructure",
+    "collection": "community",
+    "tagline": "Node operations for the Fuel network",
+    "description": "Reliable node operations and infrastructure services for the Fuel network.",
+    "about": [
+      "Spectrum Nodes runs and maintains network infrastructure supporting Fuel."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "isFeatured": true,
+    "name": "Stork Oracle",
+    "url": "https://stork.network/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x9c118ae13927dd51ba59c0370dc8c272a3b64ccd675950750c8840a649c81149",
+          "name": "Stork",
+          "description": "Fuel compatible Stork Contract",
+          "source": "https://raw.githubusercontent.com/Stork-Oracle/stork-external/refs/heads/main/chains/fuel/contracts/stork/src/main.sw",
+          "commit": "0aee8a75c6b56a0a1bd28dde53227000e08ac46b",
+          "repo": "https://github.com/Stork-Oracle/stork-external",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/Stork-Oracle/stork-external/refs/heads/main/chains/fuel/contracts/stork/artifacts/stork-abi.json"
+        }
+      ],
+      "sepolia": [
+        {
+          "id": "0x09c88f50d535ac5ce8945e34c418233b1e3834be9a88effb57cb137321fbae0c",
+          "name": "Stork",
+          "description": "Fuel compatible Stork Contract",
+          "source": "https://raw.githubusercontent.com/Stork-Oracle/stork-external/refs/heads/main/chains/fuel/contracts/stork/src/main.sw",
+          "commit": "0aee8a75c6b56a0a1bd28dde53227000e08ac46b",
+          "repo": "https://github.com/Stork-Oracle/stork-external",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/Stork-Oracle/stork-external/refs/heads/main/chains/fuel/contracts/stork/artifacts/stork-abi.json"
+        }
+      ]
+    },
+    "tags": ["Oracle"],
+    "description": "Ultra-low-latency oracle price feeds for onchain applications on Fuel.",
+    "github": "https://github.com/stork-oracle",
+    "twitter": "https://x.com/stork_network",
+    "discord": "https://discord.com/invite/storkoracle",
+    "image": "stork",
+    "slug": "stork-oracle",
+    "category": "Data & Infrastructure",
+    "collection": "community",
+    "tagline": "Ultra-low-latency price feeds",
+    "about": [
+      "Stork Oracle delivers fast, reliable price data to applications building on Fuel."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "1Delta",
+    "url": "https://1delta.io/",
+    "tags": ["DeFi"],
+    "description": "1delta provides access to $20B+ of liquidity for spot & margin trading, and yield farming.",
+    "github": "https://github.com/1delta-DAO",
+    "twitter": "https://x.com/1deltaDAO",
+    "discord": "",
+    "image": "1delta",
+    "slug": "1delta",
+    "category": "DeFi",
+    "collection": "community",
+    "tagline": "Spot, margin and yield trading",
+    "about": [
+      "1delta aggregates deep liquidity across chains and brings spot, margin, and yield strategies to Fuel traders."
+    ]
+  },
+  {
+    "order": 3,
+    "isLiveMainnet": true,
+    "isLive": true,
+    "isFeatured": true,
+    "name": "Microchain (formerly Mira)",
+    "url": "https://microchain.systems/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x2e40f2b244b98ed6b8204b3de0156c6961f98525c8162f80162fcf53eebd90e7",
+          "name": "Mira V1 Core",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/mira-amm/mira-v1-core/0ebb28837216276ab7bdad615fa5a0545810d37c/contracts/mira_amm_contract/src/main.sw",
+          "commit": "0ebb28837216276ab7bdad615fa5a0545810d37c",
+          "repo": "https://github.com/mira-amm/mira-v1-core",
+          "links": [
+            {
+              "title": "Security Audit",
+              "url": "https://docs.microchain.systems/resources/security-audits"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/mira-amm/mira_amm_contract-abi.json"
+        },
+        {
+          "id": "0xa703db08d1dbf30a6cd2fef942d8dcf03f25d2254e2091ee1f97bf5fa615639e",
+          "name": "Mira V1 Hook",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/mira-amm/mira-v1-core/refs/heads/main/contracts/mira_validation_hook/src/main.sw",
+          "commit": "794554705998b5f677e0666e9a950ce902a7201b",
+          "repo": "https://github.com/mira-amm/mira-v1-core",
+          "links": [
+            {
+              "title": "Security Audit",
+              "url": "https://docs.microchain.systems/resources/security-audits"
+            }
+          ],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/mira-amm/mira_validation_hook-abi.json"
+        }
+      ],
+      "sepolia": []
+    },
+    "tags": ["DeFi"],
+    "description": "The DLM-2000 is the biggest AMM on the Fuel Network. Earn rewards LPing and make lightning fast swaps.",
+    "github": "https://github.com/mira-amm",
+    "twitter": "https://x.com/MicrochainDLM",
+    "discord": "https://discord.gg/9HzukDUKSq",
+    "image": "microchain",
+    "slug": "microchain",
+    "category": "DeFi",
+    "collection": "community",
+    "tagline": "AMM on Fuel, formerly Mira",
+    "about": [
+      "Microchain, formerly Mira, runs the DLM-2000 AMM on Fuel.",
+      "Liquidity providers earn rewards on their positions, and traders swap against its pools."
+    ]
+  },
+  {
+    "order": 5,
+    "isLiveMainnet": true,
+    "isLive": true,
+    "isFeatured": true,
+    "name": "Swaylend",
+    "url": "https://swaylend.com/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x8748488e127dccd6f2cf2a536bf248b2f807028e32e3b845d77233ead1ce242c",
+          "name": "SwayLend USDC Market",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/Swaylend/swaylend-monorepo/refs/heads/develop/contracts/market/src/main.sw",
+          "commit": "0c84d3a19d777b197b03c34386031985cec71bd3",
+          "repo": "https://github.com/Swaylend/swaylend-monorepo",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/swaylend/market-abi.json"
+        },
+        {
+          "id": "0x657ab45a6eb98a4893a99fd104347179151e8b3828fd8f2a108cc09770d1ebae",
+          "name": "SwayLend USDC Market Proxy",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/Swaylend/swaylend-monorepo/refs/heads/develop/contracts/market/src/main.sw",
+          "commit": "0c84d3a19d777b197b03c34386031985cec71bd3",
+          "repo": "https://github.com/Swaylend/swaylend-monorepo",
+          "links": [],
+          "audits": []
+        }
+      ],
+      "sepolia": []
+    },
+    "tags": ["DeFi"],
+    "description": "Swaylend is the first lending protocol on Fuel.",
+    "github": "https://github.com/Swaylend/",
+    "twitter": "https://x.com/swaylend",
+    "discord": "https://discord.gg/7N796pdHNk",
+    "image": "swaylend",
+    "slug": "swaylend",
+    "category": "DeFi",
+    "collection": "community",
+    "tagline": "Lending protocol on Fuel",
+    "about": [
+      "Swaylend is the first lending protocol on Fuel. Users supply assets to earn interest and borrow against their collateral."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Bako ID",
+    "url": "https://www.bako.id/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x3bb2e28713f05a171dbd193d3b86a358d259b5a94cda74a6ae16e4f20d32e1b8",
+          "name": "Bako ID Registry",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/registry/src/main.sw",
+          "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
+          "repo": "https://github.com/infinitybase/bako-id",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/bako-id/registry-abi.json"
+        },
+        {
+          "id": "0x4a62d08448e5e91c954dee7244cf2ac09e790de039e96283b2aded0e96d23ec9",
+          "name": "Bako ID Registry (Proxy)",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/registry/src/main.sw",
+          "commit": "bcbd58aee7350e996b28e518951166a78f4893cd",
+          "repo": "https://github.com/infinitybase/bako-id",
+          "links": [],
+          "audits": []
+        },
+        {
+          "id": "0x6a209d27a050740dc2539dcc41914f07c35ecb21f0c02279e85777353b474801",
+          "name": "Bako ID NFT",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/nft/src/main.sw",
+          "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
+          "repo": "https://github.com/infinitybase/bako-id",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/bako-id/nft-abi.json"
+        },
+        {
+          "id": "0x3ca7ac3db222a740e1c89158d9255afc2c3591ee3f34aedcaaf7cfeceebd0833",
+          "name": "Bako ID Manager",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/manager/src/main.sw",
+          "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
+          "repo": "https://github.com/infinitybase/bako-id",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/bako-id/manager-abi.json"
+        },
+        {
+          "id": "0x3f12590e0fbd5fa29044b54fb3af17c1441c8eda1f1a74bdbf0f03ae489c448d",
+          "name": "Bako ID Resolver",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/contracts/sway/contracts/resolver/src/main.sw",
+          "commit": "af540e2839a6c83d98552c9062d73da81887c7dd",
+          "repo": "https://github.com/infinitybase/bako-id",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/bako-id/resolver-abi.json"
+        }
+      ],
+      "sepolia": []
+    },
+    "tags": ["Social"],
+    "description": "Bako ID is a comprehensive Identity System for Rollups.",
+    "github": "https://github.com/Bako-Labs",
+    "twitter": "https://x.com/bakoidentity",
+    "discord": "https://discord.com/invite/E5kYKSKncj",
+    "image": "bakoid",
+    "slug": "bako-id",
+    "category": "Tooling",
+    "collection": "community",
+    "tagline": "Identity system for rollups",
+    "about": [
+      "Bako ID gives users and apps on Fuel human-readable identities, replacing raw addresses across the ecosystem."
+    ]
+  },
+  {
+    "order": 6,
+    "isLiveMainnet": true,
+    "isLive": true,
+    "isFeatured": true,
+    "name": "Bako Safe",
+    "url": "https://www.bako.global/",
+    "predicates": {
+      "mainnet": [
+        {
+          "blob_id": "0x7cf30ca9e83e8b7e0d1e608fb6252d53a08144a65cd73031ff2fbc52614b8a6a",
+          "name": "Bako Safe",
+          "description": "The Bako Safe is a multi-signature wallet that supports Fuel native wallets and passkeys.",
+          "source": "https://raw.githubusercontent.com/Bako-Labs/bako-safe/refs/heads/main/packages/sway/src/predicate/src/main.sw",
+          "commit": "3638b3d237891cc2a1833e6b1280320e61bd819a",
+          "repo": "https://github.com/Bako-Labs/bako-safe/tree/main/packages/sway/src/predicate",
+          "image": "bakosafe",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/artifacts/bako-safe/bako-predicate-abi.json"
+        }
+      ],
+      "sepolia": []
+    },
+    "tags": ["Wallet"],
+    "description": "Bako Safe is a Fuel native multi-signature wallet.",
+    "github": "https://github.com/Bako-Labs",
+    "twitter": "https://x.com/bakosafe",
+    "discord": "https://discord.com/invite/E5kYKSKncj",
+    "image": "bakosafe",
+    "slug": "bako-safe",
+    "category": "Wallets",
+    "collection": "community",
+    "tagline": "Fuel-native multisig wallet",
+    "about": [
+      "Bako Safe brings multi-signature security to Fuel, letting teams and DAOs manage shared assets with configurable approvals."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "MetaMask",
+    "url": "https://metamask.io",
+    "tags": ["Wallet"],
+    "github": "",
+    "twitter": "https://x.com/MetaMask",
+    "discord": "",
+    "image": "metamask",
+    "slug": "metamask",
+    "category": "Wallets",
+    "collection": "community",
+    "tagline": "Self-custodial crypto wallet",
+    "description": "The world's most widely used self-custodial wallet for managing assets and connecting to dapps.",
+    "about": [
+      "MetaMask is a self-custodial wallet available as a browser extension and mobile app, giving users direct control over their crypto and digital identity.",
+      "With over 100 million downloads, it connects users to thousands of dapps across every major network."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "OKX Wallet",
+    "url": "https://web3.okx.com",
+    "tags": ["Wallet"],
+    "github": "",
+    "twitter": "https://x.com/okx",
+    "discord": "",
+    "image": "okxwallet",
+    "slug": "okx-wallet",
+    "category": "Wallets",
+    "collection": "community",
+    "tagline": "Multi-chain self-custody wallet",
+    "description": "A self-custodial wallet supporting 130+ chains with built-in swap, staking, and dapp access.",
+    "about": [
+      "OKX Wallet is a self-custody crypto wallet that supports 130+ blockchains, letting users swap, stake, and explore dapps from one app.",
+      "Open-source and audited, it offers cross-chain bridging and a built-in DEX aggregator across 500+ DEXs."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Binance Wallet",
+    "url": "https://www.binance.com/en/web3wallet",
+    "tags": ["Wallet"],
+    "github": "",
+    "twitter": "https://x.com/binance",
+    "discord": "",
+    "image": "binancewallet",
+    "slug": "binance-wallet",
+    "category": "Wallets",
+    "collection": "community",
+    "tagline": "Self-custody wallet by Binance",
+    "description": "A self-custody crypto wallet within the Binance app, powered by MPC security.",
+    "about": [
+      "Binance Wallet is a self-custody wallet built into the Binance app, using Multi-Party Computation to protect assets without seed phrases.",
+      "It integrates with Binance Bridge for cross-chain swaps and connects users to DeFi and dapps across multiple chains."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Coinbase Wallet",
+    "url": "https://wallet.coinbase.com",
+    "tags": ["Wallet"],
+    "github": "",
+    "twitter": "https://x.com/coinbasewallet",
+    "discord": "",
+    "image": "coinbasewallet",
+    "slug": "coinbase-wallet",
+    "category": "Wallets",
+    "collection": "community",
+    "tagline": "Self-custody wallet for the decentralized web",
+    "description": "A self-custody wallet for managing crypto, NFTs, and dapps across hundreds of thousands of coins.",
+    "about": [
+      "Coinbase Wallet is a self-custody crypto wallet that puts users in control of their keys, crypto, and data across Bitcoin, Ethereum, Solana, and EVM networks.",
+      "It supports DeFi, NFTs, and fiat on-ramps in over 130 countries."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "WalletConnect",
+    "url": "https://walletconnect.com",
+    "tags": ["Wallet"],
+    "github": "",
+    "twitter": "https://x.com/walletconnect",
+    "discord": "",
+    "image": "walletconnect",
+    "slug": "walletconnect",
+    "category": "Wallets",
+    "collection": "community",
+    "tagline": "Connect any wallet to any dapp",
+    "description": "The onchain UX protocol linking 600+ wallets to 40K+ apps across every chain.",
+    "about": [
+      "WalletConnect is the open network that lets users connect any wallet to any dapp across all chains, powering 150 million connections for over 23 million users.",
+      "WalletConnect Pay makes it easy to accept crypto payments from any wallet, any asset, anywhere."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "isFeatured": true,
+    "name": "Fuelet Wallet",
+    "url": "https://fuelet.app/",
+    "tags": ["Wallet"],
+    "description": "Join 200,000+ users who count on us to explore Fuel Ecosystem with user-friendly UX and unparalleled security.",
+    "github": "https://github.com/fuelet",
+    "twitter": "https://x.com/FueletWallet",
+    "discord": "https://discord.gg/fueletwallet",
+    "image": "fuelet",
+    "slug": "fuelet-wallet",
+    "category": "Wallets",
+    "collection": "community",
+    "tagline": "Self-custody wallet for Fuel",
+    "about": ["Fuelet is a self-custody wallet built for the Fuel ecosystem."]
+  },
+  {
+    "isFeatured": true,
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "LayerSwap",
+    "url": "https://layerswap.io/",
+    "tags": ["Bridge"],
+    "description": "The reliable solution for transferring crypto assets across networks in a matter of minutes.",
+    "github": "https://github.com/layerswap/layerswapapp",
+    "twitter": "https://x.com/layerswap",
+    "discord": "https://discord.gg/layerswap",
+    "image": "layerswap",
+    "address": "0x4392c9c05547ecd01252139cdf1d1864207f1c033b09bdc42bedb100acba41ee",
+    "showAccountTag": true,
+    "slug": "layerswap",
+    "category": "Data & Infrastructure",
+    "collection": "community",
+    "tagline": "Fast cross-network transfers",
+    "about": [
+      "LayerSwap lets users move assets between exchanges, chains, and Fuel quickly and at low cost."
+    ]
+  },
+  {
+    "isFeatured": true,
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Fuel Bridge",
+    "url": "https://app.fuel.network/bridge",
+    "tags": ["Bridge", "Fuel", "Tooling"],
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
+          "name": "Fuel Token Gateway",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/FuelLabs/fuel-bridge/refs/heads/main/packages/fungible-token/bridge-fungible-token/implementation/src/main.sw",
+          "commit": "2f61bd81cee13a6346fed3053919e28c53e1754e",
+          "repo": "https://github.com/FuelLabs/fuel-bridge",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/fuel-bridge/bridge_fungible_token-abi.json"
+        }
+      ],
+      "sepolia": []
+    },
+    "description": "Bridge assets from Ethereum to Fuel with Fuel's native bridge.",
+    "github": "https://github.com/FuelLabs/fuel-bridge",
+    "twitter": "https://x.com/fuel_network",
+    "discord": "https://discord.gg/fuelnetwork",
+    "image": "fuelbridge",
+    "slug": "fuel-bridge",
+    "category": "Data & Infrastructure",
+    "collection": "suite",
+    "tagline": "Fuel's native bridge to Ethereum",
+    "about": [
+      "Fuel Bridge is the canonical bridge between Ethereum and Fuel Ignition, built and maintained by Fuel Labs.",
+      "Deposits move assets from Ethereum to Fuel. Withdrawals back to Ethereum wait out a challenge period before they can be claimed."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Simply Staking",
+    "url": "https://stake.simplystaking.com/fuel/",
+    "tags": ["Tooling"],
+    "description": "Stake your Fuel tokens effortlessly with Simply Staking's secure, intuitive dashboard. Track rewards, access updates, and maximize your staking potential.",
+    "github": "https://github.com/SimplyStaking",
+    "twitter": "https://x.com/SimplyStaking",
+    "image": "simplystaking",
+    "slug": "simply-staking",
+    "category": "Data & Infrastructure",
+    "collection": "community",
+    "tagline": "Validator and staking dashboard for FUEL",
+    "about": [
+      "Simply Staking runs validator infrastructure for Fuel and a dashboard where FUEL holders stake and track rewards."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Sentio",
+    "url": "https://www.sentio.xyz/",
+    "tags": ["Indexer", "Analytics"],
+    "description": "Sentio builds data and dev tooling products with strong developer-focus. Our product covers indexer, analytics/monitoring, debugger/simulator and code search.",
+    "github": "https://github.com/sentioxyz",
+    "twitter": "https://x.com/sentioxyz",
+    "discord": "https://discord.gg/vSdkMYqnjb",
+    "image": "sentio",
+    "slug": "sentio",
+    "category": "Tooling",
+    "collection": "community",
+    "tagline": "Indexing, analytics and debugging",
+    "about": [
+      "Sentio gives Fuel developers an end-to-end observability stack: indexers, dashboards, alerts, and transaction debugging."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Sway Analyzer",
+    "url": "https://github.com/ourovoros-io/sway-analyzer",
+    "tags": ["Tooling"],
+    "description": "A security-focused static analyzer for Sway written in Rust.",
+    "github": "https://github.com/ourovoros-io/sway-analyzer",
+    "twitter": "",
+    "discord": "",
+    "image": "swayanalyzer",
+    "slug": "sway-analyzer",
+    "category": "Tooling",
+    "collection": "community",
+    "tagline": "Static analyzer for Sway",
+    "about": [
+      "Sway Analyzer scans Sway contracts for security issues and common mistakes before they reach mainnet."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Sway Playground",
+    "url": "https://www.sway-playground.org/",
+    "tags": ["Fuel", "Tooling"],
+    "description": "Sway Playground enables developers to build, deploy, and interact with simple sway contracts in the browser with no installation of tools.",
+    "github": "https://github.com/FuelLabs/sway-playground",
+    "twitter": "https://x.com/SwayLang",
+    "discord": "https://discord.gg/fuel-network",
+    "image": "swayplayground",
+    "slug": "sway-playground",
+    "category": "Tooling",
+    "collection": "community",
+    "tagline": "Write and deploy Sway in the browser",
+    "about": [
+      "Sway Playground is the fastest way to try Sway: write, compile, deploy, and call contracts entirely from the browser."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Fuel Connectors",
+    "url": "https://docs.fuel.network/guides/fuel-connectors/non-technical-guide",
+    "tags": ["Fuel", "Wallet"],
+    "predicates": {
+      "mainnet": [
+        {
+          "blob_id": "0xc58d08df0d31dfaaadd57de9f04d89b7abc88b28a2f45f522cc5c1fd8da67978",
+          "name": "Ethereum Connector",
+          "description": "This connector supports EVM compatible EOA accounts such as MetaMask and Rabby.",
+          "source": "https://raw.githubusercontent.com/FuelLabs/fuel-connectors/refs/heads/main/packages/evm-predicates/predicate/src/main.sw",
+          "commit": "01c65cc6d75dd677f6fbe5fdb6975af36465a967",
+          "repo": "https://github.com/FuelLabs/fuel-connectors/tree/main/packages/evm-predicates/predicate",
+          "image": "ethereumconnector",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/fuel-connectors/evm-verification-predicate-abi.json"
+        },
+        {
+          "blob_id": "0x3ac5c446f2f99d83d0e2dc773bb77c619783f1389c4d0198bba9b48680b80177",
+          "name": "Solana Connector",
+          "description": "This connector supports SVM compatible EOA accounts such as Phantom and Backpack.",
+          "source": "https://raw.githubusercontent.com/FuelLabs/fuel-connectors/refs/heads/main/packages/solana-connector/predicate/src/main.sw",
+          "commit": "01c65cc6d75dd677f6fbe5fdb6975af36465a967",
+          "repo": "https://github.com/FuelLabs/fuel-connectors/tree/main/packages/solana-connector/predicate",
+          "image": "solanaconnector",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/fuel-connectors/solana-verification-predicate-abi.json"
+        }
+      ],
+      "sepolia": []
+    },
+    "description": "The Fuel Connector supports EVM (e.g. MetaMask), SVM (e.g. Phantom) and many other compatible wallet types.",
+    "github": "https://github.com/FuelLabs/fuel-connectors",
+    "twitter": "https://x.com/fuel_network",
+    "discord": "https://discord.gg/fuelnetwork",
+    "image": "fuelwallet",
+    "slug": "fuel-connectors",
+    "category": "Tooling",
+    "collection": "official",
+    "tagline": "Use EVM, Solana and Fuel wallets with Fuel apps",
+    "about": [
+      "Fuel Connectors is the wallet connection layer for Fuel apps, maintained by Fuel Labs.",
+      "Apps that integrate it accept EVM wallets such as MetaMask, Solana wallets such as Phantom, and native Fuel wallets."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Charcoal Transpiler",
+    "url": "https://github.com/ourovoros-io/charcoal",
+    "tags": ["Tooling"],
+    "description": "Solidity to Sway transpiler. Available on the Sway Playground.",
+    "github": "https://github.com/ourovoros-io",
+    "twitter": "",
+    "discord": "",
+    "image": "charcoal",
+    "slug": "charcoal",
+    "category": "Tooling",
+    "collection": "community",
+    "tagline": "Solidity to Sway transpiler",
+    "about": [
+      "Charcoal, built by Ourovoros, translates Solidity contracts into Sway.",
+      "It is available in the Sway Playground."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Immunefi",
+    "url": "https://immunefi.com/",
+    "tags": ["Security"],
+    "description": "The leading bug bounty platform protecting billions in user funds across web3.",
+    "github": "https://github.com/immunefi-team/",
+    "twitter": "https://x.com/immunefi",
+    "image": "immunefi",
+    "slug": "immunefi",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Bug bounties for web3",
+    "about": [
+      "Immunefi connects projects on Fuel with security researchers, paying bounties for vulnerabilities before they can be exploited."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "BlockSec",
+    "url": "https://blocksec.com/",
+    "tags": ["Security"],
+    "description": "Blockchain security firm providing audits, monitoring, and attack detection.",
+    "github": "https://github.com/blocksecteam",
+    "twitter": "https://x.com/blocksecteam",
+    "image": "blocksec",
+    "slug": "blocksec",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Full-stack blockchain security",
+    "about": [
+      "BlockSec audits smart contracts and provides real-time monitoring and incident response for protocols building on Fuel."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "OtterSec",
+    "url": "https://osec.io/",
+    "tags": ["Security"],
+    "github": "",
+    "twitter": "https://x.com/otter_sec",
+    "discord": "",
+    "image": "ottersec",
+    "slug": "ottersec",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Smart contract audits",
+    "description": "Blockchain security firm specializing in audits for foundational protocols and infrastructure.",
+    "about": [
+      "OtterSec audits smart contracts and core infrastructure, including work across the Fuel ecosystem."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Hexens",
+    "url": "https://hexens.io/",
+    "tags": ["Security"],
+    "description": "Cybersecurity firm focused on smart contract audits and bespoke security tooling.",
+    "github": "https://github.com/Hexens",
+    "twitter": "https://x.com/hexensio",
+    "image": "hexens",
+    "slug": "hexens",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Security audits and tooling",
+    "about": [
+      "Hexens performs deep security reviews of Fuel and Sway codebases, from audits to custom analysis tooling."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Quill Audits",
+    "url": "https://www.quillaudits.com/",
+    "tags": ["Security"],
+    "description": "Web3 security leader offering robust audit and pentest services, having secured 1000+ projects since 2018.",
+    "github": "https://github.com/quillhash/QuillAudit_Reports",
+    "twitter": "https://x.com/quillaudits_ai",
+    "image": "quillaudits",
+    "slug": "quill-audits",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Audits and pentesting",
+    "about": [
+      "Quill Audits reviews smart contracts and infrastructure for projects launching on Fuel."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "CD Security",
+    "url": "https://cdsecurity.site/",
+    "tags": ["Security"],
+    "description": "Security audits and research for smart contracts and blockchain protocols.",
+    "github": "https://github.com/CDSecurity/audits",
+    "twitter": "https://x.com/CDSecurity_",
+    "image": "cdsecurity",
+    "slug": "cd-security",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Smart contract audits",
+    "about": [
+      "CD Security provides audit services for teams shipping contracts on Fuel."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Sherlock",
+    "url": "https://www.sherlock.xyz/",
+    "tags": ["Security"],
+    "description": "Smart contract security combining expert audits, contests, and coverage.",
+    "github": "https://github.com/sherlock-protocol/sherlock-reports",
+    "twitter": "https://x.com/sherlockdefi",
+    "image": "sherlock",
+    "slug": "sherlock",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Audits and audit contests",
+    "about": [
+      "Sherlock secures protocols on Fuel through collaborative audit contests and dedicated review teams."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Zellic",
+    "url": "https://www.zellic.io/",
+    "tags": ["Security"],
+    "description": "Security research firm auditing critical blockchain infrastructure and applications.",
+    "github": "https://github.com/zellic/",
+    "twitter": "https://x.com/zellic_io",
+    "image": "zellic",
+    "slug": "zellic",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Security research firm",
+    "about": [
+      "Zellic brings top-tier security research to audits of protocols and infrastructure on Fuel."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Linum Labs",
+    "url": "https://www.linumlabs.com/",
+    "tags": ["Security"],
+    "description": "Blockchain engineering studio offering smart contract audits and development.",
+    "github": "",
+    "twitter": "https://x.com/linumlabs",
+    "image": "linumlabs",
+    "slug": "linum-labs",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Audits and engineering",
+    "about": [
+      "Linum Labs audits and builds smart contract systems for teams across the Fuel ecosystem."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Trail of Bits",
+    "url": "https://www.trailofbits.com/",
+    "tags": ["Security"],
+    "description": "Industry-leading security firm auditing compilers, VMs, and smart contracts.",
+    "github": "https://github.com/trailofbits",
+    "twitter": "https://x.com/trailofbits",
+    "image": "trailofbits",
+    "slug": "trail-of-bits",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Elite security engineering",
+    "about": [
+      "Trail of Bits has audited core Fuel infrastructure, including the FuelVM and Sway toolchain."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Safe Edges",
+    "url": "https://safeedges.in/",
+    "tags": ["Security"],
+    "description": "Security audits and reviews for web3 projects.",
+    "github": "https://github.com/Safe-Edges",
+    "twitter": "https://x.com/safe_edges",
+    "image": "safeedges",
+    "slug": "safe-edges",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Smart contract security",
+    "about": ["Safe Edges reviews smart contracts for teams deploying on Fuel."]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Ourovoros",
+    "url": "https://ourovoros.io/",
+    "tags": ["Security"],
+    "description": "Security research team behind Sway-focused analysis tooling.",
+    "github": "https://github.com/ourovoros-io",
+    "twitter": "https://x.com/ioourovoros",
+    "image": "ourovoros",
+    "slug": "ourovoros",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Security research and tooling",
+    "about": [
+      "Ourovoros builds security tooling for Sway, including the Sway Analyzer static analyzer."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Hacken",
+    "url": "https://hacken.io/",
+    "tags": ["Security"],
+    "description": "Blockchain security auditor providing smart contract audits and onchain monitoring.",
+    "github": "https://github.com/hknio",
+    "twitter": "https://x.com/hackenclub",
+    "image": "hacken",
+    "slug": "hacken",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Web3 security auditor",
+    "about": [
+      "Hacken audits protocols and applications across the Fuel ecosystem."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Hexagate",
+    "url": "https://www.hexagate.com/",
+    "tags": ["Security", "Risk Management", "Chainalysis"],
+    "description": "Web3 security platform for real-time threat detection and prevention.",
+    "github": "",
+    "twitter": "https://x.com/hexagate_",
+    "image": "hexagate",
+    "slug": "hexagate",
+    "category": "Security",
+    "collection": "community",
+    "tagline": "Real-time threat detection",
+    "about": [
+      "Hexagate monitors onchain activity to detect and stop exploits targeting protocols on Fuel."
+    ]
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Fuel Fast Bridge",
+    "url": "",
+    "tags": ["Bridge"],
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x91cfcbef2caad02996cdcb5b897222170e85a91cd2db8f23f07ea7d9ca030c19",
+          "name": "Fuel Fast Bridge",
+          "description": "Fuel Fast Bridge"
+        }
+      ],
+      "sepolia": [
+        {
+          "id": "0xabc551b1ada359b1b0769f9af9f7d24b347109085635bee4d8a59d4f3de90e63",
+          "name": "Fuel Fast Bridge",
+          "description": "Fuel Fast Bridge on Sepolia Testnet"
+        }
+      ]
+    },
+    "hidden": true,
+    "image": "fuelbridge"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Pyth",
+    "url": "https://www.pyth.network/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x103465f1c0c901471b868b4a9e4e57c381168ac38ee5b59732943e9e004c488d",
+          "name": "Pyth Core",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/pyth-network/pyth-crosschain/refs/heads/main/target_chains/fuel/contracts/pyth-contract/src/main.sw",
+          "commit": "4ab64d2539a749e51e1281bdd7744781f5e9df8c",
+          "repo": "https://github.com/pyth-network/pyth-crosschain",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/pyth-network/pyth-contract-abi.json"
+        }
+      ],
+      "sepolia": []
+    },
+    "tags": ["Oracle"],
+    "description": "Build apps with high-fidelity oracle feeds designed for mission-critical systems.",
+    "github": "https://github.com/pyth-network",
+    "twitter": "https://x.com/PythNetwork",
+    "discord": "https://discord.gg/invite/PythNetwork",
+    "image": "pyth",
+    "hidden": true
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "Sway Farm",
+    "url": "https://www.swayfarm.xyz/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x4a6914d9ee51445a57cfddf8690eb3f072933925d6cdfa6c1e5f953dd5b8e610",
+          "name": "Sway Farm",
+          "description": "The core Sway Farm game contract.",
+          "source": "https://raw.githubusercontent.com/FuelLabs/sway-farm/refs/heads/main/contract/src/main.sw",
+          "commit": "17af4d2e097abfa6e8e659387ff4b540be9b8af8",
+          "repo": "https://github.com/FuelLabs/sway-farm",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/sway-farm/farm-contract-abi.json"
+        }
+      ],
+      "sepolia": []
+    },
+    "tags": ["Fuel", "Gaming"],
+    "description": "Grow and sell tomatoes to become a Sway Farm Hero.",
+    "github": "https://github.com/FuelLabs/sway-farm",
+    "twitter": "https://x.com/fuel_network",
+    "discord": "https://discord.gg/fuel-network",
+    "image": "swayfarm",
+    "hidden": true
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "MEXC",
+    "url": "https://www.mexc.com/",
+    "isExternalExchange": true,
+    "showAccountTag": true,
+    "hidden": true,
+    "twitter": "https://x.com/MEXC_Official",
+    "discord": "https://discord.com/invite/AsDwGJ5T95",
+    "image": "mexc",
+    "address": "0xDB491B442f68ebAa785f077805158EBfDDEedE7063F16D5A26e1073FF6987601"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "name": "BitGet",
+    "url": "https://www.bitget.com/",
+    "isExternalExchange": true,
+    "showAccountTag": true,
+    "hidden": true,
+    "twitter": "https://x.com/bitgetglobal",
+    "discord": "https://discord.com/invite/bitget",
+    "image": "bitget",
+    "address": "0xAFdDA1Cd084Ed0F56D35f570b2e9D34E7C7380191058e2a2fb16e0c58cbBC7c2"
+  },
+  {
+    "isLiveMainnet": true,
+    "isLive": true,
+    "isFeatured": true,
+    "name": "Garage",
+    "url": "https://garage.zone/",
+    "contracts": {
+      "mainnet": [
+        {
+          "id": "0x7722e9314e1efbef5a18545a2440b79dac36cfc2f22d0d27bd0c1e4f2ec6df15",
+          "name": "Garage Marketplace",
+          "description": "",
+          "source": "https://raw.githubusercontent.com/infinitybase/bako-id/refs/heads/main/packages/marketplace/sway/contracts/marketplace/src/main.sw",
+          "commit": "7853b6bb307b09c82757868766b4e8b27b83d4ba",
+          "repo": "https://github.com/infinitybase/bako-id",
+          "links": [],
+          "audits": [],
+          "abi": "https://raw.githubusercontent.com/FuelLabs/fuel-ecosystem/main/artifacts/garage/marketplace-abi.json"
+        }
+      ]
+    },
+    "tags": ["NFT"],
+    "description": "Fuel-powered NFT marketplace. Where Fuel culture gets assembled. Join. Create. Trade.",
+    "github": "https://github.com/Bako-Labs",
+    "twitter": "https://x.com/garagedotzone",
+    "discord": "",
+    "image": "garage",
+    "hidden": true
   }
 ]
