@@ -27,6 +27,14 @@ The home for ecosystem applications building on the Fuel Network. Find all the r
 | `twitter` | The URL of the Twitter account |
 | `discord` | The URL of the Discord server |
 | `image` | The name of the image file in the `images` folder |
+| `hidden` | Keeps the project off the ecosystem page. Its contracts still label transactions in the explorer |
+| `slug` | URL id of the project page, e.g. `/ecosystem/o2` |
+| `category` | One of `DeFi`, `AI`, `Wallets`, `Data & Infrastructure`, `Tooling`, `Security` |
+| `collection` | `suite` for Fuel Suite apps, `official` for other Fuel Labs projects, `community` for everything else |
+| `isFlagship` | The app featured at the top of the ecosystem page |
+| `tagline` | One line shown on cards and the project header |
+| `about` | Paragraphs shown on the project page |
+| `products` | Distinct products of one app: `name`, `tagline`, `description`, `url` |
 
 ## Images
 
